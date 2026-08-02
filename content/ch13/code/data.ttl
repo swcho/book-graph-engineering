@@ -1,0 +1,31 @@
+@prefix ex:   <http://example.org/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# 멀쩡한 것
+ex:Gaon a ex:Company ; rdfs:label "가온테크" ;
+    ex:bizNumber "123-45-67890" ; ex:grade "A" ; ex:signed ex:C1 .
+ex:C1 a ex:Contract ; ex:amount 5000000 .
+
+# 차단 — 사업자번호 형식이 틀렸다
+ex:Naru a ex:Company ; rdfs:label "나루소프트" ;
+    ex:bizNumber "1234567890" ; ex:grade "B" ; ex:signed ex:C2 .
+ex:C2 a ex:Contract ; ex:amount 1200000 .
+
+# 경고 — 등급이 규칙 밖
+ex:Raon a ex:Company ; rdfs:label "라온에너지" ;
+    ex:bizNumber "222-33-44444" ; ex:grade "Z" ; ex:signed ex:C3 .
+ex:C3 a ex:Contract ; ex:amount 800000 .
+
+# 기록 — 표시 이름이 없다
+ex:Daol a ex:Company ;
+    ex:bizNumber "333-44-55555" ; ex:grade "B" ; ex:signed ex:C4 .
+ex:C4 a ex:Contract ; ex:amount 300000 .
+
+# 차단 — 아무도 체결하지 않은 계약. 고아 노드.
+ex:C9 a ex:Contract ; ex:amount 990000 .
+
+# 경고 — 금액이 음수
+ex:Maru a ex:Company ; rdfs:label "마루상사" ;
+    ex:bizNumber "444-55-66666" ; ex:grade "C" ; ex:signed ex:C5 .
+ex:C5 a ex:Contract ; ex:amount -1 .
