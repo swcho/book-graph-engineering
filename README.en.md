@@ -11,32 +11,28 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/leaf-kit/book-graph-engineering/releases/download/v2026.08.02/graph-engineering-v2026.08.02.pdf">
-    <img src="https://img.shields.io/badge/Download%20the%20PDF-453%20pages%2C%209.4MB-2f6f4e?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download the PDF">
-  </a>
+  <img src="https://img.shields.io/badge/Published%20edition-Korean%20only-2f6f4e?style=for-the-badge" alt="Published edition: Korean only">
   &nbsp;
-  <a href="https://github.com/leaf-kit/book-graph-engineering/releases/tag/v2026.08.02">
-    <img src="https://img.shields.io/badge/Release%20notes-v2026.08.02-4a4a4a?style=for-the-badge&logo=github&logoColor=white" alt="Release notes">
-  </a>
+  <img src="https://img.shields.io/badge/English%20edition-under%20review-9a6b1f?style=for-the-badge" alt="English edition: under review">
 </p>
 
 <p align="center">
   <sub>
-    <b>English</b> | <a href="README.md">한국어</a> &nbsp;|&nbsp;
-    Latest edition in the <a href="../../releases/latest">release list</a> |
-    current edition <code>v2026.08.02</code> | August 2, 2026
+    <b>English</b> | <a href="README.md">한국어</a>
   </sub>
 </p>
 
 ---
 
-## Read this first — the book is in Korean
+## Read this first — only a Korean edition exists
 
-The 453-page PDF is written in Korean. This page, the [source index](SOURCES.en.md), and the
-table of contents below are in English so you can decide whether the book is worth the trouble.
-There is no English edition of the body text, and I am not going to promise a date for one.
+The book is published in Korean. 453 pages, one edition, and that is the only edition there is.
 
-What is usable without Korean:
+**An English edition is under review.** No decision, no date, and no download link on this page
+until there is one. I would rather leave this blank than put up a link that turns out to be a
+Korean PDF with an English button on it.
+
+What is here in English right now, and usable today:
 
 - **[SOURCES.en.md](SOURCES.en.md)** — every primary source in the book, 172 links across
   228 keywords, grouped by chapter, each labeled [Standard] / [De facto] / [Experimental].
@@ -69,8 +65,8 @@ it is written so that you will not get stuck.
 
 Chapter titles link to that chapter's English summary page under
 [`content_en/`](content_en). Each one carries a section list, the chapter in one page, the
-keyword-to-source table, and how to run the examples. Use them to pick the chapter you need
-before you download 453 pages.
+keyword-to-source table, and how to run the examples. Use them to decide which chapters are
+worth your time before you take on 453 pages of Korean.
 
 ### Part 1 — Roots: where the graph was all along
 
@@ -186,50 +182,29 @@ Think a label is wrong? [Say so](../../issues/new?template=03-status-label.yml).
 
 ---
 
-## Get the book
+## Editions
 
-**[📕 Download graph-engineering-v2026.08.02.pdf](https://github.com/leaf-kit/book-graph-engineering/releases/download/v2026.08.02/graph-engineering-v2026.08.02.pdf)**
-| [Release notes](https://github.com/leaf-kit/book-graph-engineering/releases/tag/v2026.08.02)
-| [All editions](../../releases)
-
-### Current edition
-
-| | |
+| Edition | Status |
 |---|---|
-| Edition | [`v2026.08.02`](https://github.com/leaf-kit/book-graph-engineering/releases/tag/v2026.08.02) |
-| Released | August 2, 2026 |
-| Length | 453 pages |
-| Size | 9.4 MB (9,860,823 bytes) |
-| File | `graph-engineering-v2026.08.02.pdf` |
-| SHA-256 | `585db39bd37eefb267e4981c5c93ae5283d5eec0e88ed0ce6fea4111d4748178` |
+| Korean | Published. 453 pages, one edition |
+| English | **Under review.** No decision and no date |
 
-To check that your download is intact:
+There is deliberately no download link on this page. The only file that exists is the Korean
+PDF, and putting it behind an English button would misrepresent what you are getting. If you
+read Korean, the [Korean page](README.md) has the download, the checksum, and the release notes.
 
-```bash
-shasum -a 256 graph-engineering-v2026.08.02.pdf
-```
+If the English edition happens, it will be announced here and shipped as a separate release
+asset with `en` in the filename, next to the Korean one. Until then this line stays as it is.
 
-### Why there is no PDF in the repository
+### What "under review" actually means
 
-PDFs are not committed. Stacking a 10 MB build artifact on every edition makes the git history
-heavy fast, and once something is in the history, deleting it does not remove it. So the
-repository holds only sources — `.tex`, `.mmd`, `.py` — and the result ships as a release asset.
+I am not being coy. The body text runs to about 250,000 Korean characters, roughly 115,000
+English words, and all 140 diagram sources have Korean baked into them. For one person that is
+months of work, not a scheduling question, so it stays an open decision. What you see here —
+this page, the [sources](SOURCES.en.md), the [chapter summaries](content_en) — is the part that
+was worth doing either way.
 
-### The edition is in the filename
-
-| Segment | Meaning |
-|---|---|
-| `graph-engineering` | book |
-| `ko` | language — Korean. From the next edition on; `v2026.08.02` and earlier have no language segment |
-| `v2026.08.02` | edition number |
-| `.pdf` | the book |
-
-The edition number is `vYYYY.MM.DD` and it is **the day that PDF was built**. If more than one
-edition ships on the same day, a `-2`, `-3` is appended.
-
-Keep the filename as it is — it is the only thing that tells you which edition you have. When you
-cite the book somewhere, cite the edition number with it. Past editions stay in the
-[release list](../../releases).
+Watching this repository is the way to hear about it. There is nothing else to sign up for.
 
 ---
 
@@ -304,8 +279,8 @@ the author.
 
 ### Before you file
 
-- Check the [release list](../../releases) in case the latest edition already fixed it. The
-  edition number is in the filename you downloaded.
+- Check whether the latest edition already fixed it. The edition number is printed in the book
+  and is in the filename, if you have the PDF.
 - Cite primary sources: official specifications, vendor documentation, RFCs, papers, official
   repositories. The book was written to that standard and gets corrected to the same one.
 - "Here is what I measured in my environment" is the strongest evidence this book accepts. Use the
