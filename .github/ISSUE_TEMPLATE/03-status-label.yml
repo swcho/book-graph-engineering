@@ -1,0 +1,69 @@
+name: "용어 라벨 이의"
+description: "[표준] / [사실상 표준] / [실험] 분류가 틀렸습니다"
+title: "[라벨] "
+labels: ["라벨"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        이 책은 모든 키워드에 셋 중 하나를 붙였습니다.
+
+        - **[표준]** 공식 명세가 있다 (ISO/IEC, W3C, RFC)
+        - **[사실상 표준]** 명세는 없지만 업계가 널리 쓴다
+        - **[실험]** 아직 자리를 잡는 중이다
+
+        분류가 틀렸다고 보시면 여기에 적어 주세요. 특히 **[실험]에서 [사실상 표준]으로,
+        [사실상 표준]에서 [표준]으로 올라간 것**은 시간이 지나면 반드시 생깁니다.
+        그런 이동을 놓치는 게 이 책이 낡는 가장 흔한 방식입니다.
+
+        지금 붙어 있는 라벨은 [출처 링크 모음](https://github.com/leaf-kit/book-graph-engineering/blob/main/SOURCES.md)에서 한눈에 볼 수 있습니다.
+
+  - type: input
+    id: keyword
+    attributes:
+      label: 어느 키워드인가요
+      placeholder: "모델 컨텍스트 프로토콜 (MCP)"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 어느 장인가요
+      placeholder: "25장 키워드 상자"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: current
+    attributes:
+      label: 지금 붙어 있는 라벨
+      options: ["표준", "사실상 표준", "실험"]
+    validations:
+      required: true
+
+  - type: dropdown
+    id: proposed
+    attributes:
+      label: 붙어야 한다고 보는 라벨
+      options: ["표준", "사실상 표준", "실험"]
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 왜 그렇게 보시나요
+      description: |
+        [표준]으로 올리자는 제안이면 **명세 문서와 판 번호**가 필요합니다.
+        [사실상 표준]으로 올리자는 제안이면 **널리 쓰인다는 증거**(구현체 수, 공식 채택 사례)를 적어 주세요.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: 1차 출처
+      placeholder: "https://www.iso.org/standard/76120.html"
+    validations:
+      required: true

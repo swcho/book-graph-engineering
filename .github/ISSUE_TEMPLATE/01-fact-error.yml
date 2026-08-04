@@ -1,0 +1,63 @@
+name: "사실 오류 신고"
+description: "본문의 내용이 사실과 다릅니다"
+title: "[오류] "
+labels: ["오류"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        틀린 곳을 찾아 주셔서 고맙습니다.
+
+        고칠 수 있게 **어디가**, **뭐라고 적혀 있고**, **무엇이 맞는지** 세 가지만 적어 주세요.
+        쪽수를 모르면 장 번호와 절 제목만으로도 충분합니다.
+
+  - type: input
+    id: edition
+    attributes:
+      label: 어느 판인가요
+      description: "내려받은 PDF 파일 이름에 판 번호가 박혀 있습니다"
+      placeholder: "v2026.08.02"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 어디인가요
+      description: "쪽수, 또는 장 번호와 절 제목"
+      placeholder: "312쪽 / 21장 「그래서 멱등성이 필요하다」"
+    validations:
+      required: true
+
+  - type: textarea
+    id: quote
+    attributes:
+      label: 원문
+      description: "틀렸다고 보는 문장을 그대로 옮겨 주세요"
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: 무엇이 맞나요
+      description: "맞는 내용과, 가능하면 그 근거를 적어 주세요"
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: 1차 출처
+      description: |
+        공식 명세, 제품 공식 문서, RFC, 논문, 공식 저장소 링크.
+        이 책은 2차 출처를 근거로 쓰지 않기로 했고, 고칠 때도 같은 기준을 씁니다.
+      placeholder: "https://www.w3.org/TR/shacl/"
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 재현 방법
+      description: "예제 코드 결과가 책과 다르다면, 돌린 명령과 환경(파이썬·패키지 버전)을 적어 주세요"
+      render: shell

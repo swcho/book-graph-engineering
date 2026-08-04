@@ -1,0 +1,60 @@
+name: "반증 제출"
+description: "35장의 주장 다섯 개 중 하나가 틀렸다는 근거가 있습니다"
+title: "[반증] 주장 N — "
+labels: ["반증"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        35장에서 저자는 이 책의 주장 다섯 개를 직접 지목하고, 각각에
+        **무엇이 참이면 이 주장이 틀리는지**를 미리 적어 뒀습니다. 평균 확신은 46%입니다.
+
+        그 조건이 충족됐다고 보시면 여기에 적어 주세요.
+        조건을 안 건드리는 반론도 환영이지만, 그건 「반증」이 아니라 「이견」으로 다룹니다.
+
+  - type: dropdown
+    id: claim
+    attributes:
+      label: 어느 주장인가요
+      options:
+        - "1 — 모델 호출이 응답 시간의 90% 넘게 차지한다 (33장, 확신 35%)"
+        - "2 — 프롬프트 인젝션은 프롬프트 층에서 못 막는다 (26장, 확신 55%)"
+        - "3 — 에이전트가 스스로 넓힌 그래프는 관문 없이 못 쓴다 (28장, 확신 70%)"
+        - "4 — 지식 그래프와 에이전트 상태는 따로 두는 게 옳다 (29장, 확신 50%)"
+        - "5 — 「에이전트 그래프 엔지니어링」이라는 용어가 자리를 잡는다 (서문, 확신 20%)"
+        - "그 밖의 주장 (본문에 있는데 35장 목록에는 없는 것)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: condition
+    attributes:
+      label: 반증 조건이 어떻게 충족됐나요
+      description: "35장에 적힌 조건을 그대로 옮기고, 그게 충족됐다고 보는 이유를 적어 주세요"
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 근거
+      description: |
+        측정값이면 환경과 방법을, 문헌이면 링크를 적어 주세요.
+        「제 환경에서는 이렇게 나왔습니다」가 이 책에서는 가장 센 근거입니다.
+    validations:
+      required: true
+
+  - type: textarea
+    id: numbers
+    attributes:
+      label: 재현할 수 있는 숫자
+      description: "돌린 명령, 데이터 규모, 잰 값. 자릿수와 방향만 맞아도 충분합니다"
+      render: shell
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 확인
+      options:
+        - label: "제 근거가 특정 환경에서만 성립할 수 있다는 걸 압니다"
+          required: false

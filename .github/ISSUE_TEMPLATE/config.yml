@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 출처 링크 모음
+    url: https://github.com/leaf-kit/book-graph-engineering/blob/main/SOURCES.md
+    about: 본문 키워드의 1차 출처와 상태 라벨을 한곳에 모아 뒀습니다. 적기 전에 여기부터 보세요.
+  - name: 지난 판 내려받기
+    url: https://github.com/leaf-kit/book-graph-engineering/releases
+    about: 신고하기 전에 최신 판에서 이미 고쳐졌는지 확인해 주세요.
