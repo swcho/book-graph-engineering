@@ -2,7 +2,7 @@
 
 [책 전체 목차로 돌아가기](README.md)
 
-이 책에 **쓰지 않은** 자료만 모았습니다. 본문 키워드 상자에 걸린 1차 출처는 [출처 링크 모음](SOURCES.md)에 따로 있고, 여기 있는 것은 그 172개와 겹치지 않습니다.
+이 책에 **쓰지 않은** 자료만 모았습니다. 본문 키워드 상자에 걸린 1차 출처는 [출처 링크 모음](SOURCES.md)에 따로 있고, 여기 있는 것 83개는 그 172개와 겹치지 않습니다.
 
 기준은 하나입니다. 책을 읽다가 "이건 더 파고 싶은데"가 생겼을 때 다음으로 열 만한 것. 그래서 소개 글은 안 쓰고 표만 뒀습니다.
 
@@ -110,6 +110,12 @@
 | [Haystack](https://haystack.deepset.ai/) | 검색 파이프라인 중심 | 17장 | 확인 2026-08-05 |
 | [DSPy](https://dspy.ai/) | 프롬프트를 손으로 안 쓰고 컴파일한다는 접근 | 없음 | 확인 2026-08-05 |
 | [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/) | 마이크로소프트 쪽 에이전트 SDK | 없음 | 확인 2026-08-05 |
+| [LangGraph 저장소](https://github.com/langchain-ai/langgraph) | 본문에서 쓴 프레임워크의 소스. 예제와 이슈가 문서보다 빠릅니다 | 19장, 20장, 21장 | 확인 2026-08-05 |
+| [LangGraph Platform](https://docs.langchain.com/langgraph-platform/index) | 그래프를 서버로 띄우고 스레드를 관리하는 쪽. 본문에서는 안 다뤘습니다 | 21장, 23장 | 확인 2026-08-05 |
+| [LangSmith](https://docs.langchain.com/langsmith/home) | 트레이싱과 평가. 26장의 관측성 이야기를 도구로 옮기면 이쪽 | 26장 | 확인 2026-08-05 |
+| [LangChain 블로그](https://blog.langchain.com/) | 설계 변경의 이유가 문서보다 여기 먼저 올라옵니다 | 없음 | 확인 2026-08-05 |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | 핸드오프와 가드레일을 기본 개념으로 둔 SDK | 25장, 26장 | 확인 2026-08-05 |
+| [Vertex AI Agent Engine](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview) | 구글 쪽 에이전트 실행과 배포 | 없음 | 확인 2026-08-05 |
 
 ## 9. 표준과 어휘
 
@@ -119,6 +125,37 @@
 | [PGQL](https://pgql-lang.org/) | 오라클 쪽 프로퍼티 그래프 질의 언어 | 11장 | 확인 2026-08-05 |
 | [DCAT 3](https://www.w3.org/TR/vocab-dcat-3/) | 데이터 카탈로그 어휘. 메타데이터를 그래프로 적을 때 | 없음 | 확인 2026-08-05 |
 | [Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) | 가장 오래 살아남은 메타데이터 어휘 | 없음 | 확인 2026-08-05 |
+
+## 10. 빅테크가 그래프를 쓰는 방식
+
+이 책은 엔진과 프레임워크를 다뤘지 제품을 다루지 않았습니다. 그런데 큰 회사들이 같은 문제를 어떻게 풀었는지 보면, 3부와 5부에서 한 이야기가 제품 이름만 바꿔 그대로 나옵니다. 온톨로지, 시맨틱 층, 권한 인식 검색 같은 말로요. 전부 벤더 공식 문서입니다.
+
+| 자료 | 무엇 | 관련 장 | 날짜 |
+|---|---|---|---|
+| [Palantir Ontology 개요](https://www.palantir.com/docs/foundry/ontology/overview) | 데이터셋과 모델을 객체, 속성, 링크, 액션으로 잇는 층. 이 책의 온톨로지 이야기와 가장 가까운 상용 구현 | 12장, 29장 | 확인 2026-08-05 |
+| [Palantir Ontology 시스템 구조](https://www.palantir.com/docs/foundry/architecture-center/ontology-system) | 위를 어떻게 만들었는지. 지식과 실행을 한 층에 두는 설계 | 29장 | 확인 2026-08-05 |
+| [Palantir Ontology SDK](https://www.palantir.com/docs/foundry/ontology-sdk/overview) | 온톨로지를 코드에서 타입으로 쓰는 방법 | 12장, 29장 | 확인 2026-08-05 |
+| [Microsoft Fabric IQ](https://learn.microsoft.com/en-us/fabric/iq/overview) | Fabric 위에 얹은 시맨틱 층. 온톨로지, 그래프, 에이전트가 한 묶음 | 29장 | 확인 2026-08-05 |
+| [Fabric IQ 온톨로지](https://learn.microsoft.com/en-us/fabric/iq/ontology/overview) | 위의 온톨로지 부분만 따로. 업무 용어와 데이터를 잇는 쪽 | 12장, 29장 | 확인 2026-08-05 |
+| [Microsoft Work IQ](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/work-iq) | 조직 데이터 위에 시맨틱 이해를 쌓고 권한을 지키며 에이전트에 물리는 층. A2A와 MCP로 노출 | 24장, 25장, 26장 | 확인 2026-08-05 |
+| [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) | 이름 그대로 그래프 API. 사람, 파일, 메일, 일정이 노드와 엣지 | 없음 | 확인 2026-08-05 |
+| [Google Knowledge Graph Search API](https://developers.google.com/knowledge-graph) | 5장에서 다룬 그 선언의 API 쪽 | 5장 | 확인 2026-08-05 |
+| [Spanner Graph](https://cloud.google.com/spanner/docs/graph/overview) | 관계형 저장소 위에 그래프 질의를 얹은 상용 사례. GQL 문법 | 11장, 29장 | 확인 2026-08-05 |
+| [Data Commons](https://datacommons.org/) | 구글이 공개 통계를 하나의 그래프로 묶은 것 | 없음 | 확인 2026-08-05 |
+| [Meta TAO](https://engineering.fb.com/2013/06/25/core-infra/tao-the-power-of-the-graph/) | 소셜 그래프를 읽기 위주로 어떻게 운영했나. 오래됐지만 8장과 33장에 그대로 붙습니다 | 8장, 33장 | 2013-06-25 |
+| [PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph) | 메타가 만든 대규모 그래프 임베딩 학습기 | 6장 | 확인 2026-08-05 |
+| [Amazon Neptune](https://docs.aws.amazon.com/neptune/latest/userguide/intro.html) | LPG와 RDF를 한 엔진에서. 두 모델을 같이 쓰는 드문 사례 | 5장, 11장 | 확인 2026-08-05 |
+| [Neptune Analytics](https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html) | 메모리에 올려 알고리즘을 돌리는 쪽. 10장의 지표들이 관리형으로 | 10장 | 확인 2026-08-05 |
+
+---
+
+## 여기 없는 것들
+
+이 목록은 완성본이 아닙니다. 빠진 게 분명히 있고, 이 분야는 목록을 만드는 속도보다 빨리 움직입니다. 특히 위의 빅테크 항목들은 제품 이름과 경계가 몇 달 단위로 바뀝니다.
+
+계속 채워 넣을 생각입니다. 다만 **판올림 때 본문에 반영하는 것은 꼭 필요한 것으로 한정하겠습니다.** 기준은 둘입니다. 책의 주장을 바꾸거나 뒤집는 자료인가, 그리고 독자가 그것 없이는 막히는가. 새로 나왔다는 이유만으로는 넣지 않습니다. 그러면 목차가 유행을 따라다니게 되고, 이 책이 [35장](content/ch35/code/README.md)에서 스스로 경계한 게 그겁니다.
+
+그래서 이 페이지가 본문보다 자주 바뀝니다. 여기는 링크를 더하는 데 비용이 거의 안 들지만, 본문은 한 문단을 넣으면 그 문단이 3년 뒤에도 맞아야 하니까요.
 
 ---
 
