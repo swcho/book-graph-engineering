@@ -1,6 +1,6 @@
 # 24장 — 컨텍스트가 꽉 찼습니다
 
-`4부 · 에이전트 그래프 엔지니어링 (트랙 2)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 한 달 청구서가 예상의 6.4배로 나왔습니다.
 
@@ -65,6 +65,6 @@ python3 ex5_memory_tiers.py    # 기억 계층별 조회 비용
 
 ---
 
-← [23장 사람이 끼어드는 지점](../../ch23/code/README.md) · [전체 목차](../../../README.md) · [25장 여섯 가지 위상, 그리고 도구를 꽂는 구멍](../../ch25/code/README.md) →
+이전 [23장 사람이 끼어드는 지점](../../ch23/code/README.md) | [전체 목차](../../../README.md) | 다음 [25장 여섯 가지 위상, 그리고 도구를 꽂는 구멍](../../ch25/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

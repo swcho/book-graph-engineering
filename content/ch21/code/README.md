@@ -1,6 +1,6 @@
 # 21장 — 프로세스가 죽어도 작업은 살아 있어야 한다
 
-`4부 · 에이전트 그래프 엔지니어링 (트랙 2)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 4시간짜리 배치가 3시간 51분에서 죽었습니다.
 
@@ -69,6 +69,6 @@ python3 ex5_recovery_drill.py   # 의존성 없음
 
 ---
 
-← [20장 끝나지 않는 루프를 끝내는 법](../../ch20/code/README.md) · [전체 목차](../../../README.md) · [22장 되돌릴 수 없는 일을 되갚는 법](../../ch22/code/README.md) →
+이전 [20장 끝나지 않는 루프를 끝내는 법](../../ch20/code/README.md) | [전체 목차](../../../README.md) | 다음 [22장 되돌릴 수 없는 일을 되갚는 법](../../ch22/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

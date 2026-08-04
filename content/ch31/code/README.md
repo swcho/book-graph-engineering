@@ -1,6 +1,6 @@
 # 31장 — 두 에이전트가 같은 노드를 동시에 고쳤다
 
-`6부 · 백본: 상태 관리 엔진` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`6부 — 백본: 상태 관리 엔진` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 「분명히 고쳤는데요.」
 
@@ -73,6 +73,6 @@ python3 ex5_merge_strategy.py    # 감지한 뒤에 무엇을 할까 (의존성 
 
 ---
 
-← [30장 무엇이 언제 바뀌었는지 아무도 모른다](../../ch30/code/README.md) · [전체 목차](../../../README.md) · [32장 스키마를 바꾸는 날](../../ch32/code/README.md) →
+이전 [30장 무엇이 언제 바뀌었는지 아무도 모른다](../../ch30/code/README.md) | [전체 목차](../../../README.md) | 다음 [32장 스키마를 바꾸는 날](../../ch32/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

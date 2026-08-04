@@ -1,6 +1,6 @@
 # 14장 — 같은 사람이 노드 네 개로 앉아 있다
 
-`3부 · 지식 그래프 엔지니어링 (트랙 1)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`3부 — 지식 그래프 엔지니어링 (트랙 1)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 「가온테크」와 「가온테크(주)」를 자동으로 합치게 했습니다. 사업자번호도 주소도 대표자도 같았거든요.
 
@@ -47,7 +47,7 @@
 ```bash
 cd content/ch14/code
 python3 ex1_blocking.py           # 전수 비교 대신 블로킹, 그리고 놓치는 것
-python3 ex2_scoring.py            # 점수·임계·이행성, 그리고 사람 판정
+python3 ex2_scoring.py            # 점수와 임계와 이행성, 그리고 사람 판정
 python3 ex3_reversible_merge.py   # 되돌릴 수 있는 병합
 python3 ex4_threshold_tuning.py   # 임계 하나가 바꾸는 것
 python3 ex5_survivorship.py       # 어느 값을 남길 것인가
@@ -61,6 +61,6 @@ python3 ex5_survivorship.py       # 어느 값을 남길 것인가
 
 ---
 
-← [13장 검증하지 않은 그래프는 그냥 링크 뭉치다](../../ch13/code/README.md) · [전체 목차](../../../README.md) · [15장 문서 1만 건에서 트리플을 뽑았더니 절반이 거짓이었다](../../ch15/code/README.md) →
+이전 [13장 검증하지 않은 그래프는 그냥 링크 뭉치다](../../ch13/code/README.md) | [전체 목차](../../../README.md) | 다음 [15장 문서 1만 건에서 트리플을 뽑았더니 절반이 거짓이었다](../../ch15/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

@@ -1,6 +1,6 @@
 # 26장 — 무엇을 못 하게 할 것인가
 
-`4부 · 에이전트 그래프 엔지니어링 (트랙 2)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 권한 검토 회의에서 30분 동안 「읽기만 주면 안전하죠」를 확인했습니다.
 
@@ -67,6 +67,6 @@ python3 ex5_audit_trail.py        # 차단 로그가 정책을 고친다
 
 ---
 
-← [25장 여섯 가지 위상, 그리고 도구를 꽂는 구멍](../../ch25/code/README.md) · [전체 목차](../../../README.md) · [27장 에이전트에게 기억을 주는 가장 싼 방법](../../ch27/code/README.md) →
+이전 [25장 여섯 가지 위상, 그리고 도구를 꽂는 구멍](../../ch25/code/README.md) | [전체 목차](../../../README.md) | 다음 [27장 에이전트에게 기억을 주는 가장 싼 방법](../../ch27/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

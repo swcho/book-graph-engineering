@@ -1,6 +1,6 @@
 # 19장 — 상태 그래프와 리듀서, 그리고 슈퍼스텝
 
-`4부 · 에이전트 그래프 엔지니어링 (트랙 2)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 노드 셋을 병렬로 돌렸는데 로그가 하나만 남았습니다.
 
@@ -64,6 +64,6 @@ python3 ex5_debug_state.py      # 체크포인트로 시간 여행
 
 ---
 
-← [18장 체인은 어디서 부러지는가](../../ch18/code/README.md) · [전체 목차](../../../README.md) · [20장 끝나지 않는 루프를 끝내는 법](../../ch20/code/README.md) →
+이전 [18장 체인은 어디서 부러지는가](../../ch18/code/README.md) | [전체 목차](../../../README.md) | 다음 [20장 끝나지 않는 루프를 끝내는 법](../../ch20/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

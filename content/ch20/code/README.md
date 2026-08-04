@@ -1,6 +1,6 @@
 # 20장 — 끝나지 않는 루프를 끝내는 법
 
-`4부 · 에이전트 그래프 엔지니어링 (트랙 2)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 층마다 상한을 다 걸어 뒀는데 240번을 돌았습니다.
 
@@ -63,6 +63,6 @@ python3 ex5_nested_loops.py       # 의존성 없음
 
 ---
 
-← [19장 상태 그래프와 리듀서, 그리고 슈퍼스텝](../../ch19/code/README.md) · [전체 목차](../../../README.md) · [21장 프로세스가 죽어도 작업은 살아 있어야 한다](../../ch21/code/README.md) →
+이전 [19장 상태 그래프와 리듀서, 그리고 슈퍼스텝](../../ch19/code/README.md) | [전체 목차](../../../README.md) | 다음 [21장 프로세스가 죽어도 작업은 살아 있어야 한다](../../ch21/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

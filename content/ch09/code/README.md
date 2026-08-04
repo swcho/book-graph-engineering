@@ -1,6 +1,6 @@
 # 9장 — 몇 다리 건너인지 세다가 서버가 죽었다
 
-`2부 · 그래프의 기초 문법` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`2부 — 그래프의 기초 문법` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > "이 사람과 연결된 사람들을 보여 주세요."
 
@@ -63,6 +63,6 @@ python3 ex5_toposort.py             # 위상 정렬, 슈퍼스텝, 임계 경로
 
 ---
 
-← [8장 그래프는 메모리에서 이렇게 생겼다](../../ch08/code/README.md) · [전체 목차](../../../README.md) · [10장 누가 중요한 노드인가](../../ch10/code/README.md) →
+이전 [8장 그래프는 메모리에서 이렇게 생겼다](../../ch08/code/README.md) | [전체 목차](../../../README.md) | 다음 [10장 누가 중요한 노드인가](../../ch10/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

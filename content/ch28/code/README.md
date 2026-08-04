@@ -1,6 +1,6 @@
 # 28장 — 에이전트가 스스로 그래프를 넓히다
 
-`5부 · 두 그래프가 만나는 곳` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`5부 — 두 그래프가 만나는 곳` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 그래프를 열어 보니 「박민수」가 세 명이었습니다.
 
@@ -72,6 +72,6 @@ python3 ex5_expansion_budget.py   # 어디까지 넓힐 것인가 (의존성 없
 
 ---
 
-← [27장 에이전트에게 기억을 주는 가장 싼 방법](../../ch27/code/README.md) · [전체 목차](../../../README.md) · [29장 하나의 백본](../../ch29/code/README.md) →
+이전 [27장 에이전트에게 기억을 주는 가장 싼 방법](../../ch27/code/README.md) | [전체 목차](../../../README.md) | 다음 [29장 하나의 백본](../../ch29/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

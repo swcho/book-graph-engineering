@@ -1,6 +1,6 @@
 # 1장 — 그래프로 다시 읽는 AI의 60년
 
-`1부 · 뿌리: 그래프는 어디에 있었나` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`1부 — 뿌리: 그래프는 어디에 있었나` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 작년 가을에 두 팀을 같은 주에 만났습니다. 둘 다 사내 문서 검색에 언어 모델을 붙이는 일을 하고 있었어요. 같은 모델, 같은 API 키, 같은 가격표. 한 팀은 3주 만에 사내에 열었고, 다른 팀은 9주째 "모델이 자꾸 지어낸다"는 회의를 반복하고 있었습니다.
 
@@ -77,6 +77,6 @@ python3 ex3_agent_loop.py
 
 ---
 
-[전체 목차](../../../README.md) · [2장 하네스 엔지니어링에서 그래프 엔지니어링으로](../../ch02/code/README.md) →
+[전체 목차](../../../README.md) | 다음 [2장 하네스 엔지니어링에서 그래프 엔지니어링으로](../../ch02/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

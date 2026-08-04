@@ -1,6 +1,6 @@
 # 32장 — 스키마를 바꾸는 날
 
-`6부 · 백본: 상태 관리 엔진` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`6부 — 백본: 상태 관리 엔진` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 관계 이름 하나를 바꾸는 데 6주가 걸렸습니다.
 
@@ -72,6 +72,6 @@ python3 ex5_migration_plan.py     # 마이그레이션을 검사 가능한 형�
 
 ---
 
-← [31장 두 에이전트가 같은 노드를 동시에 고쳤다](../../ch31/code/README.md) · [전체 목차](../../../README.md) · [33장 쿼리 플랜을 읽으면 비용이 보인다](../../ch33/code/README.md) →
+이전 [31장 두 에이전트가 같은 노드를 동시에 고쳤다](../../ch31/code/README.md) | [전체 목차](../../../README.md) | 다음 [33장 쿼리 플랜을 읽으면 비용이 보인다](../../ch33/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

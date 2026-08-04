@@ -1,6 +1,6 @@
 # 13장 — 검증하지 않은 그래프는 그냥 링크 뭉치다
 
-`3부 · 지식 그래프 엔지니어링 (트랙 1)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`3부 — 지식 그래프 엔지니어링 (트랙 1)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 적재를 막았더니 데이터가 안 들어왔습니다.
 
@@ -71,6 +71,6 @@ python3 ex5_quality_metrics.py    # 의존성 없음
 
 ---
 
-← [12장 온톨로지를 3주 만에 갈아엎은 이야기](../../ch12/code/README.md) · [전체 목차](../../../README.md) · [14장 같은 사람이 노드 네 개로 앉아 있다](../../ch14/code/README.md) →
+이전 [12장 온톨로지를 3주 만에 갈아엎은 이야기](../../ch12/code/README.md) | [전체 목차](../../../README.md) | 다음 [14장 같은 사람이 노드 네 개로 앉아 있다](../../ch14/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/leaf-kit/book-graph-engineering/releases/download/v2026.08.02/graph-engineering-v2026.08.02.pdf">
-    <img src="https://img.shields.io/badge/PDF%20%EB%B0%94%EB%A1%9C%20%EB%82%B4%EB%A0%A4%EB%B0%9B%EA%B8%B0-453%EC%AA%BD%20%C2%B7%209.4MB-2f6f4e?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="PDF 바로 내려받기">
+    <img src="https://img.shields.io/badge/PDF%20%EB%B0%94%EB%A1%9C%20%EB%82%B4%EB%A0%A4%EB%B0%9B%EA%B8%B0-453%EC%AA%BD%2C%209.4MB-2f6f4e?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="PDF 바로 내려받기">
   </a>
   &nbsp;
   <a href="https://github.com/leaf-kit/book-graph-engineering/releases/tag/v2026.08.02">
@@ -22,8 +22,9 @@
 
 <p align="center">
   <sub>
-    최신 판은 <a href="../../releases/latest">릴리즈 목록</a>에서 확인하세요 ·
-    현재 판 <code>v2026.08.02</code> · 2026년 8월 2일
+    <b>한국어</b> | <a href="README.en.md">English</a> &nbsp;|&nbsp;
+    최신 판은 <a href="../../releases/latest">릴리즈 목록</a>에서 확인하세요 |
+    현재 판 <code>v2026.08.02</code> | 2026년 8월 2일
   </sub>
 </p>
 
@@ -48,23 +49,23 @@
 | 장 | 제목 | 무엇을 다루나 |
 |---|---|---|
 | 1 | [그래프로 다시 읽는 AI의 60년](content/ch01/code/README.md) | 기호주의에서 벡터로, 다시 그래프로. 하네스 엔지니어링이라는 착지점 |
-| 2 | [하네스 엔지니어링에서 그래프 엔지니어링으로](content/ch02/code/README.md) | 에이전트·스킬·오케스트레이터를 노드·서브그래프·실행기로 번역 |
+| 2 | [하네스 엔지니어링에서 그래프 엔지니어링으로](content/ch02/code/README.md) | 에이전트, 스킬, 오케스트레이터를 노드와 서브그래프와 실행기로 번역 |
 | 3 | [다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유](content/ch03/code/README.md) | 오일러의 증명, 관계형 모델이 이긴 이유와 놓친 것 |
-| 4 | [시맨틱 웹은 왜 실패한 것처럼 보였나](content/ch04/code/README.md) | RDF·OWL의 야심, 좌절, 그리고 지금 남은 것 |
+| 4 | [시맨틱 웹은 왜 실패한 것처럼 보였나](content/ch04/code/README.md) | RDF와 OWL의 야심, 좌절, 그리고 지금 남은 것 |
 | 5 | [문자열이 아니라 사물](content/ch05/code/README.md) | 구글 지식 그래프 선언과 프로퍼티 그래프의 부상 |
 | 6 | [벡터에 녹인 관계를 되찾는 데 10년이 걸렸다](content/ch06/code/README.md) | 그래프 임베딩과 GNN, RAG의 한계와 GraphRAG로의 선회 |
 
 ### 2부 — 그래프의 기초 문법
 
-노드·엣지·속성부터 순회·중심성·쿼리 언어까지. 두 트랙 어디로 가든 여기를 밟고 갑니다.
+노드와 엣지와 속성부터 순회, 중심성, 쿼리 언어까지. 두 트랙 어디로 가든 여기를 밟고 갑니다.
 
 | 장 | 제목 | 무엇을 다루나 |
 |---|---|---|
-| 7 | [노드 하나 잘못 그려서 3주를 날렸다](content/ch07/code/README.md) | 노드·엣지·속성·라벨, 방향과 가중치, 스키마와 제약 |
+| 7 | [노드 하나 잘못 그려서 3주를 날렸다](content/ch07/code/README.md) | 노드, 엣지, 속성, 라벨, 방향과 가중치, 스키마와 제약 |
 | 8 | [그래프는 메모리에서 이렇게 생겼다](content/ch08/code/README.md) | 인접 리스트와 CSR, 저장 레이아웃이 성능에 미치는 영향 |
 | 9 | [몇 다리 건너인지 세다가 서버가 죽었다](content/ch09/code/README.md) | BFS와 DFS, 최단 경로, 홉 수가 늘 때 폭발하는 비용 |
 | 10 | [누가 중요한 노드인가](content/ch10/code/README.md) | 중심성 지표들과 커뮤니티 탐지, 각각이 답하는 질문 |
-| 11 | [같은 질문, 세 가지 언어](content/ch11/code/README.md) | Cypher · SPARQL · Gremlin 비교, ISO GQL과 SQL/PGQ |
+| 11 | [같은 질문, 세 가지 언어](content/ch11/code/README.md) | Cypher, SPARQL, Gremlin 비교, ISO GQL과 SQL/PGQ |
 
 ### 3부 — 지식 그래프 엔지니어링 (트랙 1)
 
@@ -77,7 +78,7 @@
 | 14 | [같은 사람이 노드 네 개로 앉아 있다](content/ch14/code/README.md) | 엔티티 해상도와 중복 병합, 병합을 되돌리는 법 |
 | 15 | [문서 1만 건에서 트리플을 뽑았더니 절반이 거짓이었다](content/ch15/code/README.md) | 비정형 문서 추출의 정밀도와 재현율 관리 |
 | 16 | [어제는 맞았고 오늘은 틀리다](content/ch16/code/README.md) | 유효 시간과 기록 시간, 출처와 신뢰도(PROV-O) |
-| 17 | [벡터만으로 답이 안 나오는 질문들](content/ch17/code/README.md) | 하이브리드 검색, GraphRAG·LightRAG·HippoRAG 비교 |
+| 17 | [벡터만으로 답이 안 나오는 질문들](content/ch17/code/README.md) | 하이브리드 검색, GraphRAG, LightRAG, HippoRAG 비교 |
 
 ### 4부 — 에이전트 그래프 엔지니어링 (트랙 2)
 
@@ -91,9 +92,9 @@
 | 21 | [프로세스가 죽어도 작업은 살아 있어야 한다](content/ch21/code/README.md) | 체크포인트와 내구성 있는 실행 |
 | 22 | [되돌릴 수 없는 일을 되갚는 법](content/ch22/code/README.md) | 재시도와 타임아웃, 보상 트랜잭션 |
 | 23 | [사람이 끼어드는 지점](content/ch23/code/README.md) | Human in the Loop 중단점과 재개 |
-| 24 | [컨텍스트가 꽉 찼습니다](content/ch24/code/README.md) | 압축·요약·오프로딩, 메모리 계층, 서브에이전트 격리 |
+| 24 | [컨텍스트가 꽉 찼습니다](content/ch24/code/README.md) | 압축, 요약, 오프로딩, 메모리 계층, 서브에이전트 격리 |
 | 25 | [여섯 가지 위상, 그리고 도구를 꽂는 구멍](content/ch25/code/README.md) | 멀티 에이전트 위상 카탈로그, 도구 호출과 MCP |
-| 26 | [무엇을 못 하게 할 것인가](content/ch26/code/README.md) | 가드레일과 권한 경계, 관측성·트레이싱·평가 |
+| 26 | [무엇을 못 하게 할 것인가](content/ch26/code/README.md) | 가드레일과 권한 경계, 관측성, 트레이싱, 평가 |
 
 ### 5부 — 두 그래프가 만나는 곳
 
@@ -130,13 +131,13 @@
 
 ### 부록
 
-용어집(한글-영문) · 전체 참고 링크 · Cypher·SPARQL·GQL 대조 치트시트 · 엔진 비교 표 · 예제 코드 실행 가이드 · 연습문제 해답 색인
+용어집(한글-영문), 전체 참고 링크, Cypher와 SPARQL과 GQL 대조 치트시트, 엔진 비교 표, 예제 코드 실행 가이드, 연습문제 해답 색인
 
 ---
 
 ## 출처
 
-**[📎 출처 링크 모음 — SOURCES.md](SOURCES.md)**
+**[📎 출처 링크 모음 — SOURCES.md](SOURCES.md)** | [English](SOURCES.en.md)
 
 본문 각 장 첫머리의 키워드 상자에 걸린 1차 출처를 한 페이지에 모았습니다. 링크 172개, 키워드 228개입니다. 장별로도 볼 수 있고, 여러 장에서 함께 걸리는 출처만 따로 모아 둔 표도 있습니다.
 
@@ -146,7 +147,7 @@
 
 ## 책 내려받기
 
-**[📕 graph-engineering-v2026.08.02.pdf 내려받기](https://github.com/leaf-kit/book-graph-engineering/releases/download/v2026.08.02/graph-engineering-v2026.08.02.pdf)** · [릴리즈 노트](https://github.com/leaf-kit/book-graph-engineering/releases/tag/v2026.08.02) · [지난 판 전부](../../releases)
+**[📕 graph-engineering-v2026.08.02.pdf 내려받기](https://github.com/leaf-kit/book-graph-engineering/releases/download/v2026.08.02/graph-engineering-v2026.08.02.pdf)** | [릴리즈 노트](https://github.com/leaf-kit/book-graph-engineering/releases/tag/v2026.08.02) | [지난 판 전부](../../releases)
 
 ### 현재 판
 
@@ -176,10 +177,13 @@ PDF는 커밋하지 않습니다. 10MB에 가까운 빌드 산출물을 판올�
 | 조각 | 뜻 |
 |---|---|
 | `graph-engineering` | 책 이름 |
+| `ko` | 언어. **다음 판부터** 붙습니다. `v2026.08.02`까지는 이 조각이 없습니다 |
 | `v2026.08.02` | 판 번호 |
 | `.pdf` | 본문 |
 
-판 번호는 `vYYYY.MM.DD` 형식이고, **그 PDF를 빌드한 날짜**입니다. 같은 날 두 번 이상 냈다면 뒤에 `-2`, `-3`이 붙습니다(`graph-engineering-v2026.08.02-2.pdf`).
+판 번호는 `vYYYY.MM.DD` 형식이고, **그 PDF를 빌드한 날짜**입니다. 같은 날 두 번 이상 냈다면 뒤에 `-2`, `-3`이 붙습니다(`graph-engineering-ko-v2026.08.05-2.pdf`).
+
+언어 조각을 넣은 이유는 하나입니다. 영어판이 나오면 같은 릴리즈에 파일 두 개가 붙는데, 이름이 같으면 구분이 안 됩니다. 판이 더 쌓이기 전에 규칙을 바꾸는 게 쌉니다.
 
 내려받은 파일 이름만 봐도 어느 판인지 알 수 있으니, 이름을 바꾸지 말고 두시길 권합니다. 어딘가에 인용할 때도 판 번호를 같이 적어 주면 나중에 대조하기 쉽습니다. 지난 판은 [릴리즈 목록](../../releases)에 그대로 남아 있습니다.
 
@@ -211,7 +215,7 @@ content/
 
 | 무엇을 | 어떤 때 | 열기 |
 |---|---|---|
-| **사실 오류 신고** | 본문 내용이 사실과 다를 때. 쪽수·원문·근거 세 가지만 | [작성](../../issues/new?template=01-fact-error.yml) |
+| **사실 오류 신고** | 본문 내용이 사실과 다를 때. 쪽수, 원문, 근거 세 가지만 | [작성](../../issues/new?template=01-fact-error.yml) |
 | **반증 제출** | 35장의 주장 다섯 개 중 하나가 틀렸다는 근거가 있을 때 | [작성](../../issues/new?template=02-refutation.yml) |
 | **용어 라벨 이의** | [표준]/[사실상 표준]/[실험] 분류가 틀렸을 때 | [작성](../../issues/new?template=03-status-label.yml) |
 
@@ -225,11 +229,11 @@ content/
 
 | 주장 | 확신 | 이게 참이면 저는 틀립니다 |
 |---|---|---|
-| 1 · 모델 호출이 응답 시간의 90% 넘게 차지한다 (33장) | 35% | 같은 작업의 모델 지연이 10분의 1이 되면 60% 아래로 내려간다 |
-| 2 · 프롬프트 인젝션은 프롬프트 층에서 못 막는다 (26장) | 55% | 지시와 데이터를 구조적으로 나눈 모델이 나오면 틀린다 |
-| 3 · 에이전트가 스스로 넓힌 그래프는 관문 없이 못 쓴다 (28장) | 70% | 추출 정확도가 99.9%가 되면 관문 넷 중 셋이 필요 없어진다 |
-| 4 · 지식 그래프와 에이전트 상태는 따로 두는 게 옳다 (29장) | 50% | 그래프 DB 쓰기 성능이 키-값 저장소 수준이 되면 합쳐도 된다 |
-| 5 · 「에이전트 그래프 엔지니어링」이라는 용어가 자리를 잡는다 (서문) | 20% | 3년 뒤에 아무도 이 말을 안 쓰면 틀린 것이다 |
+| 1. 모델 호출이 응답 시간의 90% 넘게 차지한다 (33장) | 35% | 같은 작업의 모델 지연이 10분의 1이 되면 60% 아래로 내려간다 |
+| 2. 프롬프트 인젝션은 프롬프트 층에서 못 막는다 (26장) | 55% | 지시와 데이터를 구조적으로 나눈 모델이 나오면 틀린다 |
+| 3. 에이전트가 스스로 넓힌 그래프는 관문 없이 못 쓴다 (28장) | 70% | 추출 정확도가 99.9%가 되면 관문 넷 중 셋이 필요 없어진다 |
+| 4. 지식 그래프와 에이전트 상태는 따로 두는 게 옳다 (29장) | 50% | 그래프 DB 쓰기 성능이 키-값 저장소 수준이 되면 합쳐도 된다 |
+| 5. 「에이전트 그래프 엔지니어링」이라는 용어가 자리를 잡는다 (서문) | 20% | 3년 뒤에 아무도 이 말을 안 쓰면 틀린 것이다 |
 
 반증 조건을 못 쓰는 문장은 주장이 아니라 의견입니다. 책을 쓰면서 그리로 빠진 문장은 전부 뺐습니다. 이 표는 그 규칙을 저자 자신에게도 적용한 결과입니다.
 

@@ -1,6 +1,6 @@
 # 7장 — 노드 하나 잘못 그려서 3주를 날렸다
 
-`2부 · 그래프의 기초 문법` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`2부 — 그래프의 기초 문법` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 계약을 엣지로 그렸습니다. `(회사)-[:계약]->(회사)`. 화이트보드에서는 예뻤어요.
 
@@ -58,6 +58,6 @@ python3 ex5_multigraph.py     # 다중 엣지와 자기 루프
 
 ---
 
-← [6장 벡터에 녹인 관계를 되찾는 데 10년이 걸렸다](../../ch06/code/README.md) · [전체 목차](../../../README.md) · [8장 그래프는 메모리에서 이렇게 생겼다](../../ch08/code/README.md) →
+이전 [6장 벡터에 녹인 관계를 되찾는 데 10년이 걸렸다](../../ch06/code/README.md) | [전체 목차](../../../README.md) | 다음 [8장 그래프는 메모리에서 이렇게 생겼다](../../ch08/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

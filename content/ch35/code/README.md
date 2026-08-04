@@ -1,6 +1,6 @@
 # 35장 — 3년 뒤 틀렸을 가능성이 가장 큰 주장 5개
 
-`8부 · 미래` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`8부 — 미래` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 이 책을 쓰기 시작할 때 정한 게 하나 있습니다. *마지막 장에서 제가 틀렸을 곳을 직접 지목하기.*
 
@@ -54,7 +54,7 @@
 cd content/ch35/code
 python3 ex1_five_claims.py       # 틀렸을 가능성이 큰 주장 다섯 개
 python3 ex2_standard_watch.py    # 표준이 어디까지 왔나
-python3 ex3_what_survives.py     # 이름·문제·해법의 수명
+python3 ex3_what_survives.py     # 이름과 문제와 해법의 수명
 python3 ex4_selfcheck.py         # 여러분 시스템에서 다시 잴 목록
 python3 ex5_next_questions.py    # 이 책이 못 답한 것들
 ```
@@ -73,6 +73,6 @@ python3 ex5_next_questions.py    # 이 책이 못 답한 것들
 
 ---
 
-← [34장 그래프에서 개인정보를 지운다는 것](../../ch34/code/README.md) · [전체 목차](../../../README.md)
+이전 [34장 그래프에서 개인정보를 지운다는 것](../../ch34/code/README.md) | [전체 목차](../../../README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

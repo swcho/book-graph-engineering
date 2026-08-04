@@ -1,6 +1,6 @@
 # 25장 — 여섯 가지 위상, 그리고 도구를 꽂는 구멍
 
-`4부 · 에이전트 그래프 엔지니어링 (트랙 2)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 「에이전트를 몇 개로 나눌까요?」
 
@@ -71,6 +71,6 @@ python3 ex5_tool_selection.py   # 도구 설명이 선택을 정한다 (의존�
 
 ---
 
-← [24장 컨텍스트가 꽉 찼습니다](../../ch24/code/README.md) · [전체 목차](../../../README.md) · [26장 무엇을 못 하게 할 것인가](../../ch26/code/README.md) →
+이전 [24장 컨텍스트가 꽉 찼습니다](../../ch24/code/README.md) | [전체 목차](../../../README.md) | 다음 [26장 무엇을 못 하게 할 것인가](../../ch26/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

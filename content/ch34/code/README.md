@@ -1,6 +1,6 @@
 # 34장 — 그래프에서 개인정보를 지운다는 것
 
-`7부 · 운영` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`7부 — 운영` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 「지웠습니다」라고 답한 뒤 3주 만에 다시 연락이 왔습니다.
 
@@ -74,6 +74,6 @@ python3 ex5_deletion_plan.py    # 삭제 절차를 검사 가능한 형태로 (�
 
 ---
 
-← [33장 쿼리 플랜을 읽으면 비용이 보인다](../../ch33/code/README.md) · [전체 목차](../../../README.md) · [35장 3년 뒤 틀렸을 가능성이 가장 큰 주장 5개](../../ch35/code/README.md) →
+이전 [33장 쿼리 플랜을 읽으면 비용이 보인다](../../ch33/code/README.md) | [전체 목차](../../../README.md) | 다음 [35장 3년 뒤 틀렸을 가능성이 가장 큰 주장 5개](../../ch35/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

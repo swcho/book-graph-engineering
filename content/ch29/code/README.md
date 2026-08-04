@@ -1,6 +1,6 @@
 # 29장 — 하나의 백본
 
-`5부 · 두 그래프가 만나는 곳` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`5부 — 두 그래프가 만나는 곳` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 「보고서를 팀장님께 보냈습니다.」
 
@@ -72,6 +72,6 @@ python3 ex5_reference_arch.py    # 아키텍처를 검사 가능한 형태로 (�
 
 ---
 
-← [28장 에이전트가 스스로 그래프를 넓히다](../../ch28/code/README.md) · [전체 목차](../../../README.md) · [30장 무엇이 언제 바뀌었는지 아무도 모른다](../../ch30/code/README.md) →
+이전 [28장 에이전트가 스스로 그래프를 넓히다](../../ch28/code/README.md) | [전체 목차](../../../README.md) | 다음 [30장 무엇이 언제 바뀌었는지 아무도 모른다](../../ch30/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

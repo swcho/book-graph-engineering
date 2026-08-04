@@ -1,6 +1,6 @@
 # 6장 — 벡터에 녹인 관계를 되찾는 데 10년이 걸렸다
 
-`1부 · 뿌리: 그래프는 어디에 있었나` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`1부 — 뿌리: 그래프는 어디에 있었나` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 추천 모델이 잘 돌던 어느 날, 법무팀에서 연락이 왔습니다. "이 사용자한테 왜 이 상품을 추천했는지 설명해 주실 수 있나요."
 
@@ -44,8 +44,8 @@
 
 ```bash
 cd content/ch06/code
-python3 ex1_rag_limits.py        # 조각 검색으로 전역 질문 시도 → 실패
-python3 ex2_graphrag_lite.py     # 색인 시점에 접어 두기 → 성공
+python3 ex1_rag_limits.py        # 조각 검색으로 전역 질문 시도, 실패한다
+python3 ex2_graphrag_lite.py     # 색인 시점에 접어 두기, 성공한다
 python3 ex3_message_passing.py   # GNN 한 층이 하는 일
 python3 ex4_link_prediction.py   # 이웃만 세도 되는 예측, 임베딩이 필요해지는 지점
 ```
@@ -69,6 +69,6 @@ python3 ex4_link_prediction.py   # 이웃만 세도 되는 예측, 임베딩이 
 
 ---
 
-← [5장 문자열이 아니라 사물](../../ch05/code/README.md) · [전체 목차](../../../README.md) · [7장 노드 하나 잘못 그려서 3주를 날렸다](../../ch07/code/README.md) →
+이전 [5장 문자열이 아니라 사물](../../ch05/code/README.md) | [전체 목차](../../../README.md) | 다음 [7장 노드 하나 잘못 그려서 3주를 날렸다](../../ch07/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

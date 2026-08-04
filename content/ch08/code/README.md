@@ -1,6 +1,6 @@
 # 8장 — 그래프는 메모리에서 이렇게 생겼다
 
-`2부 · 그래프의 기초 문법` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`2부 — 그래프의 기초 문법` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 같은 그래프를 두 라이브러리에 올렸습니다. 한쪽은 4.1GB를 먹고, 다른 쪽은 380MB를 먹었어요.
 
@@ -44,7 +44,7 @@
 ```bash
 cd content/ch08/code
 python3 graphgen.py        # 샘플 그래프 통계
-python3 ex1_three_forms.py # 인접 행렬 · 인접 리스트 · CSR 메모리 비교
+python3 ex1_three_forms.py # 인접 행렬, 인접 리스트, CSR 메모리 비교
 python3 ex2_csr_walk.py    # CSR 로 BFS
 python3 ex3_degree_skew.py # 평균은 같은데 비용이 200배 다른 이유
 python3 ex4_relabel.py     # 번호를 다시 매기면 지역성이 좋아진다
@@ -61,6 +61,6 @@ python3 ex5_index_free.py  # 인덱스 없는 인접성
 
 ---
 
-← [7장 노드 하나 잘못 그려서 3주를 날렸다](../../ch07/code/README.md) · [전체 목차](../../../README.md) · [9장 몇 다리 건너인지 세다가 서버가 죽었다](../../ch09/code/README.md) →
+이전 [7장 노드 하나 잘못 그려서 3주를 날렸다](../../ch07/code/README.md) | [전체 목차](../../../README.md) | 다음 [9장 몇 다리 건너인지 세다가 서버가 죽었다](../../ch09/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

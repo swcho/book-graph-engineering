@@ -1,6 +1,6 @@
 # 12장 — 온톨로지를 3주 만에 갈아엎은 이야기
 
-`3부 · 지식 그래프 엔지니어링 (트랙 1)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`3부 — 지식 그래프 엔지니어링 (트랙 1)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > [4장](../../ch04/code/README.md)에서 6개월짜리 온톨로지가 아무에게도 안 쓰인 이야기를 했습니다. 이 장은 그걸 어떻게 고쳤는지에 대한 겁니다.
 
@@ -62,6 +62,6 @@ python3 ex5_schema_drift.py           # 의존성 없음
 
 ---
 
-← [11장 같은 질문, 세 가지 언어](../../ch11/code/README.md) · [전체 목차](../../../README.md) · [13장 검증하지 않은 그래프는 그냥 링크 뭉치다](../../ch13/code/README.md) →
+이전 [11장 같은 질문, 세 가지 언어](../../ch11/code/README.md) | [전체 목차](../../../README.md) | 다음 [13장 검증하지 않은 그래프는 그냥 링크 뭉치다](../../ch13/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

@@ -1,6 +1,6 @@
 # 33장 — 쿼리 플랜을 읽으면 비용이 보인다
 
-`7부 · 운영` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`7부 — 운영` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 3주 동안 쿼리를 튜닝했습니다. 평균 지연이 9ms에서 4ms로 줄었어요.
 
@@ -75,6 +75,6 @@ python3 ex5_where_time_goes.py  # 한 요청의 시간 분해 (의존성 없음)
 
 ---
 
-← [32장 스키마를 바꾸는 날](../../ch32/code/README.md) · [전체 목차](../../../README.md) · [34장 그래프에서 개인정보를 지운다는 것](../../ch34/code/README.md) →
+이전 [32장 스키마를 바꾸는 날](../../ch32/code/README.md) | [전체 목차](../../../README.md) | 다음 [34장 그래프에서 개인정보를 지운다는 것](../../ch34/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

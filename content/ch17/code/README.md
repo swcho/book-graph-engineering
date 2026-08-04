@@ -1,6 +1,6 @@
 # 17장 — 벡터만으로 답이 안 나오는 질문들
 
-`3부 · 지식 그래프 엔지니어링 (트랙 1)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`3부 — 지식 그래프 엔지니어링 (트랙 1)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > GraphRAG를 붙였는데 사용자 만족도가 떨어졌습니다.
 
@@ -60,6 +60,6 @@ python3 ex5_eval_harness.py       # 질문 분포가 결론을 뒤집는다
 
 ---
 
-← [16장 어제는 맞았고 오늘은 틀리다](../../ch16/code/README.md) · [전체 목차](../../../README.md) · [18장 체인은 어디서 부러지는가](../../ch18/code/README.md) →
+이전 [16장 어제는 맞았고 오늘은 틀리다](../../ch16/code/README.md) | [전체 목차](../../../README.md) | 다음 [18장 체인은 어디서 부러지는가](../../ch18/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

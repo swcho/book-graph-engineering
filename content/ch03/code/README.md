@@ -1,6 +1,6 @@
 # 3장 — 다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유
 
-`1부 · 뿌리: 그래프는 어디에 있었나` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`1부 — 뿌리: 그래프는 어디에 있었나` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 새벽 2시에 알림을 받았습니다. 데이터베이스 CPU가 100%에 붙어서 안 떨어진다고요.
 
@@ -54,11 +54,11 @@ python3 ex4_why_tables_won.py # 표가 이긴 이유
 
 | 파일 | 보여 주는 것 |
 |---|---|
-| `graphdata.py` | 사람 200명·친구 관계 1,163개. 시드 고정이라 매번 같은 그래프 |
+| `graphdata.py` | 사람 200명, 친구 관계 1,163개. 시드 고정이라 매번 같은 그래프 |
 | `ex1_euler.py` | 1736년 계산을 20줄로. 다리를 하나 더 놓으면 답이 바뀐다 |
 | `ex2_sql_vs_graph.py` | 4홉에서 조인이 순회보다 78배 느려지는 지점 |
 | `ex3_recursive_cte.py` | 재귀 CTE 와 순회의 결과가 «달라지는» 이유 |
-| `ex4_why_tables_won.py` | 선언적 질의 · 제약 · 트랜잭션 |
+| `ex4_why_tables_won.py` | 선언적 질의, 제약, 트랜잭션 |
 
 측정값은 기계마다 다릅니다. 배수만 보세요.
 
@@ -70,6 +70,6 @@ python3 ex4_why_tables_won.py # 표가 이긴 이유
 
 ---
 
-← [2장 하네스 엔지니어링에서 그래프 엔지니어링으로](../../ch02/code/README.md) · [전체 목차](../../../README.md) · [4장 시맨틱 웹은 왜 실패한 것처럼 보였나](../../ch04/code/README.md) →
+이전 [2장 하네스 엔지니어링에서 그래프 엔지니어링으로](../../ch02/code/README.md) | [전체 목차](../../../README.md) | 다음 [4장 시맨틱 웹은 왜 실패한 것처럼 보였나](../../ch04/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

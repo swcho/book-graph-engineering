@@ -1,6 +1,6 @@
 # 4장 — 시맨틱 웹은 왜 실패한 것처럼 보였나
 
-`1부 · 뿌리: 그래프는 어디에 있었나` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`1부 — 뿌리: 그래프는 어디에 있었나` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 온톨로지를 6개월 만들었는데 아무도 안 썼습니다.
 
@@ -68,6 +68,6 @@ python3 ex4_jsonld.py             # 의존성 없음
 
 ---
 
-← [3장 다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유](../../ch03/code/README.md) · [전체 목차](../../../README.md) · [5장 문자열이 아니라 사물](../../ch05/code/README.md) →
+이전 [3장 다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유](../../ch03/code/README.md) | [전체 목차](../../../README.md) | 다음 [5장 문자열이 아니라 사물](../../ch05/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

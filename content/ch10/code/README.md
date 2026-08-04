@@ -1,6 +1,6 @@
 # 10장 — 누가 중요한 노드인가
 
-`2부 · 그래프의 기초 문법` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`2부 — 그래프의 기초 문법` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > "우리 조직에서 제일 중요한 사람이 누군지 그래프로 뽑아 주세요."
 
@@ -63,6 +63,6 @@ python3 ex5_resolution.py         # 해상도 한계
 
 ---
 
-← [9장 몇 다리 건너인지 세다가 서버가 죽었다](../../ch09/code/README.md) · [전체 목차](../../../README.md) · [11장 같은 질문, 세 가지 언어](../../ch11/code/README.md) →
+이전 [9장 몇 다리 건너인지 세다가 서버가 죽었다](../../ch09/code/README.md) | [전체 목차](../../../README.md) | 다음 [11장 같은 질문, 세 가지 언어](../../ch11/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

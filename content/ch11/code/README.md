@@ -1,6 +1,6 @@
 # 11장 — 같은 질문, 세 가지 언어
 
-`2부 · 그래프의 기초 문법` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`2부 — 그래프의 기초 문법` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 면접에서 이런 질문을 받은 적이 있습니다. "Cypher랑 SPARQL 중에 뭐가 더 좋다고 생각하세요?"
 
@@ -64,6 +64,6 @@ Cypher 는 서버 없이 돌리려고 임베디드 엔진 **Kuzu 0.11.3** 을 �
 
 ---
 
-← [10장 누가 중요한 노드인가](../../ch10/code/README.md) · [전체 목차](../../../README.md) · [12장 온톨로지를 3주 만에 갈아엎은 이야기](../../ch12/code/README.md) →
+이전 [10장 누가 중요한 노드인가](../../ch10/code/README.md) | [전체 목차](../../../README.md) | 다음 [12장 온톨로지를 3주 만에 갈아엎은 이야기](../../ch12/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

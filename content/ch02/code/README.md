@@ -1,6 +1,6 @@
 # 2장 — 하네스 엔지니어링에서 그래프 엔지니어링으로
 
-`1부 · 뿌리: 그래프는 어디에 있었나` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`1부 — 뿌리: 그래프는 어디에 있었나` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 에이전트가 자기 작업 폴더를 지운 적이 있습니다. 제 것이었어요.
 
@@ -53,7 +53,7 @@
 cd content/ch02/code
 python3 ex1_one_file.py       # 한 파일에 다 넣은 단일 에이전트 — 30분 실습의 '전'
 python3 ex2_two_nodes.py      # 노드 두 개짜리 그래프 — 30분 실습의 '후'
-python3 ex3_depends_on.py     # depends_on 은 DAG 엣지다. 위상 정렬 → 슈퍼스텝
+python3 ex3_depends_on.py     # depends_on 은 DAG 엣지다. 위상 정렬한 묶음이 슈퍼스텝
 python3 ex4_star_vs_mesh.py   # 성형과 메시, 메시지 수를 세어 본다
 ```
 
@@ -101,6 +101,6 @@ PRICE_PER_MTOK_KRW = 4_000      # 100만 토큰당 원. 2026년 8월 기준 대�
 
 ---
 
-← [1장 그래프로 다시 읽는 AI의 60년](../../ch01/code/README.md) · [전체 목차](../../../README.md) · [3장 다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유](../../ch03/code/README.md) →
+이전 [1장 그래프로 다시 읽는 AI의 60년](../../ch01/code/README.md) | [전체 목차](../../../README.md) | 다음 [3장 다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유](../../ch03/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

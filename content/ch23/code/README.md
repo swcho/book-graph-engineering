@@ -1,6 +1,6 @@
 # 23장 — 사람이 끼어드는 지점
 
-`4부 · 에이전트 그래프 엔지니어링 (트랙 2)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 승인 대기 건이 2주 동안 묶여 있었습니다.
 
@@ -66,6 +66,6 @@ python3 ex5_audit.py         # 승인 감사 기록 (의존성 없음)
 
 ---
 
-← [22장 되돌릴 수 없는 일을 되갚는 법](../../ch22/code/README.md) · [전체 목차](../../../README.md) · [24장 컨텍스트가 꽉 찼습니다](../../ch24/code/README.md) →
+이전 [22장 되돌릴 수 없는 일을 되갚는 법](../../ch22/code/README.md) | [전체 목차](../../../README.md) | 다음 [24장 컨텍스트가 꽉 찼습니다](../../ch24/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

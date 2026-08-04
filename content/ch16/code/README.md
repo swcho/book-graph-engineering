@@ -1,6 +1,6 @@
 # 16장 — 어제는 맞았고 오늘은 틀리다
 
-`3부 · 지식 그래프 엔지니어링 (트랙 1)` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`3부 — 지식 그래프 엔지니어링 (트랙 1)` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 감사팀에서 6월 30일 자 계약 현황 보고서를 다시 뽑아 달라고 했습니다.
 
@@ -71,6 +71,6 @@ python3 ex5_storage_cost.py   # 의존성 없음
 
 ---
 
-← [15장 문서 1만 건에서 트리플을 뽑았더니 절반이 거짓이었다](../../ch15/code/README.md) · [전체 목차](../../../README.md) · [17장 벡터만으로 답이 안 나오는 질문들](../../ch17/code/README.md) →
+이전 [15장 문서 1만 건에서 트리플을 뽑았더니 절반이 거짓이었다](../../ch15/code/README.md) | [전체 목차](../../../README.md) | 다음 [17장 벡터만으로 답이 안 나오는 질문들](../../ch17/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

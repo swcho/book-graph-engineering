@@ -1,6 +1,6 @@
 # 출처 링크 모음
 
-[책 전체 목차로 돌아가기](README.md)
+**한국어** | [English](SOURCES.en.md) | [책 전체 목차로 돌아가기](README.md)
 
 본문 각 장 첫머리의 키워드 상자에 걸린 1차 출처를 한곳에 모았습니다. 링크 172개, 키워드 228개이고 확인 시점은 2026년 8월입니다.
 
@@ -20,7 +20,7 @@
 
 ## 장별 출처
 
-### 1부 · 뿌리: 그래프는 어디에 있었나
+### 1부 — 뿌리: 그래프는 어디에 있었나
 
 #### 1장 — [그래프로 다시 읽는 AI의 60년](content/ch01/code/README.md)
 
@@ -100,7 +100,7 @@
 | 경량 그래프 RAG | [실험] | [LightRAG](https://arxiv.org/abs/2410.05779) |
 | 연상 기억형 RAG | [실험] | [HippoRAG](https://arxiv.org/abs/2405.14831) |
 
-### 2부 · 그래프의 기초 문법
+### 2부 — 그래프의 기초 문법
 
 #### 7장 — [노드 하나 잘못 그려서 3주를 날렸다](content/ch07/code/README.md)
 
@@ -161,7 +161,7 @@
 | Gremlin 순회 언어 | [사실상 표준] | [Apache TinkerPop](https://tinkerpop.apache.org/docs/current/reference/) |
 | GQL 표준화 경과 | [사실상 표준] | [GQL Standards](https://www.gqlstandards.org/) |
 
-### 3부 · 지식 그래프 엔지니어링 (트랙 1)
+### 3부 — 지식 그래프 엔지니어링 (트랙 1)
 
 #### 12장 — [온톨로지를 3주 만에 갈아엎은 이야기](content/ch12/code/README.md)
 
@@ -235,7 +235,7 @@
 | 검색 증강 생성 | [사실상 표준] | [RAG](https://arxiv.org/abs/2005.11401) |
 | 하이브리드 검색 | [사실상 표준] | [hybrid search](https://www.elastic.co/what-is/hybrid-search) |
 
-### 4부 · 에이전트 그래프 엔지니어링 (트랙 2)
+### 4부 — 에이전트 그래프 엔지니어링 (트랙 2)
 
 #### 18장 — [체인은 어디서 부러지는가](content/ch18/code/README.md)
 
@@ -348,7 +348,7 @@
 | 샌드박스 | [사실상 표준] | [sandbox](https://gvisor.dev/docs/) |
 | 감사 로그 | [표준] | [audit log](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-### 5부 · 두 그래프가 만나는 곳
+### 5부 — 두 그래프가 만나는 곳
 
 #### 27장 — [에이전트에게 기억을 주는 가장 싼 방법](content/ch27/code/README.md)
 
@@ -386,7 +386,7 @@
 | 아키텍처 적합성 함수 | [사실상 표준] | [fitness function](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) |
 | 쓰기 부하 분리 | [사실상 표준] | [write path separation](https://neo4j.com/docs/operations-manual/current/performance/) |
 
-### 6부 · 백본: 상태 관리 엔진
+### 6부 — 백본: 상태 관리 엔진
 
 #### 30장 — [무엇이 언제 바뀌었는지 아무도 모른다](content/ch30/code/README.md)
 
@@ -426,7 +426,7 @@
 | 제약 검증 | [표준] | [SHACL](https://www.w3.org/TR/shacl/) |
 | 하위 호환 | [사실상 표준] | [backward compatibility](https://protobuf.dev/programming-guides/proto3/#updating) |
 
-### 7부 · 운영
+### 7부 — 운영
 
 #### 33장 — [쿼리 플랜을 읽으면 비용이 보인다](content/ch33/code/README.md)
 
@@ -452,7 +452,7 @@
 | 데이터 최소화 | [표준] | [data minimisation](https://gdpr-info.eu/art-5-gdpr/) |
 | 보존 기간 | [표준] | [retention period](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-### 8부 · 미래
+### 8부 — 미래
 
 #### 35장 — [3년 뒤 틀렸을 가능성이 가장 큰 주장 5개](content/ch35/code/README.md)
 

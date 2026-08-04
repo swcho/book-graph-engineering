@@ -1,6 +1,6 @@
 # 5장 — 문자열이 아니라 사물
 
-`1부 · 뿌리: 그래프는 어디에 있었나` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`1부 — 뿌리: 그래프는 어디에 있었나` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > RDF로 시작했다가 4개월 만에 프로퍼티 그래프로 갈아탄 적이 있습니다.
 
@@ -70,6 +70,6 @@ Neo4j 5.x 와 문법이 갈리는 곳(노드 테이블 선언 등)은 코드 주
 
 ---
 
-← [4장 시맨틱 웹은 왜 실패한 것처럼 보였나](../../ch04/code/README.md) · [전체 목차](../../../README.md) · [6장 벡터에 녹인 관계를 되찾는 데 10년이 걸렸다](../../ch06/code/README.md) →
+이전 [4장 시맨틱 웹은 왜 실패한 것처럼 보였나](../../ch04/code/README.md) | [전체 목차](../../../README.md) | 다음 [6장 벡터에 녹인 관계를 되찾는 데 10년이 걸렸다](../../ch06/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.

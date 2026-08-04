@@ -1,6 +1,6 @@
 # 30장 — 무엇이 언제 바뀌었는지 아무도 모른다
 
-`6부 · 백본: 상태 관리 엔진` · [책 전체 목차](../../../README.md) · [출처 링크 모음](../../../SOURCES.md)
+`6부 — 백본: 상태 관리 엔진` | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 「이거 원래 이랬나요?」
 
@@ -73,6 +73,6 @@ python3 ex5_audit_trail.py       # 해시 고리로 위변조를 드러내기 (�
 
 ---
 
-← [29장 하나의 백본](../../ch29/code/README.md) · [전체 목차](../../../README.md) · [31장 두 에이전트가 같은 노드를 동시에 고쳤다](../../ch31/code/README.md) →
+이전 [29장 하나의 백본](../../ch29/code/README.md) | [전체 목차](../../../README.md) | 다음 [31장 두 에이전트가 같은 노드를 동시에 고쳤다](../../ch31/code/README.md)
 
 이 장에서 틀린 곳을 찾으셨다면 [사실 오류로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=01-fact-error.yml), 상태 라벨이 어긋났다면 [라벨 이의로](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) 적어 주세요.
