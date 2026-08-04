@@ -1,10 +1,10 @@
-# Chapter 21 — The Process Dies, the Work Must Not
+# Chapter 21 - The Process Dies, the Work Must Not
 
-`Part 4 — Agent Graph Engineering (Track 2)` | **English** | [한국어](../../../content/ch21/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+`Part 4 - Agent Graph Engineering (Track 2)` | **English** | [한국어](../../../content/ch21/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
 
 > A four-hour batch job died at three hours fifty-one minutes.
 
-Chapter 20 assumed the budget carries across a resume, which requires state to survive death. This chapter is that. Except storing state is not the end of it — between the point you saved and the point you died, things *already happened*.
+Chapter 20 assumed the budget carries across a resume, which requires state to survive death. This chapter is that. Except storing state is not the end of it - between the point you saved and the point you died, things *already happened*.
 
 ## Sections
 
@@ -33,7 +33,7 @@ Chapter 20 assumed the budget carries across a resume, which requires state to s
 | checkpointer | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | durable execution | [De facto] | [docs.temporal.io/evaluate/understanding-temporal](https://docs.temporal.io/evaluate/understanding-temporal) |
 | idempotency | [Standard] | [datatracker.ietf.org/doc/html/rfc9110#section-9.2.2](https://datatracker.ietf.org/doc/html/rfc9110#section-9.2.2) |
-| idempotency key | [De facto] | [datatracker.ietf.org/…/draft-ietf-httpapi-idempotency-key-header](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header) |
+| idempotency key | [De facto] | [datatracker.ietf.org/.../draft-ietf-httpapi-idempotency-key-head](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header) |
 | exactly-once | [De facto] | [kafka.apache.org/documentation/#semantics](https://kafka.apache.org/documentation/#semantics) |
 | thread id | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | write-ahead log | [De facto] | [sqlite.org/wal.html](https://www.sqlite.org/wal.html) |
@@ -44,7 +44,53 @@ Chapter 20 assumed the budget carries across a resume, which requires state to s
 
 The example code is not duplicated per language. It lives once, in [`content/ch21/code/`](../../../content/ch21/code). Comments and printed output are Korean; the commands below are not.
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+
+`Part 4 - Agent Graph Engineering (Track 2)` | **English** | [한국어](../../../content/ch21/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+
+> A four-hour batch job died at three hours fifty-one minutes.
+
+Chapter 20 assumed the budget carries across a resume, which requires state to survive death. This chapter is that. Except storing state is not the end of it - between the point you saved and the point you died, things *already happened*.
+
+## Sections
+
+| # | Title |
+|---|---|
+| 21.1 | Checkpoints only land on boundaries |
+| 21.2 | Which is why you need idempotency |
+| 21.3 | When the other side will not take an idempotency key |
+| 21.4 | Durability is not free |
+| 21.5 | What do you store it on |
+| 21.6 | You do not know it recovers until you kill it |
+
+## The chapter in one page
+
+- Checkpoints land only on superstep boundaries. Whatever happened between the boundary and the crash gets redone on resume.
+- Splitting nodes finer narrows that window but never closes it, and the extra checkpoints slow you down. Measured, SQLite ran 2.0x to 2.8x the in-memory checkpointer, and past 32 KB it reached 4.8x.
+- Instead of closing the window, make the work *safe to redo*. That is idempotency. The key has to come from the *work*, not the request, and you have to confirm in writing that the other API actually supports it.
+- If it does not, use a side-effect log. The window is still there. Classify what is left as "unknown" and let a human close it out. Do not try to eliminate it; narrow it and hand it over.
+- An in-memory checkpointer is a cache, not a checkpointer. It works perfectly in development and dies on the day you deploy.
+- And you do not know it recovers until you kill it. One `kill -9` costs five minutes.
+
+## Keywords and primary sources
+
+| Term | Status | Source |
+|---|---|---|
+| checkpointer | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
+| durable execution | [De facto] | [docs.temporal.io/evaluate/understanding-temporal](https://docs.temporal.io/evaluate/understanding-temporal) |
+| idempotency | [Standard] | [datatracker.ietf.org/doc/html/rfc9110#section-9.2.2](https://datatracker.ietf.org/doc/html/rfc9110#section-9.2.2) |
+| idempotency key | [De facto] | [datatracker.ietf.org/.../draft-ietf-httpapi-idempotency-key-header](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header) |
+| exactly-once | [De facto] | [kafka.apache.org/documentation/#semantics](https://kafka.apache.org/documentation/#semantics) |
+| thread id | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
+| write-ahead log | [De facto] | [sqlite.org/wal.html](https://www.sqlite.org/wal.html) |
+
+**[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
+
+## Running the examples
+
+The example code is not duplicated per language. It lives once, in [`content/ch21/code/`](../../../content/ch21/code). Comments and printed output are Korean; the commands below are not.
+
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 Checked August 2026. Python 3.9+.
 

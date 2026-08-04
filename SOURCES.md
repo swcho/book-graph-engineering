@@ -20,9 +20,9 @@
 
 ## 장별 출처
 
-### 1부 — 뿌리: 그래프는 어디에 있었나
+### 1부 - 뿌리: 그래프는 어디에 있었나
 
-#### 1장 — [그래프로 다시 읽는 AI의 60년](content/ch01/code/README.md)
+#### 1장 - [그래프로 다시 읽는 AI의 60년](content/ch01/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -37,7 +37,7 @@
 | 에이전트 설계 패턴 | [사실상 표준] | [agent workflow patterns](https://www.anthropic.com/engineering/building-effective-agents) |
 | 하네스 | [실험] | [harness](https://github.com/langchain-ai/deepagents) |
 
-#### 2장 — [하네스 엔지니어링에서 그래프 엔지니어링으로](content/ch02/code/README.md)
+#### 2장 - [하네스 엔지니어링에서 그래프 엔지니어링으로](content/ch02/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -51,7 +51,7 @@
 | 위상 정렬 | [표준] | [topological sort](https://dl.acm.org/doi/10.1145/368996.369025) |
 | 이벤트 소싱 | [사실상 표준] | [event sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) |
 
-#### 3장 — [다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유](content/ch03/code/README.md)
+#### 3장 - [다리 일곱 개를 건널 수 없었던 이유, 그리고 표가 이긴 이유](content/ch03/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -63,7 +63,7 @@
 | 속성 그래프 질의 SQL/PGQ | [표준] | [ISO/IEC 9075-16:2023](https://www.iso.org/standard/79473.html) |
 | 그래프 질의 언어 GQL | [표준] | [ISO/IEC 39075:2024](https://www.iso.org/standard/76120.html) |
 
-#### 4장 — [시맨틱 웹은 왜 실패한 것처럼 보였나](content/ch04/code/README.md)
+#### 4장 - [시맨틱 웹은 왜 실패한 것처럼 보였나](content/ch04/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -76,7 +76,7 @@
 | 공용 어휘 | [사실상 표준] | [schema.org](https://schema.org/docs/documents.html) |
 | 연결 데이터 원칙 | [사실상 표준] | [Linked Data](https://www.w3.org/DesignIssues/LinkedData.html) |
 
-#### 5장 — [문자열이 아니라 사물](content/ch05/code/README.md)
+#### 5장 - [문자열이 아니라 사물](content/ch05/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -87,7 +87,7 @@
 | 이름 붙인 그래프 | [표준] | [RDF Datasets](https://www.w3.org/TR/rdf11-datasets/) |
 | 임베디드 그래프 엔진 | [사실상 표준] | [Kuzu](https://github.com/kuzudb/kuzu) |
 
-#### 6장 — [벡터에 녹인 관계를 되찾는 데 10년이 걸렸다](content/ch06/code/README.md)
+#### 6장 - [벡터에 녹인 관계를 되찾는 데 10년이 걸렸다](content/ch06/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -100,9 +100,9 @@
 | 경량 그래프 RAG | [실험] | [LightRAG](https://arxiv.org/abs/2410.05779) |
 | 연상 기억형 RAG | [실험] | [HippoRAG](https://arxiv.org/abs/2405.14831) |
 
-### 2부 — 그래프의 기초 문법
+### 2부 - 그래프의 기초 문법
 
-#### 7장 — [노드 하나 잘못 그려서 3주를 날렸다](content/ch07/code/README.md)
+#### 7장 - [노드 하나 잘못 그려서 3주를 날렸다](content/ch07/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -113,7 +113,7 @@
 | 이분 그래프 | [사실상 표준] | [bipartite graph](https://networkx.org/documentation/stable/reference/algorithms/bipartite.html) |
 | 다중 그래프와 자기 루프 | [사실상 표준] | [multigraph, self-loop](https://networkx.org/documentation/stable/reference/classes/multigraph.html) |
 
-#### 8장 — [그래프는 메모리에서 이렇게 생겼다](content/ch08/code/README.md)
+#### 8장 - [그래프는 메모리에서 이렇게 생겼다](content/ch08/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -124,7 +124,7 @@
 | 그래프 재배치 | [실험] | [graph reordering](https://arxiv.org/abs/1602.08820) |
 | 페이지 캐시와 지역성 | [사실상 표준] | [locality of reference](https://www.kernel.org/doc/html/latest/admin-guide/mm/index.html) |
 
-#### 9장 — [몇 다리 건너인지 세다가 서버가 죽었다](content/ch09/code/README.md)
+#### 9장 - [몇 다리 건너인지 세다가 서버가 죽었다](content/ch09/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -136,7 +136,7 @@
 | 위상 정렬 | [표준] | [topological sort](https://dl.acm.org/doi/10.1145/368996.369025) |
 | 가변 길이 경로 질의 | [사실상 표준] | [Cypher variable-length patterns](https://neo4j.com/docs/cypher-manual/current/patterns/variable-length-patterns/) |
 
-#### 10장 — [누가 중요한 노드인가](content/ch10/code/README.md)
+#### 10장 - [누가 중요한 노드인가](content/ch10/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -149,7 +149,7 @@
 | 해상도 한계 | [사실상 표준] | [resolution limit](https://www.pnas.org/doi/10.1073/pnas.0605965104) |
 | 라벨 전파 | [사실상 표준] | [label propagation](https://arxiv.org/abs/0709.2938) |
 
-#### 11장 — [같은 질문, 세 가지 언어](content/ch11/code/README.md)
+#### 11장 - [같은 질문, 세 가지 언어](content/ch11/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -161,9 +161,9 @@
 | Gremlin 순회 언어 | [사실상 표준] | [Apache TinkerPop](https://tinkerpop.apache.org/docs/current/reference/) |
 | GQL 표준화 경과 | [사실상 표준] | [GQL Standards](https://www.gqlstandards.org/) |
 
-### 3부 — 지식 그래프 엔지니어링 (트랙 1)
+### 3부 - 지식 그래프 엔지니어링 (트랙 1)
 
-#### 12장 — [온톨로지를 3주 만에 갈아엎은 이야기](content/ch12/code/README.md)
+#### 12장 - [온톨로지를 3주 만에 갈아엎은 이야기](content/ch12/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -175,7 +175,7 @@
 | 역량 질문 | [사실상 표준] | [competency question](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
 | 그래프 스키마 선언 | [표준] | [ISO/IEC 39075:2024 GQL](https://www.iso.org/standard/76120.html) |
 
-#### 13장 — [검증하지 않은 그래프는 그냥 링크 뭉치다](content/ch13/code/README.md)
+#### 13장 - [검증하지 않은 그래프는 그냥 링크 뭉치다](content/ch13/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -187,7 +187,7 @@
 | 그래프 스멜 | [실험] | [graph smell](https://www.w3.org/TR/shacl/) |
 | 역량 질의 회귀 테스트 | [실험] | [competency question regression](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
 
-#### 14장 — [같은 사람이 노드 네 개로 앉아 있다](content/ch14/code/README.md)
+#### 14장 - [같은 사람이 노드 네 개로 앉아 있다](content/ch14/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -199,7 +199,7 @@
 | 생존 규칙 | [실험] | [survivorship rules](https://www.iso.org/standard/35736.html) |
 | 출처 추적 | [표준] | [PROV-O](https://www.w3.org/TR/prov-o/) |
 
-#### 15장 — [문서 1만 건에서 트리플을 뽑았더니 절반이 거짓이었다](content/ch15/code/README.md)
+#### 15장 - [문서 1만 건에서 트리플을 뽑았더니 절반이 거짓이었다](content/ch15/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -211,7 +211,7 @@
 | 구조화 출력 | [사실상 표준] | [structured output](https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview) |
 | 그래프 추출 파이프라인 | [사실상 표준] | [Microsoft GraphRAG indexing](https://github.com/microsoft/graphrag) |
 
-#### 16장 — [어제는 맞았고 오늘은 틀리다](content/ch16/code/README.md)
+#### 16장 - [어제는 맞았고 오늘은 틀리다](content/ch16/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -223,7 +223,7 @@
 | RDF 시간 온톨로지 | [표준] | [OWL-Time](https://www.w3.org/TR/owl-time/) |
 | 느리게 변하는 차원 | [사실상 표준] | [slowly changing dimension](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) |
 
-#### 17장 — [벡터만으로 답이 안 나오는 질문들](content/ch17/code/README.md)
+#### 17장 - [벡터만으로 답이 안 나오는 질문들](content/ch17/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -235,9 +235,9 @@
 | 검색 증강 생성 | [사실상 표준] | [RAG](https://arxiv.org/abs/2005.11401) |
 | 하이브리드 검색 | [사실상 표준] | [hybrid search](https://www.elastic.co/what-is/hybrid-search) |
 
-### 4부 — 에이전트 그래프 엔지니어링 (트랙 2)
+### 4부 - 에이전트 그래프 엔지니어링 (트랙 2)
 
-#### 18장 — [체인은 어디서 부러지는가](content/ch18/code/README.md)
+#### 18장 - [체인은 어디서 부러지는가](content/ch18/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -249,7 +249,7 @@
 | 내구성 있는 실행 | [사실상 표준] | [durable execution](https://docs.temporal.io/temporal) |
 | 생각과 행동의 교차 | [사실상 표준] | [ReAct](https://arxiv.org/abs/2210.03629) |
 
-#### 19장 — [상태 그래프와 리듀서, 그리고 슈퍼스텝](content/ch19/code/README.md)
+#### 19장 - [상태 그래프와 리듀서, 그리고 슈퍼스텝](content/ch19/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -261,7 +261,7 @@
 | 체크포인트와 지속성 | [사실상 표준] | [persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | 갱신 유실 | [표준] | [lost update](https://www.iso.org/standard/76583.html) |
 
-#### 20장 — [끝나지 않는 루프를 끝내는 법](content/ch20/code/README.md)
+#### 20장 - [끝나지 않는 루프를 끝내는 법](content/ch20/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -273,7 +273,7 @@
 | 회로 차단기 | [사실상 표준] | [circuit breaker](https://martinfowler.com/bliki/CircuitBreaker.html) |
 | 속도 제한 | [사실상 표준] | [rate limiting](https://datatracker.ietf.org/doc/html/rfc6585) |
 
-#### 21장 — [프로세스가 죽어도 작업은 살아 있어야 한다](content/ch21/code/README.md)
+#### 21장 - [프로세스가 죽어도 작업은 살아 있어야 한다](content/ch21/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -285,7 +285,7 @@
 | 스레드 아이디 | [사실상 표준] | [thread id](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | 쓰기 전 로그 | [사실상 표준] | [write-ahead log](https://www.sqlite.org/wal.html) |
 
-#### 22장 — [되돌릴 수 없는 일을 되갚는 법](content/ch22/code/README.md)
+#### 22장 - [되돌릴 수 없는 일을 되갚는 법](content/ch22/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -298,7 +298,7 @@
 | 데드레터 큐 | [사실상 표준] | [dead letter queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html) |
 | 재시도 후 대기 | [표준] | [Retry-After](https://datatracker.ietf.org/doc/html/rfc9110#field.retry-after) |
 
-#### 23장 — [사람이 끼어드는 지점](content/ch23/code/README.md)
+#### 23장 - [사람이 끼어드는 지점](content/ch23/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -310,7 +310,7 @@
 | 감사 추적 | [표준] | [audit trail](https://www.w3.org/TR/prov-o/) |
 | 네 눈 원칙 | [사실상 표준] | [four-eyes principle](https://www.bis.org/publ/bcbs230.pdf) |
 
-#### 24장 — [컨텍스트가 꽉 찼습니다](content/ch24/code/README.md)
+#### 24장 - [컨텍스트가 꽉 찼습니다](content/ch24/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -322,12 +322,12 @@
 | 장기 기억 저장소 | [사실상 표준] | [long-term memory store](https://docs.langchain.com/oss/python/langgraph/memory) |
 | 토큰 계산 | [사실상 표준] | [token counting](https://docs.claude.com/en/docs/build-with-claude/token-counting) |
 
-#### 25장 — [여섯 가지 위상, 그리고 도구를 꽂는 구멍](content/ch25/code/README.md)
+#### 25장 - [여섯 가지 위상, 그리고 도구를 꽂는 구멍](content/ch25/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
 | 오케스트레이터-워커 | [사실상 표준] | [orchestrator-workers](https://www.anthropic.com/engineering/building-effective-agents) |
-| 팬아웃·팬인 | [사실상 표준] | [fan-out/fan-in](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-cloud-backup) |
+| 팬아웃, 팬인 | [사실상 표준] | [fan-out/fan-in](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-cloud-backup) |
 | 라우팅 | [사실상 표준] | [routing](https://www.anthropic.com/engineering/building-effective-agents) |
 | 평가자-최적화 | [사실상 표준] | [evaluator-optimizer](https://www.anthropic.com/engineering/building-effective-agents) |
 | 꼬리 지연 | [사실상 표준] | [tail latency](https://research.google/pubs/the-tail-at-scale/) |
@@ -335,7 +335,7 @@
 | 도구 스키마 | [사실상 표준] | [tool schema](https://modelcontextprotocol.io/specification/2025-06-18/server/tools) |
 | Send API | [사실상 표준] | [Send](https://docs.langchain.com/oss/python/langgraph/graph-api) |
 
-#### 26장 — [무엇을 못 하게 할 것인가](content/ch26/code/README.md)
+#### 26장 - [무엇을 못 하게 할 것인가](content/ch26/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -348,9 +348,9 @@
 | 샌드박스 | [사실상 표준] | [sandbox](https://gvisor.dev/docs/) |
 | 감사 로그 | [표준] | [audit log](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-### 5부 — 두 그래프가 만나는 곳
+### 5부 - 두 그래프가 만나는 곳
 
-#### 27장 — [에이전트에게 기억을 주는 가장 싼 방법](content/ch27/code/README.md)
+#### 27장 - [에이전트에게 기억을 주는 가장 싼 방법](content/ch27/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -362,7 +362,7 @@
 | 개체 해상도 | [사실상 표준] | [entity resolution](https://www.w3.org/TR/owl2-syntax/#Individual_Equality) |
 | 유효 시간 | [표준] | [valid time](https://www.iso.org/standard/76583.html) |
 
-#### 28장 — [에이전트가 스스로 그래프를 넓히다](content/ch28/code/README.md)
+#### 28장 - [에이전트가 스스로 그래프를 넓히다](content/ch28/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -374,7 +374,7 @@
 | 자기 학습 편향 | [실험] | [self-training bias](https://arxiv.org/abs/2305.17493) |
 | 제약 검증 | [표준] | [SHACL validation](https://www.w3.org/TR/shacl/) |
 
-#### 29장 — [하나의 백본](content/ch29/code/README.md)
+#### 29장 - [하나의 백본](content/ch29/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -386,9 +386,9 @@
 | 아키텍처 적합성 함수 | [사실상 표준] | [fitness function](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) |
 | 쓰기 부하 분리 | [사실상 표준] | [write path separation](https://neo4j.com/docs/operations-manual/current/performance/) |
 
-### 6부 — 백본: 상태 관리 엔진
+### 6부 - 백본: 상태 관리 엔진
 
-#### 30장 — [무엇이 언제 바뀌었는지 아무도 모른다](content/ch30/code/README.md)
+#### 30장 - [무엇이 언제 바뀌었는지 아무도 모른다](content/ch30/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -401,7 +401,7 @@
 | 해시 고리 | [표준] | [hash chain](https://datatracker.ietf.org/doc/html/rfc6962) |
 | 감사 추적 | [표준] | [audit trail](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-#### 31장 — [두 에이전트가 같은 노드를 동시에 고쳤다](content/ch31/code/README.md)
+#### 31장 - [두 에이전트가 같은 노드를 동시에 고쳤다](content/ch31/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -414,7 +414,7 @@
 | 교착 | [표준] | [deadlock](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) |
 | 쓰기 편중 | [표준] | [write skew](https://www.postgresql.org/docs/current/transaction-iso.html) |
 
-#### 32장 — [스키마를 바꾸는 날](content/ch32/code/README.md)
+#### 32장 - [스키마를 바꾸는 날](content/ch32/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -426,9 +426,9 @@
 | 제약 검증 | [표준] | [SHACL](https://www.w3.org/TR/shacl/) |
 | 하위 호환 | [사실상 표준] | [backward compatibility](https://protobuf.dev/programming-guides/proto3/#updating) |
 
-### 7부 — 운영
+### 7부 - 운영
 
-#### 33장 — [쿼리 플랜을 읽으면 비용이 보인다](content/ch33/code/README.md)
+#### 33장 - [쿼리 플랜을 읽으면 비용이 보인다](content/ch33/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -440,7 +440,7 @@
 | 암달의 법칙 | [표준] | [Amdahl's law](https://dl.acm.org/doi/10.1145/1465482.1465560) |
 | 일괄 적재 | [사실상 표준] | [bulk load](https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/neo4j-admin-import/) |
 
-#### 34장 — [그래프에서 개인정보를 지운다는 것](content/ch34/code/README.md)
+#### 34장 - [그래프에서 개인정보를 지운다는 것](content/ch34/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|
@@ -452,9 +452,9 @@
 | 데이터 최소화 | [표준] | [data minimisation](https://gdpr-info.eu/art-5-gdpr/) |
 | 보존 기간 | [표준] | [retention period](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-### 8부 — 미래
+### 8부 - 미래
 
-#### 35장 — [3년 뒤 틀렸을 가능성이 가장 큰 주장 5개](content/ch35/code/README.md)
+#### 35장 - [3년 뒤 틀렸을 가능성이 가장 큰 주장 5개](content/ch35/code/README.md)
 
 | 키워드 | 상태 | 출처 |
 |---|---|---|

@@ -1,6 +1,6 @@
-# Chapter 26 — What Will You Forbid
+# Chapter 26 - What Will You Forbid
 
-`Part 4 — Agent Graph Engineering (Track 2)` | **English** | [한국어](../../../content/ch26/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+`Part 4 - Agent Graph Engineering (Track 2)` | **English** | [한국어](../../../content/ch26/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
 
 > I spent thirty minutes in a permissions review confirming that "read-only is safe, right?"
 
@@ -31,7 +31,7 @@ If the last chapter was about what to allow, this one is the reverse. And this s
 | Term | Status | Source |
 |---|---|---|
 | least privilege | [De facto] | [csrc.nist.gov/glossary/term/least_privilege](https://csrc.nist.gov/glossary/term/least_privilege) |
-| allowlist | [De facto] | [cheatsheetseries.owasp.org/…/Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) |
+| allowlist | [De facto] | [cheatsheetseries.owasp.org/.../Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) |
 | prompt injection | [De facto] | [genai.owasp.org/llmrisk/llm01-prompt-injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) |
 | indirect prompt injection | [De facto] | [genai.owasp.org/llmrisk/llm01-prompt-injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) |
 | blast radius | [De facto] | [sre.google/sre-book/addressing-cascading-failures](https://sre.google/sre-book/addressing-cascading-failures/) |
@@ -45,7 +45,54 @@ If the last chapter was about what to allow, this one is the reverse. And this s
 
 The example code is not duplicated per language. It lives once, in [`content/ch26/code/`](../../../content/ch26/code). Comments and printed output are Korean; the commands below are not.
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+
+`Part 4 - Agent Graph Engineering (Track 2)` | **English** | [한국어](../../../content/ch26/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+
+> I spent thirty minutes in a permissions review confirming that "read-only is safe, right?"
+
+If the last chapter was about what to allow, this one is the reverse. And this side is much harder. Allowing is additive; forbidding means looking at *combinations*.
+
+## Sections
+
+| # | Title |
+|---|---|
+| 26.1 | A permission is a path, not a list |
+| 26.2 | A deny list always leaks |
+| 26.3 | There are instructions inside the text you fetched |
+| 26.4 | How far does it go when one thing falls |
+| 26.5 | Record what you blocked, too |
+
+## The chapter in one page
+
+- A permission is a path, not a list. Individually harmless permissions combine into an exfiltration path. Do not look at tools one at a time; ask which permission is a door out. Usually there are three: outbound network, arbitrary execution, write.
+- And when you count the ways out, do not look only at the network. Logs, error messages, and the response itself are ways out.
+- A deny list always leaks. You can only block what you can enumerate, and the workarounds are not enumerable. An allow list keeps costing you attention and does not leak. But allowing command names is not enough; you have to inspect arguments, and compare the normalized form rather than the string.
+- You cannot stop prompt injection with a prompt. Delimiters and input checks lower the probability; only removing the permission removes the possibility. First priority is making the agent structurally unable to do it.
+- Assume it gets breached eventually and measure the blast radius. Least privilege is not "only what you need for your job," it is "no single principal holds a lethal combination."
+- "Reads are safe" is wrong. Reads cost money, leave traces, and hurt the other side.
+- Record what you blocked. The share that humans overturn is your policy quality metric. A rule overturned 100% of the time is spending human attention and nothing else.
+
+## Keywords and primary sources
+
+| Term | Status | Source |
+|---|---|---|
+| least privilege | [De facto] | [csrc.nist.gov/glossary/term/least_privilege](https://csrc.nist.gov/glossary/term/least_privilege) |
+| allowlist | [De facto] | [cheatsheetseries.owasp.org/.../Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) |
+| prompt injection | [De facto] | [genai.owasp.org/llmrisk/llm01-prompt-injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) |
+| indirect prompt injection | [De facto] | [genai.owasp.org/llmrisk/llm01-prompt-injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) |
+| blast radius | [De facto] | [sre.google/sre-book/addressing-cascading-failures](https://sre.google/sre-book/addressing-cascading-failures/) |
+| privilege escalation | [Standard] | [attack.mitre.org/tactics/TA0004](https://attack.mitre.org/tactics/TA0004/) |
+| sandbox | [De facto] | [gvisor.dev/docs](https://gvisor.dev/docs/) |
+| audit log | [Standard] | [csrc.nist.gov/pubs/sp/800/53/r5/upd1/final](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
+
+**[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
+
+## Running the examples
+
+The example code is not duplicated per language. It lives once, in [`content/ch26/code/`](../../../content/ch26/code). Comments and printed output are Korean; the commands below are not.
+
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 Checked August 2026. Python 3.9+. No external dependencies.
 

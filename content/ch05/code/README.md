@@ -1,6 +1,6 @@
-# 5장 — 문자열이 아니라 사물
+# 5장 - 문자열이 아니라 사물
 
-`1부 — 뿌리: 그래프는 어디에 있었나` | **한국어** | [English](../../../content_en/ch05/code/README.md) | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
+`1부 - 뿌리: 그래프는 어디에 있었나` | **한국어** | [English](../../../content_en/ch05/code/README.md) | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > RDF로 시작했다가 4개월 만에 프로퍼티 그래프로 갈아탄 적이 있습니다.
 
@@ -38,7 +38,7 @@
 
 ## 예제 실행
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 확인 시점 2026년 8월. Python 3.9 이상.
 
@@ -54,7 +54,7 @@ python3 ex4_things_not_strings.py  # 의존성 없음
 | 파일 | 보여 주는 것 |
 |---|---|
 | `model.py` | 같은 사실 여섯 개를 LPG 와 RDF 두 벌로 |
-| `ex1_two_models.py` | 세는 «단위»가 다르다. 노드 3개 vs 트리플 12개 |
+| `ex1_two_models.py` | 세는 "단위"가 다르다. 노드 3개 vs 트리플 12개 |
 | `ex2_edge_properties.py` | 엣지 속성을 RDF 로 적는 세 가지 방법과 각각의 대가 |
 | `ex3_cypher_vs_sparql.py` | 같은 질문, 같은 답, 다른 문장 모양 |
 | `ex4_things_not_strings.py` | 술어 목록이 곧 사물의 정체다 |

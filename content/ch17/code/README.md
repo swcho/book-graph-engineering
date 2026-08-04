@@ -1,6 +1,6 @@
-# 17장 — 벡터만으로 답이 안 나오는 질문들
+# 17장 - 벡터만으로 답이 안 나오는 질문들
 
-`3부 — 지식 그래프 엔지니어링 (트랙 1)` | **한국어** | [English](../../../content_en/ch17/code/README.md) | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
+`3부 - 지식 그래프 엔지니어링 (트랙 1)` | **한국어** | [English](../../../content_en/ch17/code/README.md) | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > GraphRAG를 붙였는데 사용자 만족도가 떨어졌습니다.
 
@@ -39,7 +39,7 @@
 
 ## 예제 실행
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 확인 시점 2026년 8월. Python 3.9 이상. **의존성 없음.**
 
@@ -47,7 +47,7 @@
 cd content/ch17/code
 python3 ex1_routing.py            # 질문 유형별 라우팅과 오라우팅
 python3 ex2_incremental_cost.py   # GraphRAG 의 진짜 비용은 갱신
-python3 ex3_compare_approaches.py # 네 가지 방식을 «갱신 관점»으로
+python3 ex3_compare_approaches.py # 네 가지 방식을 "갱신 관점"으로
 python3 ex4_hybrid_fusion.py      # 순위 융합, 그리고 언제 손해인가
 python3 ex5_eval_harness.py       # 질문 분포가 결론을 뒤집는다
 ```

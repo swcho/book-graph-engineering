@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/cover-front.png" alt="Graph Engineering — designing intelligence by connecting knowledge and agents" width="420">
+  <img src="img/cover-front.png" alt="Graph Engineering - designing intelligence by connecting knowledge and agents" width="420">
 </p>
 
 <h1 align="center">Graph Engineering</h1>
@@ -24,7 +24,7 @@
 
 ---
 
-## Read this first — only a Korean edition exists
+## Read this first - only a Korean edition exists
 
 The book is published in Korean. 453 pages, one edition, and that is the only edition there is.
 
@@ -34,12 +34,12 @@ Korean PDF with an English button on it.
 
 What is here in English right now, and usable today:
 
-- **[SOURCES.en.md](SOURCES.en.md)** — every primary source in the book, 172 links across
+- **[SOURCES.en.md](SOURCES.en.md)** - every primary source in the book, 172 links across
   228 keywords, grouped by chapter, each labeled [Standard] / [De facto] / [Experimental].
   The source names and URLs were always in English. This page is a reading list on its own.
-- **[`content_en/`](content_en)** — an English summary page for every one of the 35 chapters.
+- **[`content_en/`](content_en)** - an English summary page for every one of the 35 chapters.
   Sections, the chapter in one page, sources, and how to run the examples.
-- **Runnable examples** in [`content/`](content) — 170-odd Python files. Code is code.
+- **Runnable examples** in [`content/`](content) - 170-odd Python files. Code is code.
   The comments and printed output are Korean; the structure is not.
 
 Issues in English are welcome. The templates are written in Korean, but answer in English and
@@ -60,7 +60,7 @@ does not get confused with the original. Details in [`LICENSE`](LICENSE).
 
 35 chapters and 6 appendices, in 8 parts. After Parts 1 and 2 the book splits into
 **Track 1 (knowledge graphs)** and **Track 2 (agent graphs)**, and rejoins them in Part 5.
-If you are in a hurry, start at Part 2. If you only care about agents, jump to Part 4 —
+If you are in a hurry, start at Part 2. If you only care about agents, jump to Part 4 -
 it is written so that you will not get stuck.
 
 Chapter titles link to that chapter's English summary page under
@@ -68,7 +68,7 @@ Chapter titles link to that chapter's English summary page under
 keyword-to-source table, and how to run the examples. Use them to decide which chapters are
 worth your time before you take on 453 pages of Korean.
 
-### Part 1 — Roots: where the graph was all along
+### Part 1 - Roots: where the graph was all along
 
 Early AI *was* a graph. Deep learning dissolved it into vectors. Now, in the era of LLM agents,
 we are drawing graphs again. Sixty years and the last two, compressed.
@@ -82,7 +82,7 @@ we are drawing graphs again. Sixty years and the last two, compressed.
 | 5 | [Things, Not Strings](content_en/ch05/code/README.md) | Google's knowledge graph announcement and the rise of property graphs |
 | 6 | [It Took Ten Years to Get Back What We Dissolved into Vectors](content_en/ch06/code/README.md) | Graph embeddings and GNNs; RAG's ceiling and the turn to GraphRAG |
 
-### Part 2 — The basic grammar of graphs
+### Part 2 - The basic grammar of graphs
 
 Nodes, edges, properties, traversal, centrality, query languages. Whichever track you take,
 you walk over this ground first.
@@ -95,7 +95,7 @@ you walk over this ground first.
 | 10 | [Which Node Actually Matters](content_en/ch10/code/README.md) | Centrality measures and community detection, and the question each one answers |
 | 11 | [One Question, Three Languages](content_en/ch11/code/README.md) | Cypher vs SPARQL vs Gremlin, plus ISO GQL and SQL/PGQ |
 
-### Part 3 — Knowledge graph engineering (Track 1)
+### Part 3 - Knowledge graph engineering (Track 1)
 
 What the model **knows**. Ontology design, triple extraction, time, hybrid retrieval.
 
@@ -108,7 +108,7 @@ What the model **knows**. Ontology design, triple extraction, time, hybrid retri
 | 16 | [True Yesterday, Wrong Today](content_en/ch16/code/README.md) | Valid time and transaction time, provenance and trust (PROV-O) |
 | 17 | [Questions Vectors Alone Can't Answer](content_en/ch17/code/README.md) | Hybrid retrieval; GraphRAG vs LightRAG vs HippoRAG |
 
-### Part 4 — Agent graph engineering (Track 2)
+### Part 4 - Agent graph engineering (Track 2)
 
 What the model **does**. This field is still finding its footing, so the text marks in plain
 sentences where verified fact ends and my estimate begins.
@@ -125,7 +125,7 @@ sentences where verified fact ends and my estimate begins.
 | 25 | [Six Topologies, and the Sockets You Plug Tools Into](content_en/ch25/code/README.md) | The multi-agent topology catalog; tool calls and MCP |
 | 26 | [What Will You Forbid](content_en/ch26/code/README.md) | Guardrails and permission boundaries; observability, tracing, evaluation |
 
-### Part 5 — Where the two graphs meet
+### Part 5 - Where the two graphs meet
 
 The junction. This is the climax of the book.
 
@@ -135,7 +135,7 @@ The junction. This is the climax of the book.
 | 28 | [When the Agent Grows the Graph by Itself](content_en/ch28/code/README.md) | The self-expansion loop, and what it costs you |
 | 29 | [One Backbone](content_en/ch29/code/README.md) | A reference architecture that joins both tracks |
 
-### Part 6 — The backbone: state management engine
+### Part 6 - The backbone: state management engine
 
 The heart of the book. All of it in working code and diagrams.
 
@@ -145,14 +145,14 @@ The heart of the book. All of it in working code and diagrams.
 | 31 | [Two Agents Edited the Same Node at Once](content_en/ch31/code/README.md) | Optimistic locking, conflict resolution, the saga pattern |
 | 32 | [The Day You Change the Schema](content_en/ch32/code/README.md) | Expand-and-contract migration, dual reads, versioning |
 
-### Part 7 — Operations
+### Part 7 - Operations
 
 | Ch | Title | What it covers |
 |---|---|---|
 | 33 | [Read the Query Plan and You See the Bill](content_en/ch33/code/README.md) | Performance tuning, what indexes actually buy, the cost model |
 | 34 | [What It Means to Erase Personal Data from a Graph](content_en/ch34/code/README.md) | Right to erasure, re-identification risk, how far a cascade should go |
 
-### Part 8 — What comes next
+### Part 8 - What comes next
 
 | Ch | Title | What it covers |
 |---|---|---|
@@ -167,18 +167,23 @@ example run guide, exercise answer index
 
 ## Sources
 
-**[📎 SOURCES.en.md — every primary source in the book](SOURCES.en.md)**
+**[📎 SOURCES.en.md - every primary source in the book](SOURCES.en.md)**
 
 172 links across 228 keywords, grouped by chapter, with a separate table of the sources cited by
 more than one chapter. If you read nothing else here, read that page.
 
 Every keyword in the book carries one of three labels: **[Standard]** (an official specification
 exists), **[De facto]** (no specification, but the industry uses it widely), **[Experimental]**
-(still finding its footing). Counts: 62 / 142 / 24. That distribution is itself an argument —
+(still finding its footing). Counts: 62 / 142 / 24. That distribution is itself an argument -
 [Standard] clusters in the knowledge-graph half, [Experimental] in the agent half, and the gap
 between them is about twenty years.
 
 Think a label is wrong? [Say so](../../issues/new?template=03-status-label.yml).
+
+There is also a [further-reading page](LINKS.md) collecting 63 papers, textbooks, courses,
+engines and datasets that are *not* cited in the book, each tagged with the chapter it goes
+with. That page is Korean-only, but the entries are links and English titles, so it reads fine
+either way.
 
 ---
 
@@ -200,8 +205,8 @@ asset with `en` in the filename, next to the Korean one. Until then this line st
 
 I am not being coy. The body text runs to about 250,000 Korean characters, roughly 115,000
 English words, and all 140 diagram sources have Korean baked into them. For one person that is
-months of work, not a scheduling question, so it stays an open decision. What you see here —
-this page, the [sources](SOURCES.en.md), the [chapter summaries](content_en) — is the part that
+months of work, not a scheduling question, so it stays an open decision. What you see here -
+this page, the [sources](SOURCES.en.md), the [chapter summaries](content_en) - is the part that
 was worth doing either way.
 
 Watching this repository is the way to hear about it. There is nothing else to sign up for.
@@ -235,7 +240,7 @@ sample data. Those READMEs are in Korean, but the command blocks are not, and ea
 is one `pip install` line away from obvious.
 
 Chapters that need more than the standard library use `langgraph`, `kuzu`, `rdflib`, `pyshacl`,
-or `mcp`. No API key is required anywhere — the examples that would otherwise call a model use a
+or `mcp`. No API key is required anywhere - the examples that would otherwise call a model use a
 deliberately built fake that reproduces two failure modes real models have.
 
 ---
@@ -257,7 +262,7 @@ repository is open instead.
 | **Refutation** | You have evidence that one of the five claims in Chapter 35 is wrong | [File it](../../issues/new?template=02-refutation.yml) |
 | **Status label objection** | A [Standard] / [De facto] / [Experimental] label is misapplied | [File it](../../issues/new?template=03-status-label.yml) |
 
-The forms are in Korean. Write your answers in English — nothing about that is a problem. If none
+The forms are in Korean. Write your answers in English - nothing about that is a problem. If none
 of the three fit, open a blank issue. The templates exist to help you write, not to keep you out.
 
 ### The refutations are already on the table
@@ -295,7 +300,7 @@ Every section moves in four beats: where you got stuck, why you got stuck, the s
 gets you through, and when that thing betrays you.
 
 So the failures run longer than the successes. In every chapter, at least three times, the author
-doubts a claim, checks it, and — when it turns out wrong — corrects what he said earlier. Those
+doubts a claim, checks it, and - when it turns out wrong - corrects what he said earlier. Those
 reversals were not smoothed out afterward. The trust in this book comes from **the habit of
 correcting**, not from being right.
 
@@ -304,5 +309,5 @@ not confident about, written down as they are.
 
 ---
 
-<sub><b>English</b> | <a href="README.md">한국어</a> — the Korean page is the original and is
+<sub><b>English</b> | <a href="README.md">한국어</a> - the Korean page is the original and is
 updated first.</sub>

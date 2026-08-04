@@ -1,6 +1,6 @@
-# Chapter 16 — True Yesterday, Wrong Today
+# Chapter 16 - True Yesterday, Wrong Today
 
-`Part 3 — Knowledge Graph Engineering (Track 1)` | **English** | [한국어](../../../content/ch16/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+`Part 3 - Knowledge Graph Engineering (Track 1)` | **English** | [한국어](../../../content/ch16/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
 
 > Audit asked me to reproduce the contract status report as of June 30.
 
@@ -34,7 +34,7 @@ I could not do it. Our system only had "what we know now"; "what we knew on June
 | Graphiti / Zep | [Experimental] | [github.com/getzep/graphiti](https://github.com/getzep/graphiti) |
 | ISO 8601 | [Standard] | [iso.org/iso-8601-date-and-time-format.html](https://www.iso.org/iso-8601-date-and-time-format.html) |
 | OWL-Time | [Standard] | [w3.org/TR/owl-time](https://www.w3.org/TR/owl-time/) |
-| slowly changing dimension | [De facto] | [kimballgroup.com/…/dimensional-modeling-techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) |
+| slowly changing dimension | [De facto] | [kimballgroup.com/.../dimensional-modeling-techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) |
 
 **[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
 
@@ -42,7 +42,51 @@ I could not do it. Our system only had "what we know now"; "what we knew on June
 
 The example code is not duplicated per language. It lives once, in [`content/ch16/code/`](../../../content/ch16/code). Comments and printed output are Korean; the commands below are not.
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+
+`Part 3 - Knowledge Graph Engineering (Track 1)` | **English** | [한국어](../../../content/ch16/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+
+> Audit asked me to reproduce the contract status report as of June 30.
+
+I could not do it. Our system only had "what we know now"; "what we knew on June 30" was nowhere. This chapter is how to hold both.
+
+## Sections
+
+| # | Title |
+|---|---|
+| 16.1 | There is more than one time axis |
+| 16.2 | Expiry and correction are different |
+| 16.3 | Store a date as a string and it goes quietly wrong |
+| 16.4 | Attach time and a relation becomes an event |
+| 16.5 | So how much bigger does it get |
+
+## The chapter in one page
+
+- There are two time axes. Valid time is the period something was true in the world; transaction time is the period we believed it. "Who owned this in March" and "who did we think owned it in March" are different questions.
+- Expiry and correction are different. Expiry means it was right then; correction means it was wrong then too. Mix them and past reports change retroactively. Ask on the input screen.
+- Compare dates as strings and it goes quietly wrong. No exception, just reversed ordering. Parse at load time and raise parse failure to blocking severity.
+- Attach time and a relation becomes an event. Any relation that will carry time is cheaper as an event node from the start than promoted later.
+- Make everything bitemporal and it grows 139x. Pick by asking "could somebody complain about this value later" and it drops to 12x. And you cannot manufacture the past retroactively, so decide before you need it.
+
+## Keywords and primary sources
+
+| Term | Status | Source |
+|---|---|---|
+| bitemporal | [De facto] | [iso.org/standard/76583.html](https://www.iso.org/standard/76583.html) |
+| valid time | [Standard] | [iso.org/standard/76583.html](https://www.iso.org/standard/76583.html) |
+| transaction time | [Standard] | [iso.org/standard/76583.html](https://www.iso.org/standard/76583.html) |
+| Graphiti / Zep | [Experimental] | [github.com/getzep/graphiti](https://github.com/getzep/graphiti) |
+| ISO 8601 | [Standard] | [iso.org/iso-8601-date-and-time-format.html](https://www.iso.org/iso-8601-date-and-time-format.html) |
+| OWL-Time | [Standard] | [w3.org/TR/owl-time](https://www.w3.org/TR/owl-time/) |
+| slowly changing dimension | [De facto] | [kimballgroup.com/.../dimensional-modeling-techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) |
+
+**[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
+
+## Running the examples
+
+The example code is not duplicated per language. It lives once, in [`content/ch16/code/`](../../../content/ch16/code). Comments and printed output are Korean; the commands below are not.
+
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 Checked August 2026. Python 3.9+.
 

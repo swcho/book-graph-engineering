@@ -1,10 +1,10 @@
-# Chapter 8 — What a Graph Actually Looks Like in Memory
+# Chapter 8 - What a Graph Actually Looks Like in Memory
 
-`Part 2 — The Basic Grammar of Graphs` | **English** | [한국어](../../../content/ch08/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+`Part 2 - The Basic Grammar of Graphs` | **English** | [한국어](../../../content/ch08/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
 
 > I loaded the same graph into two libraries. One took 4.1 GB. The other took 380 MB.
 
-This chapter is about the container. Why some graphs are fine at a million nodes while others die at a hundred thousand — the answer is here, and it is usually not "node count."
+This chapter is about the container. Why some graphs are fine at a million nodes while others die at a hundred thousand - the answer is here, and it is usually not "node count."
 
 ## Sections
 
@@ -26,10 +26,10 @@ This chapter is about the container. Why some graphs are fine at a million nodes
 
 | Term | Status | Source |
 |---|---|---|
-| CSR, Compressed Sparse Row | [De facto] | [docs.scipy.org/…/scipy.sparse.csr_matrix.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_matrix.html) |
-| index-free adjacency | [De facto] | [neo4j.com/…/graphdb-concepts](https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/) |
-| adjacency matrix / list | [De facto] | [networkx.org/…/convert.html](https://networkx.org/documentation/stable/reference/convert.html) |
-| super node | [De facto] | [neo4j.com/…/planning-and-tuning](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/) |
+| CSR, Compressed Sparse Row | [De facto] | [docs.scipy.org/.../scipy.sparse.csr_matrix.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_matrix.html) |
+| index-free adjacency | [De facto] | [neo4j.com/.../graphdb-concepts](https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/) |
+| adjacency matrix / list | [De facto] | [networkx.org/.../convert.html](https://networkx.org/documentation/stable/reference/convert.html) |
+| super node | [De facto] | [neo4j.com/.../planning-and-tuning](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/) |
 | graph reordering | [Experimental] | [arxiv.org/abs/1602.08820](https://arxiv.org/abs/1602.08820) |
 | locality of reference | [De facto] | [kernel.org/doc/html/latest/admin-guide/mm/index.html](https://www.kernel.org/doc/html/latest/admin-guide/mm/index.html) |
 
@@ -39,7 +39,48 @@ This chapter is about the container. Why some graphs are fine at a million nodes
 
 The example code is not duplicated per language. It lives once, in [`content/ch08/code/`](../../../content/ch08/code). Comments and printed output are Korean; the commands below are not.
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+
+`Part 2 - The Basic Grammar of Graphs` | **English** | [한국어](../../../content/ch08/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+
+> I loaded the same graph into two libraries. One took 4.1 GB. The other took 380 MB.
+
+This chapter is about the container. Why some graphs are fine at a million nodes while others die at a hundred thousand - the answer is here, and it is usually not "node count."
+
+## Sections
+
+| # | Title |
+|---|---|
+| 8.1 | Three containers |
+| 8.2 | Why contiguous is fast |
+| 8.3 | Why a million is fine and a hundred thousand dies |
+| 8.4 | Index-free adjacency |
+
+## The chapter in one page
+
+- There are three containers. An adjacency matrix is the square of the node count, so it is only usable below a few thousand. An adjacency list is convenient. CSR is the densest, two integer arrays. The same graph can come out at 4.1 GB or 380 MB.
+- CSR is fast because of how memory is read, not because of the algorithm. When neighbors sit contiguously, one cache line brings several of them along.
+- Node count explains very little about performance. The sum of squared degrees explains it. Two graphs with the same average degree can differ 200x on two-hop cost.
+- Index-free adjacency pays off from the second hop onward. You still need an index to find the starting node.
+
+## Keywords and primary sources
+
+| Term | Status | Source |
+|---|---|---|
+| CSR, Compressed Sparse Row | [De facto] | [docs.scipy.org/.../scipy.sparse.csr_matrix.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_matrix.html) |
+| index-free adjacency | [De facto] | [neo4j.com/.../graphdb-concepts](https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/) |
+| adjacency matrix / list | [De facto] | [networkx.org/.../convert.html](https://networkx.org/documentation/stable/reference/convert.html) |
+| super node | [De facto] | [neo4j.com/.../planning-and-tuning](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/) |
+| graph reordering | [Experimental] | [arxiv.org/abs/1602.08820](https://arxiv.org/abs/1602.08820) |
+| locality of reference | [De facto] | [kernel.org/doc/html/latest/admin-guide/mm/index.html](https://www.kernel.org/doc/html/latest/admin-guide/mm/index.html) |
+
+**[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
+
+## Running the examples
+
+The example code is not duplicated per language. It lives once, in [`content/ch08/code/`](../../../content/ch08/code). Comments and printed output are Korean; the commands below are not.
+
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 Checked August 2026. Python 3.9+. **No dependencies.**
 

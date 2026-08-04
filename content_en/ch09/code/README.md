@@ -1,6 +1,6 @@
-# Chapter 9 — Counting Degrees of Separation Killed the Server
+# Chapter 9 - Counting Degrees of Separation Killed the Server
 
-`Part 2 — The Basic Grammar of Graphs` | **English** | [한국어](../../../content/ch09/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+`Part 2 - The Basic Grammar of Graphs` | **English** | [한국어](../../../content/ch09/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
 
 > "Show me everyone connected to this person."
 
@@ -28,13 +28,13 @@ This chapter is about walking on a graph. How to walk, where to stop, and when n
 
 | Term | Status | Source |
 |---|---|---|
-| BFS | [De facto] | [networkx.org/…/traversal.html](https://networkx.org/documentation/stable/reference/algorithms/traversal.html) |
-| bidirectional search | [De facto] | [networkx.org/…/networkx.algorithms.shortest_paths.unweighted.bid](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.unweighted.bidirectional_shortest_path.html) |
+| BFS | [De facto] | [networkx.org/.../traversal.html](https://networkx.org/documentation/stable/reference/algorithms/traversal.html) |
+| bidirectional search | [De facto] | [networkx.org/.../networkx.algorithms.shortest_paths.unweighted.b](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.unweighted.bidirectional_shortest_path.html) |
 | Dijkstra's algorithm | [Standard] | [link.springer.com/article/10.1007/BF01386390](https://link.springer.com/article/10.1007/BF01386390) |
-| Bellman-Ford | [De facto] | [networkx.org/…/networkx.algorithms.shortest_paths.weighted.bellm](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.bellman_ford_path.html) |
+| Bellman-Ford | [De facto] | [networkx.org/.../networkx.algorithms.shortest_paths.weighted.bel](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.bellman_ford_path.html) |
 | A* | [De facto] | [ieeexplore.ieee.org/document/4082128](https://ieeexplore.ieee.org/document/4082128) |
 | topological sort | [Standard] | [dl.acm.org/doi/10.1145/368996.369025](https://dl.acm.org/doi/10.1145/368996.369025) |
-| Cypher variable-length patterns | [De facto] | [neo4j.com/…/variable-length-patterns](https://neo4j.com/docs/cypher-manual/current/patterns/variable-length-patterns/) |
+| Cypher variable-length patterns | [De facto] | [neo4j.com/.../variable-length-patterns](https://neo4j.com/docs/cypher-manual/current/patterns/variable-length-patterns/) |
 
 **[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
 
@@ -42,7 +42,51 @@ This chapter is about walking on a graph. How to walk, where to stop, and when n
 
 The example code is not duplicated per language. It lives once, in [`content/ch09/code/`](../../../content/ch09/code). Comments and printed output are Korean; the commands below are not.
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+
+`Part 2 - The Basic Grammar of Graphs` | **English** | [한국어](../../../content/ch09/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+
+> "Show me everyone connected to this person."
+
+This chapter is about walking on a graph. How to walk, where to stop, and when not to walk at all. The last one matters most.
+
+## Sections
+
+| # | Title |
+|---|---|
+| 9.1 | Eleven times per hop |
+| 9.2 | Walk from both ends and it becomes a square root |
+| 9.3 | Once weights are involved |
+| 9.4 | One path and every path |
+| 9.5 | Graphs with an order: topological sort |
+
+## The chapter in one page
+
+- In a graph with average degree 12, each hop multiplies by 11. Five hops reaches 68% of everything; six reaches all of it. An unbounded traversal is a full scan wearing a hat.
+- When you are looking between two points, search bidirectionally. Halving the radius makes the visited count a square root. Measured, it dropped 75x to 88x.
+- Dijkstra is quietly wrong with negative weights. No exception is raised. Be especially careful anywhere you take the log of a probability.
+- "One shortest path" and "all paths" are different problems. The first is polynomial, the second is exponential. When someone asks to "see them all," ask back.
+- Topological sort gives you layers you can run in parallel, but layer-by-layer is slower than the critical path, because you wait for the slowest task in each layer.
+
+## Keywords and primary sources
+
+| Term | Status | Source |
+|---|---|---|
+| BFS | [De facto] | [networkx.org/.../traversal.html](https://networkx.org/documentation/stable/reference/algorithms/traversal.html) |
+| bidirectional search | [De facto] | [networkx.org/.../networkx.algorithms.shortest_paths.unweighted.bid](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.unweighted.bidirectional_shortest_path.html) |
+| Dijkstra's algorithm | [Standard] | [link.springer.com/article/10.1007/BF01386390](https://link.springer.com/article/10.1007/BF01386390) |
+| Bellman-Ford | [De facto] | [networkx.org/.../networkx.algorithms.shortest_paths.weighted.bellm](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.bellman_ford_path.html) |
+| A* | [De facto] | [ieeexplore.ieee.org/document/4082128](https://ieeexplore.ieee.org/document/4082128) |
+| topological sort | [Standard] | [dl.acm.org/doi/10.1145/368996.369025](https://dl.acm.org/doi/10.1145/368996.369025) |
+| Cypher variable-length patterns | [De facto] | [neo4j.com/.../variable-length-patterns](https://neo4j.com/docs/cypher-manual/current/patterns/variable-length-patterns/) |
+
+**[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
+
+## Running the examples
+
+The example code is not duplicated per language. It lives once, in [`content/ch09/code/`](../../../content/ch09/code). Comments and printed output are Korean; the commands below are not.
+
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 Checked August 2026. Python 3.9+. **No dependencies.**
 

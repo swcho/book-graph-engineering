@@ -1,6 +1,6 @@
-# 25장 — 여섯 가지 위상, 그리고 도구를 꽂는 구멍
+# 25장 - 여섯 가지 위상, 그리고 도구를 꽂는 구멍
 
-`4부 — 에이전트 그래프 엔지니어링 (트랙 2)` | **한국어** | [English](../../../content_en/ch25/code/README.md) | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
+`4부 - 에이전트 그래프 엔지니어링 (트랙 2)` | **한국어** | [English](../../../content_en/ch25/code/README.md) | [책 전체 목차](../../../README.md) | [출처 링크 모음](../../../SOURCES.md)
 
 > 「에이전트를 몇 개로 나눌까요?」
 
@@ -18,7 +18,7 @@
 
 ## 한 장 요약
 
-- 위상은 여섯 가지뿐입니다. 경로, 이분·합류, 성형, 순환, 동적 엣지, 트리. 복잡해 보이는 구조는 전부 이 여섯의 조합이에요. 이름은 사람마다 다르니 그림으로 얘기하세요.
+- 위상은 여섯 가지뿐입니다. 경로, 이분, 합류, 성형, 순환, 동적 엣지, 트리. 복잡해 보이는 구조는 전부 이 여섯의 조합이에요. 이름은 사람마다 다르니 그림으로 얘기하세요.
 - 「좋은 위상」은 없습니다. 제일 빠른 것과 제일 싼 것과 품질 1등이 다 다릅니다. 제약이 무엇인지 먼저 정하고, 제약이 없으면 제일 단순한 경로를 쓰세요.
 - 병렬은 시간을 사는 것이지 돈을 아끼는 게 아닙니다. 토큰은 그대로예요.
 - 펴는 값보다 합치는 값이 천장을 만듭니다. 폭을 키우기 전에 합류를 프로파일하세요. 갈래끼리 비교하는 연산이 있으면 그건 제곱입니다.
@@ -32,7 +32,7 @@
 | 키워드 | 상태 | 출처 |
 |---|---|---|
 | 오케스트레이터-워커 | [사실상 표준] | [orchestrator-workers](https://www.anthropic.com/engineering/building-effective-agents) |
-| 팬아웃·팬인 | [사실상 표준] | [fan-out/fan-in](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-cloud-backup) |
+| 팬아웃, 팬인 | [사실상 표준] | [fan-out/fan-in](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-cloud-backup) |
 | 라우팅 | [사실상 표준] | [routing](https://www.anthropic.com/engineering/building-effective-agents) |
 | 평가자-최적화 | [사실상 표준] | [evaluator-optimizer](https://www.anthropic.com/engineering/building-effective-agents) |
 | 꼬리 지연 | [사실상 표준] | [tail latency](https://research.google/pubs/the-tail-at-scale/) |
@@ -44,7 +44,7 @@
 
 ## 예제 실행
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 확인 시점 2026년 8월. Python 3.9 이상.
 

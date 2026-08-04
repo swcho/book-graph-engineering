@@ -12,7 +12,7 @@ If you find a dead link, that keyword needs another look. A source disappearing 
 
 | Label | Meaning | Count |
 |---|---|---|
-| **[Standard]** | An official specification exists — ISO/IEC, W3C, RFC | 62 |
+| **[Standard]** | An official specification exists - ISO/IEC, W3C, RFC | 62 |
 | **[De facto]** | No specification, but the industry uses it widely | 142 |
 | **[Experimental]** | Still finding its footing | 24 |
 
@@ -22,16 +22,16 @@ The maturity gap between Track 1 (knowledge graphs) and Track 2 (agent graphs) s
 
 Chapter titles link to that chapter's English summary page. The example code itself is not duplicated per language; it lives once, under `content/`.
 
-### Part 1 — Roots: Where the Graph Was All Along
+### Part 1 - Roots: Where the Graph Was All Along
 
-#### Chapter 1 — [Sixty Years of AI, Read as a Graph](content_en/ch01/code/README.md)
+#### Chapter 1 - [Sixty Years of AI, Read as a Graph](content_en/ch01/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | Transformer | [De facto] | [arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762) |
 | scaling laws | [Experimental] | [arxiv.org/abs/2001.08361](https://arxiv.org/abs/2001.08361) |
 | ReAct | [De facto] | [arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629) |
-| knowledge graph | [De facto] | [blog.google/…/introducing-knowledge-graph-things-not](https://blog.google/products/search/introducing-knowledge-graph-things-not/) |
+| knowledge graph | [De facto] | [blog.google/.../introducing-knowledge-graph-things-not](https://blog.google/products/search/introducing-knowledge-graph-things-not/) |
 | RDF 1.2 Concepts | [Standard] | [w3.org/TR/rdf12-concepts](https://www.w3.org/TR/rdf12-concepts/) |
 | ISO/IEC 39075:2024 | [Standard] | [iso.org/standard/76120.html](https://www.iso.org/standard/76120.html) |
 | MCP | [De facto] | [modelcontextprotocol.io/specification/2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28) |
@@ -39,12 +39,12 @@ Chapter titles link to that chapter's English summary page. The example code its
 | agent workflow patterns | [De facto] | [anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents) |
 | harness | [Experimental] | [github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) |
 
-#### Chapter 2 — [From Harness Engineering to Graph Engineering](content_en/ch02/code/README.md)
+#### Chapter 2 - [From Harness Engineering to Graph Engineering](content_en/ch02/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | agent workflow patterns | [De facto] | [anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents) |
-| context engineering | [De facto] | [anthropic.com/…/effective-context-engineering-for-ai-agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
+| context engineering | [De facto] | [anthropic.com/.../effective-context-engineering-for-ai-agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
 | agent harness | [Experimental] | [github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) |
 | state graph, superstep | [De facto] | [docs.langchain.com/oss/python/langgraph/graph-api](https://docs.langchain.com/oss/python/langgraph/graph-api) |
 | MCP | [De facto] | [modelcontextprotocol.io/specification/2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28) |
@@ -53,7 +53,7 @@ Chapter titles link to that chapter's English summary page. The example code its
 | topological sort | [Standard] | [dl.acm.org/doi/10.1145/368996.369025](https://dl.acm.org/doi/10.1145/368996.369025) |
 | event sourcing | [De facto] | [martinfowler.com/eaaDev/EventSourcing.html](https://martinfowler.com/eaaDev/EventSourcing.html) |
 
-#### Chapter 3 — [Why Seven Bridges Couldn't Be Crossed, and Why Tables Won](content_en/ch03/code/README.md)
+#### Chapter 3 - [Why Seven Bridges Couldn't Be Crossed, and Why Tables Won](content_en/ch03/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -65,7 +65,7 @@ Chapter titles link to that chapter's English summary page. The example code its
 | ISO/IEC 9075-16:2023 | [Standard] | [iso.org/standard/79473.html](https://www.iso.org/standard/79473.html) |
 | ISO/IEC 39075:2024 | [Standard] | [iso.org/standard/76120.html](https://www.iso.org/standard/76120.html) |
 
-#### Chapter 4 — [Why the Semantic Web Looked Like a Failure](content_en/ch04/code/README.md)
+#### Chapter 4 - [Why the Semantic Web Looked Like a Failure](content_en/ch04/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -78,33 +78,33 @@ Chapter titles link to that chapter's English summary page. The example code its
 | schema.org | [De facto] | [schema.org/docs/documents.html](https://schema.org/docs/documents.html) |
 | Linked Data | [De facto] | [w3.org/DesignIssues/LinkedData.html](https://www.w3.org/DesignIssues/LinkedData.html) |
 
-#### Chapter 5 — [Things, Not Strings](content_en/ch05/code/README.md)
+#### Chapter 5 - [Things, Not Strings](content_en/ch05/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
-| things, not strings | [De facto] | [blog.google/…/introducing-knowledge-graph-things-not](https://blog.google/products/search/introducing-knowledge-graph-things-not/) |
+| things, not strings | [De facto] | [blog.google/.../introducing-knowledge-graph-things-not](https://blog.google/products/search/introducing-knowledge-graph-things-not/) |
 | ISO/IEC 39075:2024 | [Standard] | [iso.org/standard/76120.html](https://www.iso.org/standard/76120.html) |
 | Cypher Manual | [De facto] | [neo4j.com/docs/cypher-manual/current](https://neo4j.com/docs/cypher-manual/current/) |
 | RDF 1.2 triple terms | [Standard] | [w3.org/TR/rdf12-concepts](https://www.w3.org/TR/rdf12-concepts/) |
 | RDF Datasets | [Standard] | [w3.org/TR/rdf11-datasets](https://www.w3.org/TR/rdf11-datasets/) |
 | Kuzu | [De facto] | [github.com/kuzudb/kuzu](https://github.com/kuzudb/kuzu) |
 
-#### Chapter 6 — [It Took Ten Years to Get Back What We Dissolved into Vectors](content_en/ch06/code/README.md)
+#### Chapter 6 - [It Took Ten Years to Get Back What We Dissolved into Vectors](content_en/ch06/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | Graph Neural Networks: A Review | [De facto] | [arxiv.org/abs/1812.08434](https://arxiv.org/abs/1812.08434) |
 | Neural Message Passing | [De facto] | [arxiv.org/abs/1704.01212](https://arxiv.org/abs/1704.01212) |
 | GCN | [De facto] | [arxiv.org/abs/1609.02907](https://arxiv.org/abs/1609.02907) |
-| TransE | [De facto] | [papers.nips.cc/…/5071-translating-embeddings-for-modeling-multi-](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data) |
+| TransE | [De facto] | [papers.nips.cc/.../5071-translating-embeddings-for-modeling-mult](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data) |
 | RAG | [De facto] | [arxiv.org/abs/2005.11401](https://arxiv.org/abs/2005.11401) |
 | Microsoft GraphRAG | [De facto] | [github.com/microsoft/graphrag](https://github.com/microsoft/graphrag) |
 | LightRAG | [Experimental] | [arxiv.org/abs/2410.05779](https://arxiv.org/abs/2410.05779) |
 | HippoRAG | [Experimental] | [arxiv.org/abs/2405.14831](https://arxiv.org/abs/2405.14831) |
 
-### Part 2 — The Basic Grammar of Graphs
+### Part 2 - The Basic Grammar of Graphs
 
-#### Chapter 7 — [One Node Drawn Wrong Cost Me Three Weeks](content_en/ch07/code/README.md)
+#### Chapter 7 - [One Node Drawn Wrong Cost Me Three Weeks](content_en/ch07/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -112,38 +112,38 @@ Chapter titles link to that chapter's English summary page. The example code its
 | RDF 1.2 Concepts | [Standard] | [w3.org/TR/rdf12-concepts](https://www.w3.org/TR/rdf12-concepts/) |
 | Cypher: patterns | [De facto] | [neo4j.com/docs/cypher-manual/current/patterns](https://neo4j.com/docs/cypher-manual/current/patterns/) |
 | reification | [Standard] | [w3.org/TR/rdf12-schema](https://www.w3.org/TR/rdf12-schema/) |
-| bipartite graph | [De facto] | [networkx.org/…/bipartite.html](https://networkx.org/documentation/stable/reference/algorithms/bipartite.html) |
-| multigraph, self-loop | [De facto] | [networkx.org/…/multigraph.html](https://networkx.org/documentation/stable/reference/classes/multigraph.html) |
+| bipartite graph | [De facto] | [networkx.org/.../bipartite.html](https://networkx.org/documentation/stable/reference/algorithms/bipartite.html) |
+| multigraph, self-loop | [De facto] | [networkx.org/.../multigraph.html](https://networkx.org/documentation/stable/reference/classes/multigraph.html) |
 
-#### Chapter 8 — [What a Graph Actually Looks Like in Memory](content_en/ch08/code/README.md)
+#### Chapter 8 - [What a Graph Actually Looks Like in Memory](content_en/ch08/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
-| CSR, Compressed Sparse Row | [De facto] | [docs.scipy.org/…/scipy.sparse.csr_matrix.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_matrix.html) |
-| index-free adjacency | [De facto] | [neo4j.com/…/graphdb-concepts](https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/) |
-| adjacency matrix / list | [De facto] | [networkx.org/…/convert.html](https://networkx.org/documentation/stable/reference/convert.html) |
-| super node | [De facto] | [neo4j.com/…/planning-and-tuning](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/) |
+| CSR, Compressed Sparse Row | [De facto] | [docs.scipy.org/.../scipy.sparse.csr_matrix.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_matrix.html) |
+| index-free adjacency | [De facto] | [neo4j.com/.../graphdb-concepts](https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/) |
+| adjacency matrix / list | [De facto] | [networkx.org/.../convert.html](https://networkx.org/documentation/stable/reference/convert.html) |
+| super node | [De facto] | [neo4j.com/.../planning-and-tuning](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/) |
 | graph reordering | [Experimental] | [arxiv.org/abs/1602.08820](https://arxiv.org/abs/1602.08820) |
 | locality of reference | [De facto] | [kernel.org/doc/html/latest/admin-guide/mm/index.html](https://www.kernel.org/doc/html/latest/admin-guide/mm/index.html) |
 
-#### Chapter 9 — [Counting Degrees of Separation Killed the Server](content_en/ch09/code/README.md)
+#### Chapter 9 - [Counting Degrees of Separation Killed the Server](content_en/ch09/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
-| BFS | [De facto] | [networkx.org/…/traversal.html](https://networkx.org/documentation/stable/reference/algorithms/traversal.html) |
-| bidirectional search | [De facto] | [networkx.org/…/networkx.algorithms.shortest_paths.unweighted.bid](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.unweighted.bidirectional_shortest_path.html) |
+| BFS | [De facto] | [networkx.org/.../traversal.html](https://networkx.org/documentation/stable/reference/algorithms/traversal.html) |
+| bidirectional search | [De facto] | [networkx.org/.../networkx.algorithms.shortest_paths.unweighted.b](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.unweighted.bidirectional_shortest_path.html) |
 | Dijkstra's algorithm | [Standard] | [link.springer.com/article/10.1007/BF01386390](https://link.springer.com/article/10.1007/BF01386390) |
-| Bellman-Ford | [De facto] | [networkx.org/…/networkx.algorithms.shortest_paths.weighted.bellm](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.bellman_ford_path.html) |
+| Bellman-Ford | [De facto] | [networkx.org/.../networkx.algorithms.shortest_paths.weighted.bel](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.bellman_ford_path.html) |
 | A* | [De facto] | [ieeexplore.ieee.org/document/4082128](https://ieeexplore.ieee.org/document/4082128) |
 | topological sort | [Standard] | [dl.acm.org/doi/10.1145/368996.369025](https://dl.acm.org/doi/10.1145/368996.369025) |
-| Cypher variable-length patterns | [De facto] | [neo4j.com/…/variable-length-patterns](https://neo4j.com/docs/cypher-manual/current/patterns/variable-length-patterns/) |
+| Cypher variable-length patterns | [De facto] | [neo4j.com/.../variable-length-patterns](https://neo4j.com/docs/cypher-manual/current/patterns/variable-length-patterns/) |
 
-#### Chapter 10 — [Which Node Actually Matters](content_en/ch10/code/README.md)
+#### Chapter 10 - [Which Node Actually Matters](content_en/ch10/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
-| centrality measures | [De facto] | [networkx.org/…/centrality.html](https://networkx.org/documentation/stable/reference/algorithms/centrality.html) |
-| Brandes' algorithm | [De facto] | [tandfonline.com/…/0022250X.2001.9990249](https://www.tandfonline.com/doi/abs/10.1080/0022250X.2001.9990249) |
+| centrality measures | [De facto] | [networkx.org/.../centrality.html](https://networkx.org/documentation/stable/reference/algorithms/centrality.html) |
+| Brandes' algorithm | [De facto] | [tandfonline.com/.../0022250X.2001.9990249](https://www.tandfonline.com/doi/abs/10.1080/0022250X.2001.9990249) |
 | PageRank | [De facto] | [ilpubs.stanford.edu:8090/422](http://ilpubs.stanford.edu:8090/422/) |
 | modularity | [De facto] | [arxiv.org/abs/cond-mat/0308217](https://arxiv.org/abs/cond-mat/0308217) |
 | Louvain method | [De facto] | [arxiv.org/abs/0803.0476](https://arxiv.org/abs/0803.0476) |
@@ -151,7 +151,7 @@ Chapter titles link to that chapter's English summary page. The example code its
 | resolution limit | [De facto] | [pnas.org/doi/10.1073/pnas.0605965104](https://www.pnas.org/doi/10.1073/pnas.0605965104) |
 | label propagation | [De facto] | [arxiv.org/abs/0709.2938](https://arxiv.org/abs/0709.2938) |
 
-#### Chapter 11 — [One Question, Three Languages](content_en/ch11/code/README.md)
+#### Chapter 11 - [One Question, Three Languages](content_en/ch11/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -163,9 +163,9 @@ Chapter titles link to that chapter's English summary page. The example code its
 | Apache TinkerPop | [De facto] | [tinkerpop.apache.org/docs/current/reference](https://tinkerpop.apache.org/docs/current/reference/) |
 | GQL Standards | [De facto] | [gqlstandards.org](https://www.gqlstandards.org/) |
 
-### Part 3 — Knowledge Graph Engineering (Track 1)
+### Part 3 - Knowledge Graph Engineering (Track 1)
 
-#### Chapter 12 — [How I Tore Down an Ontology in Three Weeks](content_en/ch12/code/README.md)
+#### Chapter 12 - [How I Tore Down an Ontology in Three Weeks](content_en/ch12/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -174,10 +174,10 @@ Chapter titles link to that chapter's English summary page. The example code its
 | RDF Schema 1.1 | [Standard] | [w3.org/TR/rdf11-schema](https://www.w3.org/TR/rdf11-schema/) |
 | schema.org | [De facto] | [schema.org/docs/schemas.html](https://schema.org/docs/schemas.html) |
 | SKOS | [Standard] | [w3.org/TR/skos-reference](https://www.w3.org/TR/skos-reference/) |
-| competency question | [De facto] | [protege.stanford.edu/…/ontology101.pdf](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
+| competency question | [De facto] | [protege.stanford.edu/.../ontology101.pdf](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
 | ISO/IEC 39075:2024 GQL | [Standard] | [iso.org/standard/76120.html](https://www.iso.org/standard/76120.html) |
 
-#### Chapter 13 — [An Unvalidated Graph Is Just a Pile of Links](content_en/ch13/code/README.md)
+#### Chapter 13 - [An Unvalidated Graph Is Just a Pile of Links](content_en/ch13/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -187,21 +187,21 @@ Chapter titles link to that chapter's English summary page. The example code its
 | OWL 2 Profiles | [Standard] | [w3.org/TR/owl2-profiles](https://www.w3.org/TR/owl2-profiles/) |
 | ISO/IEC 25012 | [Standard] | [iso.org/standard/35736.html](https://www.iso.org/standard/35736.html) |
 | graph smell | [Experimental] | [w3.org/TR/shacl](https://www.w3.org/TR/shacl/) |
-| competency question regression | [Experimental] | [protege.stanford.edu/…/ontology101.pdf](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
+| competency question regression | [Experimental] | [protege.stanford.edu/.../ontology101.pdf](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
 
-#### Chapter 14 — [The Same Person, Sitting There as Four Nodes](content_en/ch14/code/README.md)
+#### Chapter 14 - [The Same Person, Sitting There as Four Nodes](content_en/ch14/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | entity resolution | [De facto] | [vldb.org/pvldb/vol11/p1454-mudgal.pdf](https://www.vldb.org/pvldb/vol11/p1454-mudgal.pdf) |
 | blocking | [De facto] | [dl.acm.org/doi/10.1145/3355491.3355496](https://dl.acm.org/doi/10.1145/3355491.3355496) |
-| Fellegi-Sunter model | [De facto] | [tandfonline.com/…/01621459.1969.10501049](https://www.tandfonline.com/doi/abs/10.1080/01621459.1969.10501049) |
+| Fellegi-Sunter model | [De facto] | [tandfonline.com/.../01621459.1969.10501049](https://www.tandfonline.com/doi/abs/10.1080/01621459.1969.10501049) |
 | owl:sameAs | [Standard] | [w3.org/TR/owl2-syntax/#Individual_Equality](https://www.w3.org/TR/owl2-syntax/#Individual_Equality) |
 | skos:closeMatch | [Standard] | [w3.org/TR/skos-reference/#mapping](https://www.w3.org/TR/skos-reference/#mapping) |
 | survivorship rules | [Experimental] | [iso.org/standard/35736.html](https://www.iso.org/standard/35736.html) |
 | PROV-O | [Standard] | [w3.org/TR/prov-o](https://www.w3.org/TR/prov-o/) |
 
-#### Chapter 15 — [I Pulled Triples from 10,000 Documents and Half Were False](content_en/ch15/code/README.md)
+#### Chapter 15 - [I Pulled Triples from 10,000 Documents and Half Were False](content_en/ch15/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -210,10 +210,10 @@ Chapter titles link to that chapter's English summary page. The example code its
 | self-consistency | [De facto] | [arxiv.org/abs/2203.11171](https://arxiv.org/abs/2203.11171) |
 | PROV-O | [Standard] | [w3.org/TR/prov-o](https://www.w3.org/TR/prov-o/) |
 | precision, recall | [Standard] | [iso.org/standard/35736.html](https://www.iso.org/standard/35736.html) |
-| structured output | [De facto] | [docs.claude.com/…/overview](https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview) |
+| structured output | [De facto] | [docs.claude.com/.../overview](https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview) |
 | Microsoft GraphRAG indexing | [De facto] | [github.com/microsoft/graphrag](https://github.com/microsoft/graphrag) |
 
-#### Chapter 16 — [True Yesterday, Wrong Today](content_en/ch16/code/README.md)
+#### Chapter 16 - [True Yesterday, Wrong Today](content_en/ch16/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -223,9 +223,9 @@ Chapter titles link to that chapter's English summary page. The example code its
 | Graphiti / Zep | [Experimental] | [github.com/getzep/graphiti](https://github.com/getzep/graphiti) |
 | ISO 8601 | [Standard] | [iso.org/iso-8601-date-and-time-format.html](https://www.iso.org/iso-8601-date-and-time-format.html) |
 | OWL-Time | [Standard] | [w3.org/TR/owl-time](https://www.w3.org/TR/owl-time/) |
-| slowly changing dimension | [De facto] | [kimballgroup.com/…/dimensional-modeling-techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) |
+| slowly changing dimension | [De facto] | [kimballgroup.com/.../dimensional-modeling-techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) |
 
-#### Chapter 17 — [Questions Vectors Alone Can't Answer](content_en/ch17/code/README.md)
+#### Chapter 17 - [Questions Vectors Alone Can't Answer](content_en/ch17/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -237,9 +237,9 @@ Chapter titles link to that chapter's English summary page. The example code its
 | RAG | [De facto] | [arxiv.org/abs/2005.11401](https://arxiv.org/abs/2005.11401) |
 | hybrid search | [De facto] | [elastic.co/what-is/hybrid-search](https://www.elastic.co/what-is/hybrid-search) |
 
-### Part 4 — Agent Graph Engineering (Track 2)
+### Part 4 - Agent Graph Engineering (Track 2)
 
-#### Chapter 18 — [Where Does a Chain Break](content_en/ch18/code/README.md)
+#### Chapter 18 - [Where Does a Chain Break](content_en/ch18/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -251,7 +251,7 @@ Chapter titles link to that chapter's English summary page. The example code its
 | durable execution | [De facto] | [docs.temporal.io/temporal](https://docs.temporal.io/temporal) |
 | ReAct | [De facto] | [arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629) |
 
-#### Chapter 19 — [State Graphs, Reducers, and Supersteps](content_en/ch19/code/README.md)
+#### Chapter 19 - [State Graphs, Reducers, and Supersteps](content_en/ch19/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -263,86 +263,86 @@ Chapter titles link to that chapter's English summary page. The example code its
 | persistence | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | lost update | [Standard] | [iso.org/standard/76583.html](https://www.iso.org/standard/76583.html) |
 
-#### Chapter 20 — [How to End a Loop That Won't End](content_en/ch20/code/README.md)
+#### Chapter 20 - [How to End a Loop That Won't End](content_en/ch20/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | termination condition | [De facto] | [docs.langchain.com/oss/python/langgraph/graph-api](https://docs.langchain.com/oss/python/langgraph/graph-api) |
 | recursion limit | [De facto] | [docs.langchain.com/oss/python/langgraph/graph-api](https://docs.langchain.com/oss/python/langgraph/graph-api) |
 | evaluator-optimizer | [De facto] | [anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents) |
-| usage tracking | [De facto] | [docs.claude.com/…/token-counting](https://docs.claude.com/en/docs/build-with-claude/token-counting) |
+| usage tracking | [De facto] | [docs.claude.com/.../token-counting](https://docs.claude.com/en/docs/build-with-claude/token-counting) |
 | early stopping | [De facto] | [deeplearningbook.org/contents/regularization.html](https://www.deeplearningbook.org/contents/regularization.html) |
 | circuit breaker | [De facto] | [martinfowler.com/bliki/CircuitBreaker.html](https://martinfowler.com/bliki/CircuitBreaker.html) |
 | rate limiting | [De facto] | [datatracker.ietf.org/doc/html/rfc6585](https://datatracker.ietf.org/doc/html/rfc6585) |
 
-#### Chapter 21 — [The Process Dies, the Work Must Not](content_en/ch21/code/README.md)
+#### Chapter 21 - [The Process Dies, the Work Must Not](content_en/ch21/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | checkpointer | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | durable execution | [De facto] | [docs.temporal.io/evaluate/understanding-temporal](https://docs.temporal.io/evaluate/understanding-temporal) |
 | idempotency | [Standard] | [datatracker.ietf.org/doc/html/rfc9110#section-9.2.2](https://datatracker.ietf.org/doc/html/rfc9110#section-9.2.2) |
-| idempotency key | [De facto] | [datatracker.ietf.org/…/draft-ietf-httpapi-idempotency-key-header](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header) |
+| idempotency key | [De facto] | [datatracker.ietf.org/.../draft-ietf-httpapi-idempotency-key-head](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header) |
 | exactly-once | [De facto] | [kafka.apache.org/documentation/#semantics](https://kafka.apache.org/documentation/#semantics) |
 | thread id | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | write-ahead log | [De facto] | [sqlite.org/wal.html](https://www.sqlite.org/wal.html) |
 
-#### Chapter 22 — [How to Pay Back What You Can't Undo](content_en/ch22/code/README.md)
+#### Chapter 22 - [How to Pay Back What You Can't Undo](content_en/ch22/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
-| exponential backoff | [De facto] | [aws.amazon.com/…/timeouts-retries-and-backoff-with-jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) |
-| jitter | [De facto] | [aws.amazon.com/…/timeouts-retries-and-backoff-with-jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) |
+| exponential backoff | [De facto] | [aws.amazon.com/.../timeouts-retries-and-backoff-with-jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) |
+| jitter | [De facto] | [aws.amazon.com/.../timeouts-retries-and-backoff-with-jitter](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/) |
 | retry storm | [De facto] | [sre.google/sre-book/handling-overload](https://sre.google/sre-book/handling-overload/) |
 | circuit breaker | [De facto] | [martinfowler.com/bliki/CircuitBreaker.html](https://martinfowler.com/bliki/CircuitBreaker.html) |
 | saga | [De facto] | [cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf](https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf) |
-| compensating transaction | [De facto] | [learn.microsoft.com/…/compensating-transaction](https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction) |
-| dead letter queue | [De facto] | [docs.aws.amazon.com/…/sqs-dead-letter-queues.html](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html) |
-| Retry-After | [Standard] | [datatracker.ietf.org/…/rfc9110#field.retry-after](https://datatracker.ietf.org/doc/html/rfc9110#field.retry-after) |
+| compensating transaction | [De facto] | [learn.microsoft.com/.../compensating-transaction](https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction) |
+| dead letter queue | [De facto] | [docs.aws.amazon.com/.../sqs-dead-letter-queues.html](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html) |
+| Retry-After | [Standard] | [datatracker.ietf.org/.../rfc9110#field.retry-after](https://datatracker.ietf.org/doc/html/rfc9110#field.retry-after) |
 
-#### Chapter 23 — [Where the Human Steps In](content_en/ch23/code/README.md)
+#### Chapter 23 - [Where the Human Steps In](content_en/ch23/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | human in the loop | [De facto] | [docs.langchain.com/oss/python/langgraph/interrupts](https://docs.langchain.com/oss/python/langgraph/interrupts) |
 | interrupt | [De facto] | [docs.langchain.com/oss/python/langgraph/interrupts](https://docs.langchain.com/oss/python/langgraph/interrupts) |
 | Command(resume) | [De facto] | [docs.langchain.com/oss/python/langgraph/interrupts](https://docs.langchain.com/oss/python/langgraph/interrupts) |
-| approval gate | [De facto] | [learn.microsoft.com/…/gatekeeper](https://learn.microsoft.com/en-us/azure/architecture/patterns/gatekeeper) |
+| approval gate | [De facto] | [learn.microsoft.com/.../gatekeeper](https://learn.microsoft.com/en-us/azure/architecture/patterns/gatekeeper) |
 | escalation | [De facto] | [sre.google/workbook/incident-response](https://sre.google/workbook/incident-response/) |
 | audit trail | [Standard] | [w3.org/TR/prov-o](https://www.w3.org/TR/prov-o/) |
 | four-eyes principle | [De facto] | [bis.org/publ/bcbs230.pdf](https://www.bis.org/publ/bcbs230.pdf) |
 
-#### Chapter 24 — [Your Context Is Full](content_en/ch24/code/README.md)
+#### Chapter 24 - [Your Context Is Full](content_en/ch24/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
-| context window | [De facto] | [docs.claude.com/…/context-windows](https://docs.claude.com/en/docs/build-with-claude/context-windows) |
-| context engineering | [Experimental] | [anthropic.com/…/effective-context-engineering-for-ai-agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
-| compaction | [Experimental] | [anthropic.com/…/effective-context-engineering-for-ai-agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
+| context window | [De facto] | [docs.claude.com/.../context-windows](https://docs.claude.com/en/docs/build-with-claude/context-windows) |
+| context engineering | [Experimental] | [anthropic.com/.../effective-context-engineering-for-ai-agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
+| compaction | [Experimental] | [anthropic.com/.../effective-context-engineering-for-ai-agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
 | offloading | [Experimental] | [docs.langchain.com/oss/python/langgraph/memory](https://docs.langchain.com/oss/python/langgraph/memory) |
-| prompt caching | [De facto] | [docs.claude.com/…/prompt-caching](https://docs.claude.com/en/docs/build-with-claude/prompt-caching) |
+| prompt caching | [De facto] | [docs.claude.com/.../prompt-caching](https://docs.claude.com/en/docs/build-with-claude/prompt-caching) |
 | long-term memory store | [De facto] | [docs.langchain.com/oss/python/langgraph/memory](https://docs.langchain.com/oss/python/langgraph/memory) |
-| token counting | [De facto] | [docs.claude.com/…/token-counting](https://docs.claude.com/en/docs/build-with-claude/token-counting) |
+| token counting | [De facto] | [docs.claude.com/.../token-counting](https://docs.claude.com/en/docs/build-with-claude/token-counting) |
 
-#### Chapter 25 — [Six Topologies, and the Sockets You Plug Tools Into](content_en/ch25/code/README.md)
+#### Chapter 25 - [Six Topologies, and the Sockets You Plug Tools Into](content_en/ch25/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | orchestrator-workers | [De facto] | [anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents) |
-| fan-out/fan-in | [De facto] | [learn.microsoft.com/…/durable-functions-cloud-backup](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-cloud-backup) |
+| fan-out/fan-in | [De facto] | [learn.microsoft.com/.../durable-functions-cloud-backup](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-cloud-backup) |
 | routing | [De facto] | [anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents) |
 | evaluator-optimizer | [De facto] | [anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents) |
 | tail latency | [De facto] | [research.google/pubs/the-tail-at-scale](https://research.google/pubs/the-tail-at-scale/) |
 | Model Context Protocol | [De facto] | [modelcontextprotocol.io/specification/2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) |
-| tool schema | [De facto] | [modelcontextprotocol.io/…/tools](https://modelcontextprotocol.io/specification/2025-06-18/server/tools) |
+| tool schema | [De facto] | [modelcontextprotocol.io/.../tools](https://modelcontextprotocol.io/specification/2025-06-18/server/tools) |
 | Send | [De facto] | [docs.langchain.com/oss/python/langgraph/graph-api](https://docs.langchain.com/oss/python/langgraph/graph-api) |
 
-#### Chapter 26 — [What Will You Forbid](content_en/ch26/code/README.md)
+#### Chapter 26 - [What Will You Forbid](content_en/ch26/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | least privilege | [De facto] | [csrc.nist.gov/glossary/term/least_privilege](https://csrc.nist.gov/glossary/term/least_privilege) |
-| allowlist | [De facto] | [cheatsheetseries.owasp.org/…/Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) |
+| allowlist | [De facto] | [cheatsheetseries.owasp.org/.../Input_Validation_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) |
 | prompt injection | [De facto] | [genai.owasp.org/llmrisk/llm01-prompt-injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) |
 | indirect prompt injection | [De facto] | [genai.owasp.org/llmrisk/llm01-prompt-injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) |
 | blast radius | [De facto] | [sre.google/sre-book/addressing-cascading-failures](https://sre.google/sre-book/addressing-cascading-failures/) |
@@ -350,21 +350,21 @@ Chapter titles link to that chapter's English summary page. The example code its
 | sandbox | [De facto] | [gvisor.dev/docs](https://gvisor.dev/docs/) |
 | audit log | [Standard] | [csrc.nist.gov/pubs/sp/800/53/r5/upd1/final](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-### Part 5 — Where the Two Graphs Meet
+### Part 5 - Where the Two Graphs Meet
 
-#### Chapter 27 — [The Cheapest Way to Give an Agent Memory](content_en/ch27/code/README.md)
+#### Chapter 27 - [The Cheapest Way to Give an Agent Memory](content_en/ch27/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | long-term memory | [De facto] | [docs.langchain.com/oss/python/langgraph/memory](https://docs.langchain.com/oss/python/langgraph/memory) |
 | episodic memory | [Experimental] | [arxiv.org/abs/2404.13501](https://arxiv.org/abs/2404.13501) |
 | temporal knowledge graph | [Experimental] | [arxiv.org/abs/2501.13956](https://arxiv.org/abs/2501.13956) |
-| hybrid retrieval | [De facto] | [neo4j.com/…/vector-indexes](https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/) |
+| hybrid retrieval | [De facto] | [neo4j.com/.../vector-indexes](https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/) |
 | decay policy | [Experimental] | [arxiv.org/abs/2310.08560](https://arxiv.org/abs/2310.08560) |
 | entity resolution | [De facto] | [w3.org/TR/owl2-syntax/#Individual_Equality](https://www.w3.org/TR/owl2-syntax/#Individual_Equality) |
 | valid time | [Standard] | [iso.org/standard/76583.html](https://www.iso.org/standard/76583.html) |
 
-#### Chapter 28 — [When the Agent Grows the Graph by Itself](content_en/ch28/code/README.md)
+#### Chapter 28 - [When the Agent Grows the Graph by Itself](content_en/ch28/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -376,7 +376,7 @@ Chapter titles link to that chapter's English summary page. The example code its
 | self-training bias | [Experimental] | [arxiv.org/abs/2305.17493](https://arxiv.org/abs/2305.17493) |
 | SHACL validation | [Standard] | [w3.org/TR/shacl](https://www.w3.org/TR/shacl/) |
 
-#### Chapter 29 — [One Backbone](content_en/ch29/code/README.md)
+#### Chapter 29 - [One Backbone](content_en/ch29/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -385,12 +385,12 @@ Chapter titles link to that chapter's English summary page. The example code its
 | read timestamp | [De facto] | [postgresql.org/docs/current/transaction-iso.html](https://www.postgresql.org/docs/current/transaction-iso.html) |
 | polyglot persistence | [De facto] | [martinfowler.com/bliki/PolyglotPersistence.html](https://martinfowler.com/bliki/PolyglotPersistence.html) |
 | bounded context | [De facto] | [martinfowler.com/bliki/BoundedContext.html](https://martinfowler.com/bliki/BoundedContext.html) |
-| fitness function | [De facto] | [thoughtworks.com/…/fitness-function-driven-development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) |
+| fitness function | [De facto] | [thoughtworks.com/.../fitness-function-driven-development](https://www.thoughtworks.com/insights/articles/fitness-function-driven-development) |
 | write path separation | [De facto] | [neo4j.com/docs/operations-manual/current/performance](https://neo4j.com/docs/operations-manual/current/performance/) |
 
-### Part 6 — The Backbone: State Management Engine
+### Part 6 - The Backbone: State Management Engine
 
-#### Chapter 30 — [Nobody Knows What Changed, or When](content_en/ch30/code/README.md)
+#### Chapter 30 - [Nobody Knows What Changed, or When](content_en/ch30/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -403,60 +403,60 @@ Chapter titles link to that chapter's English summary page. The example code its
 | hash chain | [Standard] | [datatracker.ietf.org/doc/html/rfc6962](https://datatracker.ietf.org/doc/html/rfc6962) |
 | audit trail | [Standard] | [csrc.nist.gov/pubs/sp/800/53/r5/upd1/final](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-#### Chapter 31 — [Two Agents Edited the Same Node at Once](content_en/ch31/code/README.md)
+#### Chapter 31 - [Two Agents Edited the Same Node at Once](content_en/ch31/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | lost update | [Standard] | [postgresql.org/docs/current/transaction-iso.html](https://www.postgresql.org/docs/current/transaction-iso.html) |
-| optimistic locking | [De facto] | [martinfowler.com/…/optimisticOfflineLock.html](https://martinfowler.com/eaaCatalog/optimisticOfflineLock.html) |
-| pessimistic locking | [De facto] | [martinfowler.com/…/pessimisticOfflineLock.html](https://martinfowler.com/eaaCatalog/pessimisticOfflineLock.html) |
-| compare-and-swap | [Standard] | [en.cppreference.com/…/compare_exchange](https://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange) |
-| serializable | [Standard] | [postgresql.org/…/transaction-iso.html#XACT-SERIALIZABLE](https://www.postgresql.org/docs/current/transaction-iso.html#XACT-SERIALIZABLE) |
+| optimistic locking | [De facto] | [martinfowler.com/.../optimisticOfflineLock.html](https://martinfowler.com/eaaCatalog/optimisticOfflineLock.html) |
+| pessimistic locking | [De facto] | [martinfowler.com/.../pessimisticOfflineLock.html](https://martinfowler.com/eaaCatalog/pessimisticOfflineLock.html) |
+| compare-and-swap | [Standard] | [en.cppreference.com/.../compare_exchange](https://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange) |
+| serializable | [Standard] | [postgresql.org/.../transaction-iso.html#XACT-SERIALIZABLE](https://www.postgresql.org/docs/current/transaction-iso.html#XACT-SERIALIZABLE) |
 | CRDT | [Experimental] | [inria.hal.science/inria-00555588](https://inria.hal.science/inria-00555588) |
-| deadlock | [Standard] | [postgresql.org/…/explicit-locking.html#LOCKING-DEADLOCKS](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) |
+| deadlock | [Standard] | [postgresql.org/.../explicit-locking.html#LOCKING-DEADLOCKS](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) |
 | write skew | [Standard] | [postgresql.org/docs/current/transaction-iso.html](https://www.postgresql.org/docs/current/transaction-iso.html) |
 
-#### Chapter 32 — [The Day You Change the Schema](content_en/ch32/code/README.md)
+#### Chapter 32 - [The Day You Change the Schema](content_en/ch32/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | expand and contract | [De facto] | [martinfowler.com/bliki/ParallelChange.html](https://martinfowler.com/bliki/ParallelChange.html) |
 | zero-downtime deployment | [De facto] | [martinfowler.com/bliki/BlueGreenDeployment.html](https://martinfowler.com/bliki/BlueGreenDeployment.html) |
 | dual write | [De facto] | [martinfowler.com/bliki/ParallelChange.html](https://martinfowler.com/bliki/ParallelChange.html) |
-| backfill | [De facto] | [cloud.google.com/…/database-migration-concepts-principles-part-1](https://cloud.google.com/architecture/database-migration-concepts-principles-part-1) |
-| schema evolution | [De facto] | [avro.apache.org/…/#schema-resolution](https://avro.apache.org/docs/current/specification/#schema-resolution) |
+| backfill | [De facto] | [cloud.google.com/.../database-migration-concepts-principles-part](https://cloud.google.com/architecture/database-migration-concepts-principles-part-1) |
+| schema evolution | [De facto] | [avro.apache.org/.../#schema-resolution](https://avro.apache.org/docs/current/specification/#schema-resolution) |
 | SHACL | [Standard] | [w3.org/TR/shacl](https://www.w3.org/TR/shacl/) |
 | backward compatibility | [De facto] | [protobuf.dev/programming-guides/proto3/#updating](https://protobuf.dev/programming-guides/proto3/#updating) |
 
-### Part 7 — Operations
+### Part 7 - Operations
 
-#### Chapter 33 — [Read the Query Plan and You See the Bill](content_en/ch33/code/README.md)
+#### Chapter 33 - [Read the Query Plan and You See the Bill](content_en/ch33/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
-| query plan | [De facto] | [neo4j.com/…/execution-plans](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/execution-plans/) |
-| EXPLAIN | [De facto] | [neo4j.com/…/planning-and-tuning](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/) |
-| cartesian product | [Standard] | [postgresql.org/…/queries-table-expressions.html](https://www.postgresql.org/docs/current/queries-table-expressions.html) |
+| query plan | [De facto] | [neo4j.com/.../execution-plans](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/execution-plans/) |
+| EXPLAIN | [De facto] | [neo4j.com/.../planning-and-tuning](https://neo4j.com/docs/cypher-manual/current/planning-and-tuning/) |
+| cartesian product | [Standard] | [postgresql.org/.../queries-table-expressions.html](https://www.postgresql.org/docs/current/queries-table-expressions.html) |
 | index | [De facto] | [neo4j.com/docs/cypher-manual/current/indexes](https://neo4j.com/docs/cypher-manual/current/indexes/) |
 | slow query log | [De facto] | [dev.mysql.com/doc/refman/8.0/en/slow-query-log.html](https://dev.mysql.com/doc/refman/8.0/en/slow-query-log.html) |
 | Amdahl's law | [Standard] | [dl.acm.org/doi/10.1145/1465482.1465560](https://dl.acm.org/doi/10.1145/1465482.1465560) |
-| bulk load | [De facto] | [neo4j.com/…/neo4j-admin-import](https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/neo4j-admin-import/) |
+| bulk load | [De facto] | [neo4j.com/.../neo4j-admin-import](https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/neo4j-admin-import/) |
 
-#### Chapter 34 — [What It Means to Erase Personal Data from a Graph](content_en/ch34/code/README.md)
+#### Chapter 34 - [What It Means to Erase Personal Data from a Graph](content_en/ch34/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
 | right to erasure | [Standard] | [gdpr-info.eu/art-17-gdpr](https://gdpr-info.eu/art-17-gdpr/) |
 | pseudonymisation | [Standard] | [gdpr-info.eu/art-4-gdpr](https://gdpr-info.eu/art-4-gdpr/) |
-| re-identification | [De facto] | [nist.gov/…/de-identification-personal-information](https://www.nist.gov/publications/de-identification-personal-information) |
-| k-anonymity | [De facto] | [dataprivacylab.org/…/kanonymity.pdf](https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.pdf) |
-| differential privacy | [De facto] | [microsoft.com/…/differential-privacy](https://www.microsoft.com/en-us/research/publication/differential-privacy/) |
+| re-identification | [De facto] | [nist.gov/.../de-identification-personal-information](https://www.nist.gov/publications/de-identification-personal-information) |
+| k-anonymity | [De facto] | [dataprivacylab.org/.../kanonymity.pdf](https://dataprivacylab.org/dataprivacy/projects/kanonymity/kanonymity.pdf) |
+| differential privacy | [De facto] | [microsoft.com/.../differential-privacy](https://www.microsoft.com/en-us/research/publication/differential-privacy/) |
 | data minimisation | [Standard] | [gdpr-info.eu/art-5-gdpr](https://gdpr-info.eu/art-5-gdpr/) |
 | retention period | [Standard] | [csrc.nist.gov/pubs/sp/800/53/r5/upd1/final](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-### Part 8 — What Comes Next
+### Part 8 - What Comes Next
 
-#### Chapter 35 — [Five Claims Most Likely to Be Wrong in Three Years](content_en/ch35/code/README.md)
+#### Chapter 35 - [Five Claims Most Likely to Be Wrong in Three Years](content_en/ch35/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -514,6 +514,6 @@ Chapter titles link to that chapter's English summary page. The example code its
 
 ---
 
-Found a dead link, or think a status label is wrong? [Open a label objection](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) — English is fine. [Experimental] becoming [De facto], and [De facto] becoming [Standard], is going to happen. Missing those moves is the most common way this book goes stale.
+Found a dead link, or think a status label is wrong? [Open a label objection](https://github.com/leaf-kit/book-graph-engineering/issues/new?template=03-status-label.yml) - English is fine. [Experimental] becoming [De facto], and [De facto] becoming [Standard], is going to happen. Missing those moves is the most common way this book goes stale.
 
 [Table of contents](README.en.md)

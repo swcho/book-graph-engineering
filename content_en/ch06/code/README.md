@@ -1,6 +1,6 @@
-# Chapter 6 — It Took Ten Years to Get Back What We Dissolved into Vectors
+# Chapter 6 - It Took Ten Years to Get Back What We Dissolved into Vectors
 
-`Part 1 — Roots: Where the Graph Was All Along` | **English** | [한국어](../../../content/ch06/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+`Part 1 - Roots: Where the Graph Was All Along` | **English** | [한국어](../../../content/ch06/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
 
 > A recommendation model had been running fine for months when legal got in touch. "Can you explain to this user why you recommended this product?"
 
@@ -28,7 +28,7 @@ This chapter is about that melting and that recovery. The side that pressed grap
 | Graph Neural Networks: A Review | [De facto] | [arxiv.org/abs/1812.08434](https://arxiv.org/abs/1812.08434) |
 | Neural Message Passing | [De facto] | [arxiv.org/abs/1704.01212](https://arxiv.org/abs/1704.01212) |
 | GCN | [De facto] | [arxiv.org/abs/1609.02907](https://arxiv.org/abs/1609.02907) |
-| TransE | [De facto] | [papers.nips.cc/…/5071-translating-embeddings-for-modeling-multi-](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data) |
+| TransE | [De facto] | [papers.nips.cc/.../5071-translating-embeddings-for-modeling-mult](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data) |
 | RAG | [De facto] | [arxiv.org/abs/2005.11401](https://arxiv.org/abs/2005.11401) |
 | Microsoft GraphRAG | [De facto] | [github.com/microsoft/graphrag](https://github.com/microsoft/graphrag) |
 | LightRAG | [Experimental] | [arxiv.org/abs/2410.05779](https://arxiv.org/abs/2410.05779) |
@@ -40,7 +40,49 @@ This chapter is about that melting and that recovery. The side that pressed grap
 
 The example code is not duplicated per language. It lives once, in [`content/ch06/code/`](../../../content/ch06/code). Comments and printed output are Korean; the commands below are not.
 
-<!-- 실행 가이드 시작 — 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
+
+`Part 1 - Roots: Where the Graph Was All Along` | **English** | [한국어](../../../content/ch06/code/README.md) | [Contents](../../../README.en.md) | [Sources](../../../SOURCES.en.md)
+
+> A recommendation model had been running fine for months when legal got in touch. "Can you explain to this user why you recommended this product?"
+
+This chapter is about that melting and that recovery. The side that pressed graphs into vectors (embeddings and graph neural networks), the side that pressed documents into vectors (RAG), and the side that hit a wall in both and pulled the graph back out (the GraphRAG family).
+
+## Sections
+
+| # | Title |
+|---|---|
+| 6.1 | How structure gets melted into values |
+| 6.2 | The wall you hit when you press documents into vectors |
+| 6.3 | So we pulled the graph back out |
+
+## The chapter in one page
+
+- A graph neural network bundles neighbor values and mixes them into its own. Each layer melts more structure into the value, and in exchange it gets harder to trace back. The convention of stopping at two or three layers has a reason, and the reason is over-smoothing.
+- Chunk retrieval works when the answer sits inside one chunk. Global questions like "how many are there in total" hit a wall, and adding more chunks does not knock that wall down.
+- The fix is to move when you count. Build the graph at index time and fold a summary into each cluster, and at query time you only have to unfold. In exchange, indexing is expensive and updating is hard.
+- And to be honest: on plain fact lookup, the version with a graph attached does slightly worse. If global questions are under 5% of your traffic, not attaching one is the right call.
+
+## Keywords and primary sources
+
+| Term | Status | Source |
+|---|---|---|
+| Graph Neural Networks: A Review | [De facto] | [arxiv.org/abs/1812.08434](https://arxiv.org/abs/1812.08434) |
+| Neural Message Passing | [De facto] | [arxiv.org/abs/1704.01212](https://arxiv.org/abs/1704.01212) |
+| GCN | [De facto] | [arxiv.org/abs/1609.02907](https://arxiv.org/abs/1609.02907) |
+| TransE | [De facto] | [papers.nips.cc/.../5071-translating-embeddings-for-modeling-multi-](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data) |
+| RAG | [De facto] | [arxiv.org/abs/2005.11401](https://arxiv.org/abs/2005.11401) |
+| Microsoft GraphRAG | [De facto] | [github.com/microsoft/graphrag](https://github.com/microsoft/graphrag) |
+| LightRAG | [Experimental] | [arxiv.org/abs/2410.05779](https://arxiv.org/abs/2410.05779) |
+| HippoRAG | [Experimental] | [arxiv.org/abs/2405.14831](https://arxiv.org/abs/2405.14831) |
+
+**[Standard]** an official specification exists, **[De facto]** no specification but the industry uses it widely, **[Experimental]** still finding its footing.
+
+## Running the examples
+
+The example code is not duplicated per language. It lives once, in [`content/ch06/code/`](../../../content/ch06/code). Comments and printed output are Korean; the commands below are not.
+
+<!-- 실행 가이드 시작 - 사람이 쓴 부분. gen-docs.py 가 건드리지 않는다. -->
 
 Checked August 2026. Python 3.9+. **No dependencies.**
 
