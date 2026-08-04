@@ -180,7 +180,7 @@ between them is about twenty years.
 
 Think a label is wrong? [Say so](../../issues/new?template=03-status-label.yml).
 
-There is also a [further-reading page](LINKS.md) collecting 83 papers, textbooks, courses,
+There is also a [further-reading page](LINKS.md) collecting 106 papers, textbooks, courses,
 engines, datasets and vendor platforms that are *not* cited in the book, each tagged with the chapter it goes
 with. That page is Korean-only, but the entries are links and English titles, so it reads fine
 either way.
