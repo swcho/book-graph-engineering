@@ -41,9 +41,10 @@ What is usable without Korean:
 - **[SOURCES.en.md](SOURCES.en.md)** — every primary source in the book, 172 links across
   228 keywords, grouped by chapter, each labeled [Standard] / [De facto] / [Experimental].
   The source names and URLs were always in English. This page is a reading list on its own.
+- **[`content_en/`](content_en)** — an English summary page for every one of the 35 chapters.
+  Sections, the chapter in one page, sources, and how to run the examples.
 - **Runnable examples** in [`content/`](content) — 170-odd Python files. Code is code.
   The comments and printed output are Korean; the structure is not.
-- **The table of contents below** — chapter titles and one line each on what they cover.
 
 Issues in English are welcome. The templates are written in Korean, but answer in English and
 nothing breaks.
@@ -66,9 +67,10 @@ does not get confused with the original. Details in [`LICENSE`](LICENSE).
 If you are in a hurry, start at Part 2. If you only care about agents, jump to Part 4 —
 it is written so that you will not get stuck.
 
-Chapter titles link to that chapter's summary page. Those pages are in Korean, but each one
-carries a section list, a one-page summary, the keyword-to-source table, and how to run the
-examples — the source table alone is often enough to tell whether that chapter is what you need.
+Chapter titles link to that chapter's English summary page under
+[`content_en/`](content_en). Each one carries a section list, the chapter in one page, the
+keyword-to-source table, and how to run the examples. Use them to pick the chapter you need
+before you download 453 pages.
 
 ### Part 1 — Roots: where the graph was all along
 
@@ -77,12 +79,12 @@ we are drawing graphs again. Sixty years and the last two, compressed.
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 1 | [Sixty Years of AI, Read as a Graph](content/ch01/code/README.md) | Symbols to vectors and back to graphs. Landing on harness engineering |
-| 2 | [From Harness Engineering to Graph Engineering](content/ch02/code/README.md) | Agents, skills, orchestrators translated into nodes, subgraphs, executors |
-| 3 | [Why Seven Bridges Couldn't Be Crossed, and Why Tables Won](content/ch03/code/README.md) | Euler's proof; what the relational model won with and what it gave up |
-| 4 | [Why the Semantic Web Looked Like a Failure](content/ch04/code/README.md) | The ambition of RDF and OWL, the stall, and what survived |
-| 5 | [Things, Not Strings](content/ch05/code/README.md) | Google's knowledge graph announcement and the rise of property graphs |
-| 6 | [It Took Ten Years to Get Back What We Dissolved into Vectors](content/ch06/code/README.md) | Graph embeddings and GNNs; RAG's ceiling and the turn to GraphRAG |
+| 1 | [Sixty Years of AI, Read as a Graph](content_en/ch01/code/README.md) | Symbols to vectors and back to graphs. Landing on harness engineering |
+| 2 | [From Harness Engineering to Graph Engineering](content_en/ch02/code/README.md) | Agents, skills, orchestrators translated into nodes, subgraphs, executors |
+| 3 | [Why Seven Bridges Couldn't Be Crossed, and Why Tables Won](content_en/ch03/code/README.md) | Euler's proof; what the relational model won with and what it gave up |
+| 4 | [Why the Semantic Web Looked Like a Failure](content_en/ch04/code/README.md) | The ambition of RDF and OWL, the stall, and what survived |
+| 5 | [Things, Not Strings](content_en/ch05/code/README.md) | Google's knowledge graph announcement and the rise of property graphs |
+| 6 | [It Took Ten Years to Get Back What We Dissolved into Vectors](content_en/ch06/code/README.md) | Graph embeddings and GNNs; RAG's ceiling and the turn to GraphRAG |
 
 ### Part 2 — The basic grammar of graphs
 
@@ -91,11 +93,11 @@ you walk over this ground first.
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 7 | [One Node Drawn Wrong Cost Me Three Weeks](content/ch07/code/README.md) | Nodes, edges, properties, labels; direction and weight; schema and constraints |
-| 8 | [What a Graph Actually Looks Like in Memory](content/ch08/code/README.md) | Adjacency lists and CSR; how storage layout decides performance |
-| 9 | [Counting Degrees of Separation Killed the Server](content/ch09/code/README.md) | BFS and DFS, shortest paths, the cost that explodes as hops grow |
-| 10 | [Which Node Actually Matters](content/ch10/code/README.md) | Centrality measures and community detection, and the question each one answers |
-| 11 | [One Question, Three Languages](content/ch11/code/README.md) | Cypher vs SPARQL vs Gremlin, plus ISO GQL and SQL/PGQ |
+| 7 | [One Node Drawn Wrong Cost Me Three Weeks](content_en/ch07/code/README.md) | Nodes, edges, properties, labels; direction and weight; schema and constraints |
+| 8 | [What a Graph Actually Looks Like in Memory](content_en/ch08/code/README.md) | Adjacency lists and CSR; how storage layout decides performance |
+| 9 | [Counting Degrees of Separation Killed the Server](content_en/ch09/code/README.md) | BFS and DFS, shortest paths, the cost that explodes as hops grow |
+| 10 | [Which Node Actually Matters](content_en/ch10/code/README.md) | Centrality measures and community detection, and the question each one answers |
+| 11 | [One Question, Three Languages](content_en/ch11/code/README.md) | Cypher vs SPARQL vs Gremlin, plus ISO GQL and SQL/PGQ |
 
 ### Part 3 — Knowledge graph engineering (Track 1)
 
@@ -103,12 +105,12 @@ What the model **knows**. Ontology design, triple extraction, time, hybrid retri
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 12 | [How I Tore Down an Ontology in Three Weeks](content/ch12/code/README.md) | Deriving vocabulary from queries; when to freeze the schema |
-| 13 | [An Unvalidated Graph Is Just a Pile of Links](content/ch13/code/README.md) | SHACL constraints, OWL inference, where to put validation |
-| 14 | [The Same Person, Sitting There as Four Nodes](content/ch14/code/README.md) | Entity resolution and merging, and how to undo a merge |
-| 15 | [I Pulled Triples from 10,000 Documents and Half Were False](content/ch15/code/README.md) | Managing precision and recall when extracting from unstructured text |
-| 16 | [True Yesterday, Wrong Today](content/ch16/code/README.md) | Valid time and transaction time, provenance and trust (PROV-O) |
-| 17 | [Questions Vectors Alone Can't Answer](content/ch17/code/README.md) | Hybrid retrieval; GraphRAG vs LightRAG vs HippoRAG |
+| 12 | [How I Tore Down an Ontology in Three Weeks](content_en/ch12/code/README.md) | Deriving vocabulary from queries; when to freeze the schema |
+| 13 | [An Unvalidated Graph Is Just a Pile of Links](content_en/ch13/code/README.md) | SHACL constraints, OWL inference, where to put validation |
+| 14 | [The Same Person, Sitting There as Four Nodes](content_en/ch14/code/README.md) | Entity resolution and merging, and how to undo a merge |
+| 15 | [I Pulled Triples from 10,000 Documents and Half Were False](content_en/ch15/code/README.md) | Managing precision and recall when extracting from unstructured text |
+| 16 | [True Yesterday, Wrong Today](content_en/ch16/code/README.md) | Valid time and transaction time, provenance and trust (PROV-O) |
+| 17 | [Questions Vectors Alone Can't Answer](content_en/ch17/code/README.md) | Hybrid retrieval; GraphRAG vs LightRAG vs HippoRAG |
 
 ### Part 4 — Agent graph engineering (Track 2)
 
@@ -117,15 +119,15 @@ sentences where verified fact ends and my estimate begins.
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 18 | [Where Does a Chain Break](content/ch18/code/README.md) | The limits of a linear chain, and why we draw graphs instead |
-| 19 | [State Graphs, Reducers, and Supersteps](content/ch19/code/README.md) | Merge rules for state, superstep scheduling |
-| 20 | [How to End a Loop That Won't End](content/ch20/code/README.md) | Branching and cycles, termination conditions, stopping node explosion |
-| 21 | [The Process Dies, the Work Must Not](content/ch21/code/README.md) | Checkpointing and durable execution |
-| 22 | [How to Pay Back What You Can't Undo](content/ch22/code/README.md) | Retries and timeouts, compensating transactions |
-| 23 | [Where the Human Steps In](content/ch23/code/README.md) | Human-in-the-loop interrupts and resumption |
-| 24 | [Your Context Is Full](content/ch24/code/README.md) | Compaction, summarization, offloading, memory tiers, subagent isolation |
-| 25 | [Six Topologies, and the Sockets You Plug Tools Into](content/ch25/code/README.md) | The multi-agent topology catalog; tool calls and MCP |
-| 26 | [What Will You Forbid](content/ch26/code/README.md) | Guardrails and permission boundaries; observability, tracing, evaluation |
+| 18 | [Where Does a Chain Break](content_en/ch18/code/README.md) | The limits of a linear chain, and why we draw graphs instead |
+| 19 | [State Graphs, Reducers, and Supersteps](content_en/ch19/code/README.md) | Merge rules for state, superstep scheduling |
+| 20 | [How to End a Loop That Won't End](content_en/ch20/code/README.md) | Branching and cycles, termination conditions, stopping node explosion |
+| 21 | [The Process Dies, the Work Must Not](content_en/ch21/code/README.md) | Checkpointing and durable execution |
+| 22 | [How to Pay Back What You Can't Undo](content_en/ch22/code/README.md) | Retries and timeouts, compensating transactions |
+| 23 | [Where the Human Steps In](content_en/ch23/code/README.md) | Human-in-the-loop interrupts and resumption |
+| 24 | [Your Context Is Full](content_en/ch24/code/README.md) | Compaction, summarization, offloading, memory tiers, subagent isolation |
+| 25 | [Six Topologies, and the Sockets You Plug Tools Into](content_en/ch25/code/README.md) | The multi-agent topology catalog; tool calls and MCP |
+| 26 | [What Will You Forbid](content_en/ch26/code/README.md) | Guardrails and permission boundaries; observability, tracing, evaluation |
 
 ### Part 5 — Where the two graphs meet
 
@@ -133,9 +135,9 @@ The junction. This is the climax of the book.
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 27 | [The Cheapest Way to Give an Agent Memory](content/ch27/code/README.md) | Using a knowledge graph as an agent's long-term memory |
-| 28 | [When the Agent Grows the Graph by Itself](content/ch28/code/README.md) | The self-expansion loop, and what it costs you |
-| 29 | [One Backbone](content/ch29/code/README.md) | A reference architecture that joins both tracks |
+| 27 | [The Cheapest Way to Give an Agent Memory](content_en/ch27/code/README.md) | Using a knowledge graph as an agent's long-term memory |
+| 28 | [When the Agent Grows the Graph by Itself](content_en/ch28/code/README.md) | The self-expansion loop, and what it costs you |
+| 29 | [One Backbone](content_en/ch29/code/README.md) | A reference architecture that joins both tracks |
 
 ### Part 6 — The backbone: state management engine
 
@@ -143,22 +145,22 @@ The heart of the book. All of it in working code and diagrams.
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 30 | [Nobody Knows What Changed, or When](content/ch30/code/README.md) | Event sourcing, idempotency, exactly-once execution |
-| 31 | [Two Agents Edited the Same Node at Once](content/ch31/code/README.md) | Optimistic locking, conflict resolution, the saga pattern |
-| 32 | [The Day You Change the Schema](content/ch32/code/README.md) | Expand-and-contract migration, dual reads, versioning |
+| 30 | [Nobody Knows What Changed, or When](content_en/ch30/code/README.md) | Event sourcing, idempotency, exactly-once execution |
+| 31 | [Two Agents Edited the Same Node at Once](content_en/ch31/code/README.md) | Optimistic locking, conflict resolution, the saga pattern |
+| 32 | [The Day You Change the Schema](content_en/ch32/code/README.md) | Expand-and-contract migration, dual reads, versioning |
 
 ### Part 7 — Operations
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 33 | [Read the Query Plan and You See the Bill](content/ch33/code/README.md) | Performance tuning, what indexes actually buy, the cost model |
-| 34 | [What It Means to Erase Personal Data from a Graph](content/ch34/code/README.md) | Right to erasure, re-identification risk, how far a cascade should go |
+| 33 | [Read the Query Plan and You See the Bill](content_en/ch33/code/README.md) | Performance tuning, what indexes actually buy, the cost model |
+| 34 | [What It Means to Erase Personal Data from a Graph](content_en/ch34/code/README.md) | Right to erasure, re-identification risk, how far a cascade should go |
 
 ### Part 8 — What comes next
 
 | Ch | Title | What it covers |
 |---|---|---|
-| 35 | [Five Claims Most Likely to Be Wrong in Three Years](content/ch35/code/README.md) | The author names five of his own claims and attaches a falsification condition to each |
+| 35 | [Five Claims Most Likely to Be Wrong in Three Years](content_en/ch35/code/README.md) | The author names five of his own claims and attaches a falsification condition to each |
 
 ### Appendices
 
@@ -236,12 +238,21 @@ cite the book somewhere, cite the edition number with it. Past editions stay in 
 The runnable examples from the book, one directory per chapter.
 
 ```
-content/
-├─ ch01/code/     # examples for that chapter. README.md has the run instructions
+content/                  # the code itself. One copy, not one per language
+├─ ch01/code/             # README.md here is Korean
 ├─ ch02/code/
 │  ...
 └─ ch35/code/
+
+content_en/               # English chapter pages. No code, by design
+├─ ch01/code/README.md
+│  ...
+└─ ch35/code/README.md
 ```
+
+The code is not duplicated per language. Translating 170 files of comments would guarantee the
+two copies drift apart, and a drifted example is worse than a Korean one. So `content_en/`
+mirrors the path shape and points back at the single copy under `content/`.
 
 Most of them run on Python 3.11+ with nothing installed. Where an example needs a database or an
 external API, that chapter's `code/README.md` lists the versions, the install command, and the

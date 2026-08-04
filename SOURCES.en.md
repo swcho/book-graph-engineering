@@ -20,11 +20,11 @@ The maturity gap between Track 1 (knowledge graphs) and Track 2 (agent graphs) s
 
 ## Sources by chapter
 
-Chapter titles link to that chapter's summary page. Those pages are in Korean for now — the source tables below are not.
+Chapter titles link to that chapter's English summary page. The example code itself is not duplicated per language; it lives once, under `content/`.
 
 ### Part 1 — Roots: Where the Graph Was All Along
 
-#### Chapter 1 — [Sixty Years of AI, Read as a Graph](content/ch01/code/README.md)
+#### Chapter 1 — [Sixty Years of AI, Read as a Graph](content_en/ch01/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -39,7 +39,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | agent workflow patterns | [De facto] | [anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents) |
 | harness | [Experimental] | [github.com/langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) |
 
-#### Chapter 2 — [From Harness Engineering to Graph Engineering](content/ch02/code/README.md)
+#### Chapter 2 — [From Harness Engineering to Graph Engineering](content_en/ch02/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -53,7 +53,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | topological sort | [Standard] | [dl.acm.org/doi/10.1145/368996.369025](https://dl.acm.org/doi/10.1145/368996.369025) |
 | event sourcing | [De facto] | [martinfowler.com/eaaDev/EventSourcing.html](https://martinfowler.com/eaaDev/EventSourcing.html) |
 
-#### Chapter 3 — [Why Seven Bridges Couldn't Be Crossed, and Why Tables Won](content/ch03/code/README.md)
+#### Chapter 3 — [Why Seven Bridges Couldn't Be Crossed, and Why Tables Won](content_en/ch03/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -65,7 +65,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | ISO/IEC 9075-16:2023 | [Standard] | [iso.org/standard/79473.html](https://www.iso.org/standard/79473.html) |
 | ISO/IEC 39075:2024 | [Standard] | [iso.org/standard/76120.html](https://www.iso.org/standard/76120.html) |
 
-#### Chapter 4 — [Why the Semantic Web Looked Like a Failure](content/ch04/code/README.md)
+#### Chapter 4 — [Why the Semantic Web Looked Like a Failure](content_en/ch04/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -78,7 +78,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | schema.org | [De facto] | [schema.org/docs/documents.html](https://schema.org/docs/documents.html) |
 | Linked Data | [De facto] | [w3.org/DesignIssues/LinkedData.html](https://www.w3.org/DesignIssues/LinkedData.html) |
 
-#### Chapter 5 — [Things, Not Strings](content/ch05/code/README.md)
+#### Chapter 5 — [Things, Not Strings](content_en/ch05/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -89,7 +89,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | RDF Datasets | [Standard] | [w3.org/TR/rdf11-datasets](https://www.w3.org/TR/rdf11-datasets/) |
 | Kuzu | [De facto] | [github.com/kuzudb/kuzu](https://github.com/kuzudb/kuzu) |
 
-#### Chapter 6 — [It Took Ten Years to Get Back What We Dissolved into Vectors](content/ch06/code/README.md)
+#### Chapter 6 — [It Took Ten Years to Get Back What We Dissolved into Vectors](content_en/ch06/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -104,7 +104,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 
 ### Part 2 — The Basic Grammar of Graphs
 
-#### Chapter 7 — [One Node Drawn Wrong Cost Me Three Weeks](content/ch07/code/README.md)
+#### Chapter 7 — [One Node Drawn Wrong Cost Me Three Weeks](content_en/ch07/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -115,7 +115,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | bipartite graph | [De facto] | [networkx.org/…/bipartite.html](https://networkx.org/documentation/stable/reference/algorithms/bipartite.html) |
 | multigraph, self-loop | [De facto] | [networkx.org/…/multigraph.html](https://networkx.org/documentation/stable/reference/classes/multigraph.html) |
 
-#### Chapter 8 — [What a Graph Actually Looks Like in Memory](content/ch08/code/README.md)
+#### Chapter 8 — [What a Graph Actually Looks Like in Memory](content_en/ch08/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -126,7 +126,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | graph reordering | [Experimental] | [arxiv.org/abs/1602.08820](https://arxiv.org/abs/1602.08820) |
 | locality of reference | [De facto] | [kernel.org/doc/html/latest/admin-guide/mm/index.html](https://www.kernel.org/doc/html/latest/admin-guide/mm/index.html) |
 
-#### Chapter 9 — [Counting Degrees of Separation Killed the Server](content/ch09/code/README.md)
+#### Chapter 9 — [Counting Degrees of Separation Killed the Server](content_en/ch09/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -138,7 +138,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | topological sort | [Standard] | [dl.acm.org/doi/10.1145/368996.369025](https://dl.acm.org/doi/10.1145/368996.369025) |
 | Cypher variable-length patterns | [De facto] | [neo4j.com/…/variable-length-patterns](https://neo4j.com/docs/cypher-manual/current/patterns/variable-length-patterns/) |
 
-#### Chapter 10 — [Which Node Actually Matters](content/ch10/code/README.md)
+#### Chapter 10 — [Which Node Actually Matters](content_en/ch10/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -151,7 +151,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | resolution limit | [De facto] | [pnas.org/doi/10.1073/pnas.0605965104](https://www.pnas.org/doi/10.1073/pnas.0605965104) |
 | label propagation | [De facto] | [arxiv.org/abs/0709.2938](https://arxiv.org/abs/0709.2938) |
 
-#### Chapter 11 — [One Question, Three Languages](content/ch11/code/README.md)
+#### Chapter 11 — [One Question, Three Languages](content_en/ch11/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -165,7 +165,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 
 ### Part 3 — Knowledge Graph Engineering (Track 1)
 
-#### Chapter 12 — [How I Tore Down an Ontology in Three Weeks](content/ch12/code/README.md)
+#### Chapter 12 — [How I Tore Down an Ontology in Three Weeks](content_en/ch12/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -177,7 +177,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | competency question | [De facto] | [protege.stanford.edu/…/ontology101.pdf](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
 | ISO/IEC 39075:2024 GQL | [Standard] | [iso.org/standard/76120.html](https://www.iso.org/standard/76120.html) |
 
-#### Chapter 13 — [An Unvalidated Graph Is Just a Pile of Links](content/ch13/code/README.md)
+#### Chapter 13 — [An Unvalidated Graph Is Just a Pile of Links](content_en/ch13/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -189,7 +189,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | graph smell | [Experimental] | [w3.org/TR/shacl](https://www.w3.org/TR/shacl/) |
 | competency question regression | [Experimental] | [protege.stanford.edu/…/ontology101.pdf](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf) |
 
-#### Chapter 14 — [The Same Person, Sitting There as Four Nodes](content/ch14/code/README.md)
+#### Chapter 14 — [The Same Person, Sitting There as Four Nodes](content_en/ch14/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -201,7 +201,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | survivorship rules | [Experimental] | [iso.org/standard/35736.html](https://www.iso.org/standard/35736.html) |
 | PROV-O | [Standard] | [w3.org/TR/prov-o](https://www.w3.org/TR/prov-o/) |
 
-#### Chapter 15 — [I Pulled Triples from 10,000 Documents and Half Were False](content/ch15/code/README.md)
+#### Chapter 15 — [I Pulled Triples from 10,000 Documents and Half Were False](content_en/ch15/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -213,7 +213,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | structured output | [De facto] | [docs.claude.com/…/overview](https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview) |
 | Microsoft GraphRAG indexing | [De facto] | [github.com/microsoft/graphrag](https://github.com/microsoft/graphrag) |
 
-#### Chapter 16 — [True Yesterday, Wrong Today](content/ch16/code/README.md)
+#### Chapter 16 — [True Yesterday, Wrong Today](content_en/ch16/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -225,7 +225,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | OWL-Time | [Standard] | [w3.org/TR/owl-time](https://www.w3.org/TR/owl-time/) |
 | slowly changing dimension | [De facto] | [kimballgroup.com/…/dimensional-modeling-techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) |
 
-#### Chapter 17 — [Questions Vectors Alone Can't Answer](content/ch17/code/README.md)
+#### Chapter 17 — [Questions Vectors Alone Can't Answer](content_en/ch17/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -239,7 +239,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 
 ### Part 4 — Agent Graph Engineering (Track 2)
 
-#### Chapter 18 — [Where Does a Chain Break](content/ch18/code/README.md)
+#### Chapter 18 — [Where Does a Chain Break](content_en/ch18/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -251,7 +251,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | durable execution | [De facto] | [docs.temporal.io/temporal](https://docs.temporal.io/temporal) |
 | ReAct | [De facto] | [arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629) |
 
-#### Chapter 19 — [State Graphs, Reducers, and Supersteps](content/ch19/code/README.md)
+#### Chapter 19 — [State Graphs, Reducers, and Supersteps](content_en/ch19/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -263,7 +263,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | persistence | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | lost update | [Standard] | [iso.org/standard/76583.html](https://www.iso.org/standard/76583.html) |
 
-#### Chapter 20 — [How to End a Loop That Won't End](content/ch20/code/README.md)
+#### Chapter 20 — [How to End a Loop That Won't End](content_en/ch20/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -275,7 +275,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | circuit breaker | [De facto] | [martinfowler.com/bliki/CircuitBreaker.html](https://martinfowler.com/bliki/CircuitBreaker.html) |
 | rate limiting | [De facto] | [datatracker.ietf.org/doc/html/rfc6585](https://datatracker.ietf.org/doc/html/rfc6585) |
 
-#### Chapter 21 — [The Process Dies, the Work Must Not](content/ch21/code/README.md)
+#### Chapter 21 — [The Process Dies, the Work Must Not](content_en/ch21/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -287,7 +287,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | thread id | [De facto] | [docs.langchain.com/oss/python/langgraph/persistence](https://docs.langchain.com/oss/python/langgraph/persistence) |
 | write-ahead log | [De facto] | [sqlite.org/wal.html](https://www.sqlite.org/wal.html) |
 
-#### Chapter 22 — [How to Pay Back What You Can't Undo](content/ch22/code/README.md)
+#### Chapter 22 — [How to Pay Back What You Can't Undo](content_en/ch22/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -300,7 +300,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | dead letter queue | [De facto] | [docs.aws.amazon.com/…/sqs-dead-letter-queues.html](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html) |
 | Retry-After | [Standard] | [datatracker.ietf.org/…/rfc9110#field.retry-after](https://datatracker.ietf.org/doc/html/rfc9110#field.retry-after) |
 
-#### Chapter 23 — [Where the Human Steps In](content/ch23/code/README.md)
+#### Chapter 23 — [Where the Human Steps In](content_en/ch23/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -312,7 +312,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | audit trail | [Standard] | [w3.org/TR/prov-o](https://www.w3.org/TR/prov-o/) |
 | four-eyes principle | [De facto] | [bis.org/publ/bcbs230.pdf](https://www.bis.org/publ/bcbs230.pdf) |
 
-#### Chapter 24 — [Your Context Is Full](content/ch24/code/README.md)
+#### Chapter 24 — [Your Context Is Full](content_en/ch24/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -324,7 +324,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | long-term memory store | [De facto] | [docs.langchain.com/oss/python/langgraph/memory](https://docs.langchain.com/oss/python/langgraph/memory) |
 | token counting | [De facto] | [docs.claude.com/…/token-counting](https://docs.claude.com/en/docs/build-with-claude/token-counting) |
 
-#### Chapter 25 — [Six Topologies, and the Sockets You Plug Tools Into](content/ch25/code/README.md)
+#### Chapter 25 — [Six Topologies, and the Sockets You Plug Tools Into](content_en/ch25/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -337,7 +337,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | tool schema | [De facto] | [modelcontextprotocol.io/…/tools](https://modelcontextprotocol.io/specification/2025-06-18/server/tools) |
 | Send | [De facto] | [docs.langchain.com/oss/python/langgraph/graph-api](https://docs.langchain.com/oss/python/langgraph/graph-api) |
 
-#### Chapter 26 — [What Will You Forbid](content/ch26/code/README.md)
+#### Chapter 26 — [What Will You Forbid](content_en/ch26/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -352,7 +352,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 
 ### Part 5 — Where the Two Graphs Meet
 
-#### Chapter 27 — [The Cheapest Way to Give an Agent Memory](content/ch27/code/README.md)
+#### Chapter 27 — [The Cheapest Way to Give an Agent Memory](content_en/ch27/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -364,7 +364,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | entity resolution | [De facto] | [w3.org/TR/owl2-syntax/#Individual_Equality](https://www.w3.org/TR/owl2-syntax/#Individual_Equality) |
 | valid time | [Standard] | [iso.org/standard/76583.html](https://www.iso.org/standard/76583.html) |
 
-#### Chapter 28 — [When the Agent Grows the Graph by Itself](content/ch28/code/README.md)
+#### Chapter 28 — [When the Agent Grows the Graph by Itself](content_en/ch28/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -376,7 +376,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | self-training bias | [Experimental] | [arxiv.org/abs/2305.17493](https://arxiv.org/abs/2305.17493) |
 | SHACL validation | [Standard] | [w3.org/TR/shacl](https://www.w3.org/TR/shacl/) |
 
-#### Chapter 29 — [One Backbone](content/ch29/code/README.md)
+#### Chapter 29 — [One Backbone](content_en/ch29/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -390,7 +390,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 
 ### Part 6 — The Backbone: State Management Engine
 
-#### Chapter 30 — [Nobody Knows What Changed, or When](content/ch30/code/README.md)
+#### Chapter 30 — [Nobody Knows What Changed, or When](content_en/ch30/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -403,7 +403,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | hash chain | [Standard] | [datatracker.ietf.org/doc/html/rfc6962](https://datatracker.ietf.org/doc/html/rfc6962) |
 | audit trail | [Standard] | [csrc.nist.gov/pubs/sp/800/53/r5/upd1/final](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) |
 
-#### Chapter 31 — [Two Agents Edited the Same Node at Once](content/ch31/code/README.md)
+#### Chapter 31 — [Two Agents Edited the Same Node at Once](content_en/ch31/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -416,7 +416,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | deadlock | [Standard] | [postgresql.org/…/explicit-locking.html#LOCKING-DEADLOCKS](https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS) |
 | write skew | [Standard] | [postgresql.org/docs/current/transaction-iso.html](https://www.postgresql.org/docs/current/transaction-iso.html) |
 
-#### Chapter 32 — [The Day You Change the Schema](content/ch32/code/README.md)
+#### Chapter 32 — [The Day You Change the Schema](content_en/ch32/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -430,7 +430,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 
 ### Part 7 — Operations
 
-#### Chapter 33 — [Read the Query Plan and You See the Bill](content/ch33/code/README.md)
+#### Chapter 33 — [Read the Query Plan and You See the Bill](content_en/ch33/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -442,7 +442,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 | Amdahl's law | [Standard] | [dl.acm.org/doi/10.1145/1465482.1465560](https://dl.acm.org/doi/10.1145/1465482.1465560) |
 | bulk load | [De facto] | [neo4j.com/…/neo4j-admin-import](https://neo4j.com/docs/operations-manual/current/tools/neo4j-admin/neo4j-admin-import/) |
 
-#### Chapter 34 — [What It Means to Erase Personal Data from a Graph](content/ch34/code/README.md)
+#### Chapter 34 — [What It Means to Erase Personal Data from a Graph](content_en/ch34/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
@@ -456,7 +456,7 @@ Chapter titles link to that chapter's summary page. Those pages are in Korean fo
 
 ### Part 8 — What Comes Next
 
-#### Chapter 35 — [Five Claims Most Likely to Be Wrong in Three Years](content/ch35/code/README.md)
+#### Chapter 35 — [Five Claims Most Likely to Be Wrong in Three Years](content_en/ch35/code/README.md)
 
 | Term | Status | Source |
 |---|---|---|
