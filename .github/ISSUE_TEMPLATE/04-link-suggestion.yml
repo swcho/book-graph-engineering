@@ -1,0 +1,107 @@
+name: "자료 제안"
+description: "바깥 읽을거리(LINKS.md)에 넣을 만한 자료가 있습니다"
+title: "[자료] "
+labels: ["자료"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        [바깥 읽을거리](https://github.com/leaf-kit/book-graph-engineering/blob/main/LINKS.md)는
+        책에 **쓰지 않은** 자료만 모은 페이지입니다. 표 한 줄이 곧 한 항목이라,
+        아래 칸이 그 표의 칸과 일대일로 맞습니다. 채워 주시면 그대로 옮겨 붙입니다.
+
+        받는 기준은 둘뿐입니다.
+
+        1. **1차 출처일 것.** 공식 명세, 제품 공식 문서, RFC, 논문, 벤더 공식 블로그, 공식 저장소.
+           블로그 요약글, 미디엄, 유튜브는 받지 않습니다.
+        2. **책에 이미 쓴 것이 아닐 것.** 본문 출처는
+           [SOURCES.md](https://github.com/leaf-kit/book-graph-engineering/blob/main/SOURCES.md)에
+           172개가 있습니다. 거기 있으면 여기 들어가지 않습니다.
+
+        죽은 링크 신고도 여기로 주세요. 링크만 적고 나머지는 비워 두시면 됩니다.
+
+  - type: input
+    id: name
+    attributes:
+      label: 자료 이름
+      description: "표에 그대로 들어갈 이름입니다"
+      placeholder: "Open Graph Benchmark"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 링크
+      placeholder: "https://ogb.stanford.edu/"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: group
+    attributes:
+      label: 어느 묶음에 넣을까요
+      options:
+        - "1. 그래프 이론과 네트워크 과학"
+        - "2. 그래프 표현학습과 GNN"
+        - "3. 지식 그래프"
+        - "4. RAG와 에이전트 논문"
+        - "5. 분산 시스템과 상태 관리"
+        - "6. 벤치마크와 공개 데이터"
+        - "7. 엔진과 라이브러리"
+        - "8. 에이전트 프레임워크"
+        - "9. 표준과 어휘"
+        - "10. 빅테크가 그래프를 쓰는 방식"
+        - "어디에도 안 맞음. 새 묶음이 필요합니다"
+        - "죽은 링크 신고입니다"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: 무엇인지 한 줄
+      description: |
+        표의 "무엇" 칸에 들어갑니다. 한두 문장으로 짧게 적어 주세요.
+        소개 문구 말고 "이걸 열면 무엇을 알게 되는가"로요.
+      placeholder: "그래프 학습 표준 벤치마크. 데이터셋과 순위표"
+    validations:
+      required: true
+
+  - type: input
+    id: chapter
+    attributes:
+      label: 관련 장
+      description: |
+        그 자료가 도움이 되는 장을 적어 주세요. 책 범위 밖이면 "없음"으로 적으시면 됩니다.
+        없음이 부실하다는 뜻은 아닙니다.
+      placeholder: "6장, 10장 또는 없음"
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: 날짜
+      description: |
+        논문이면 최초 공개일(2020-05-02), 책이면 출간 연도(2020),
+        계속 갱신되는 사이트나 문서면 비워 두세요. 확인일은 제가 넣습니다.
+      placeholder: "2020-05-02"
+
+  - type: textarea
+    id: why
+    attributes:
+      label: 왜 여기 있어야 하나요
+      description: |
+        이 칸이 제일 중요합니다. 유명하다는 것만으로는 안 넣습니다.
+        "책의 어느 대목을 읽다가 막혔는데 이게 뚫어 주더라" 같은 이야기가 제일 셉니다.
+
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: 확인
+      options:
+        - label: "1차 출처입니다. 블로그 요약글이나 2차 출처가 아닙니다"
+          required: false
+        - label: "SOURCES.md 에서 찾아봤고 거기 없습니다"
+          required: false

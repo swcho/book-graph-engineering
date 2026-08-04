@@ -6,3 +6,6 @@ contact_links:
   - name: 지난 판 내려받기
     url: https://github.com/leaf-kit/book-graph-engineering/releases
     about: 신고하기 전에 최신 판에서 이미 고쳐졌는지 확인해 주세요.
+  - name: 바깥 읽을거리
+    url: https://github.com/leaf-kit/book-graph-engineering/blob/main/LINKS.md
+    about: 책에 쓰지 않은 논문, 책, 도구 목록입니다. 자료를 제안하기 전에 이미 있는지 보세요.

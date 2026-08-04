@@ -261,9 +261,10 @@ repository is open instead.
 | **Factual error** | Something in the text is not true. Page, quote, evidence | [File it](../../issues/new?template=01-fact-error.yml) |
 | **Refutation** | You have evidence that one of the five claims in Chapter 35 is wrong | [File it](../../issues/new?template=02-refutation.yml) |
 | **Status label objection** | A [Standard] / [De facto] / [Experimental] label is misapplied | [File it](../../issues/new?template=03-status-label.yml) |
+| **Suggest a link** | You found something for the [further-reading page](LINKS.md), or a link there is dead | [File it](../../issues/new?template=04-link-suggestion.yml) |
 
 The forms are in Korean. Write your answers in English - nothing about that is a problem. If none
-of the three fit, open a blank issue. The templates exist to help you write, not to keep you out.
+of the four fit, open a blank issue. The templates exist to help you write, not to keep you out.
 
 ### The refutations are already on the table
 
