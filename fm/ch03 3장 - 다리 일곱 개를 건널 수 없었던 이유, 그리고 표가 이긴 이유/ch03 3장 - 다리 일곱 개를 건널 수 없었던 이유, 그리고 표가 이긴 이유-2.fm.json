@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "f28c2947-0764-42e8-bddf-fc5f46e765d5",
+      "question": "`ex2_sql_vs_graph.py`가 던지는 질문은 무엇인가?",
+      "answer": "\"0번 사람에서 k다리 건너 아는 사람은 몇 명인가?\"다. k를 1부터 4까지 늘리며 SQL 조인과 그래프 순회의 시간을 비교한다."
+    },
+    {
+      "id": "c89b1af2-c50a-4481-ad56-6676f3132c08",
+      "question": "`build_sqlite()`가 비교를 공평하게 만들려고 한 조치는 무엇인가?",
+      "answer": "무방향 엣지를 (a,b)와 (b,a) 양방향 행으로 모두 넣고, `friends(a)`에 인덱스 `idx_a`를 만들어 준다."
+    },
+    {
+      "id": "56716d01-b5f9-4c1d-8dec-6e4685b2087d",
+      "question": "`sql_khop()`은 k홉 질의를 어떻게 만드는가?",
+      "answer": "`f2 ... fk`까지 `f{i}.a = f{i-1}.b` 조건으로 조인을 k번 겹치고 `COUNT(DISTINCT f{k}.b)`를 센다. 사람이 손으로 쓰는 그 쿼리다."
+    },
+    {
+      "id": "b4ba7cf9-94e6-4c94-b458-834e8e917717",
+      "question": "`graph_khop()`의 순회 방식은 무엇인가?",
+      "answer": "frontier와 seen 집합을 두고 k번 반복하며 이웃을 확장한다. 매 단계 `frontier = nxt - seen`으로 이미 본 노드를 빼므로 방문한 것만 읽는다."
+    },
+    {
+      "id": "ebd3b1f2-b302-47ba-9279-208dc67d8ea9",
+      "question": "`timed()` 함수는 어떤 방식으로 시간을 측정하는가?",
+      "answer": "`time.perf_counter()`로 같은 호출을 기본 5회 반복해 최소 시간을 택하고 밀리초로 반환한다. 최솟값을 쓰는 것은 잡음을 줄이기 위한 관행이다."
+    },
+    {
+      "id": "140ddbb7-46a5-4705-8e80-85b9e5ae9ecf",
+      "question": "재귀 CTE는 언제부터 표준인가?",
+      "answer": "SQL:1999부터 표준이다. 관계형이 그래프 질의를 흉내 내는 표준적 방법이다."
+    },
+    {
+      "id": "e7646ebc-36cb-4393-b9de-2444f500bf8c",
+      "question": "`ex3_recursive_cte.py`의 CTE 쿼리는 어떤 구조인가?",
+      "answer": "`WITH RECURSIVE reach(node, depth)`로 시작점을 depth 0으로 두고, `friends`와 조인하며 depth를 1씩 올린 뒤 `WHERE depth = ?`로 특정 깊이만 센다."
+    },
+    {
+      "id": "f4dbd33f-44dd-4656-a916-08e93bcdcafb",
+      "question": "재귀 CTE와 순회의 결과 숫자가 다른 이유는 무엇인가?",
+      "answer": "UNION은 (node, depth) 쌍의 중복만 지우므로 '어느 깊이에서 처음 만났는지'가 남지 않는다. 같은 사람이 2홉과 3홉 양쪽으로 도달되면 두 행이 모두 살아남는다."
+    },
+    {
+      "id": "daafca79-7eca-46eb-bd72-18d34c2492fc",
+      "question": "정확한 '최단 거리 k'를 SQL로 얻으려면 무엇이 필요한가?",
+      "answer": "깊이별 방문 집합을 직접 관리해야 한다. 그렇게 하는 순간 SQL로 쓴다는 이점이 사라진다."
+    },
+    {
+      "id": "6c088f11-0b25-4149-addc-3c2e7d461f19",
+      "question": "\"재귀 CTE가 나쁜 게 아니다\"라는 말의 정확한 의미는 무엇인가?",
+      "answer": "문법이나 엔진의 결함이 아니라, 표라는 자료구조에 방문 표시를 둘 자리가 없다는 구조적 한계라는 뜻이다."
+    },
+    {
+      "id": "304deea3-12e1-4b86-8deb-175bd359dc6e",
+      "question": "`ex4_why_tables_won.py`가 눈으로 확인시키는 세 가지는 무엇인가?",
+      "answer": "선언적 질의(어떻게 찾을지 안 적는다), 제약(잘못된 데이터가 아예 안 들어간다), 트랜잭션(절반만 반영되는 일이 없다)이다."
+    },
+    {
+      "id": "4eddd340-1226-471a-9b01-d07d7873d04d",
+      "question": "`ex4_why_tables_won.py`의 스키마에는 어떤 제약이 걸려 있는가?",
+      "answer": "company에 `name` UNIQUE와 `grade IN ('A','B','C')` CHECK, contract에 `company_id` 외래키와 `amount > 0` CHECK가 걸려 있다."
+    },
+    {
+      "id": "9ebc1545-053b-4330-9536-74c16f39455e",
+      "question": "SQLite에서 외래키 제약을 실제로 작동시키려면 무엇이 필요한가?",
+      "answer": "`PRAGMA foreign_keys = ON`을 실행해야 한다. 기본값이 꺼져 있어 이 설정 없이는 외래키 위반이 통과한다."
+    },
+    {
+      "id": "957eabdb-0ef0-424c-bae3-bea1418af8cd",
+      "question": "`ex4_why_tables_won.py`에서 제약이 거부하는 세 시나리오는 무엇인가?",
+      "answer": "없는 회사(id 99)에 계약 달기, 금액이 음수(-5)인 계약, 등급이 규칙 밖('Z')인 회사다. 셋 다 `sqlite3.IntegrityError`로 거부된다."
+    },
+    {
+      "id": "5dd45bea-6f2b-49ae-8b86-d514ec2d24f3",
+      "question": "선언적 질의의 이점을 예제에서 어떻게 보여 주는가?",
+      "answer": "GROUP BY/HAVING/ORDER BY로 원하는 결과만 적고, 인덱스 사용 여부와 읽는 순서는 `EXPLAIN QUERY PLAN`에서 엔진이 정한 것을 확인만 한다."
+    },
+    {
+      "id": "c0c1d3ed-cb34-40cc-952f-12b6f292a29b",
+      "question": "`ex4_why_tables_won.py`의 트랜잭션 시연은 어떤 결과를 보여 주는가?",
+      "answer": "BEGIN 후 두 번째 INSERT가 외래키 위반으로 터지고 ROLLBACK하면, 성공했던 첫 INSERT까지 함께 사라져 행 수가 시작과 같아진다."
+    },
+    {
+      "id": "c4d9b3d9-e461-4e0a-8649-1a4194509d31",
+      "question": "`sqlite3.connect(\":memory:\", isolation_level=None)`으로 연결하는 이유는 무엇인가?",
+      "answer": "파이썬 드라이버의 암묵적 트랜잭션 관리를 끄고 BEGIN/COMMIT/ROLLBACK을 직접 다루기 위해서다."
+    },
+    {
+      "id": "154e6c15-c1a8-43f3-a743-9bf6a1d4f2b5",
+      "question": "지금 그래프 엔진을 고를 때 확인해야 할 세 질문은 무엇인가?",
+      "answer": "제약이 있는가, 트랜잭션이 있는가, 질의가 선언적인가다. 그래프 진영이 이 셋을 갖추는 데 오래 걸렸다."
+    },
+    {
+      "id": "4cc68ce5-dda0-49de-b4f5-4c8dc74d746d",
+      "question": "3장 도입부의 새벽 2시 알림 일화는 무엇을 암시하는가?",
+      "answer": "데이터베이스 CPU가 100%에 붙어 떨어지지 않은 사건으로, 깊은 조인이 비용을 폭발시키는 실제 사례를 암시한다."
+    },
+    {
+      "id": "993473f6-f812-4df9-9ee6-d9a16715dfbb",
+      "question": "3장 다음 장(4장)에서 무엇을 다루는가?",
+      "answer": "'관계를 저장하자'는 생각을 웹 전체로 밀어붙인 시맨틱 웹을 본다. 야심은 옳았으나 20년간 조롱받은 이유와 지금 다시 꺼내 쓰는 이유를 다룬다."
+    }
+  ]
+}

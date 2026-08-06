@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "82eb7688-8270-41e7-9ac6-fe04545e1c61",
+      "question": "Cypher, SPARQL, Gremlin은 그래프를 각각 어떻게 생각하는가?",
+      "answer": "Cypher는 그림, SPARQL은 문장, Gremlin은 걸음으로 생각한다. 앞의 둘은 선언형이고 Gremlin은 명령형에 가깝다."
+    },
+    {
+      "id": "6e33f374-88c2-4c00-bd6d-ace1f508b1c2",
+      "question": "선언형과 명령형 질의 언어의 트레이드오프는 무엇인가?",
+      "answer": "선언형은 무엇을 원하는지만 적고 방법은 엔진이 정한다. Gremlin 같은 명령형은 세밀한 제어가 되는 대신 최적화기가 도와줄 여지가 적다."
+    },
+    {
+      "id": "8fbd461e-9399-49c8-96f2-e9117381a1c3",
+      "question": "세 언어의 차이가 가장 크게 벌어지는 지점은 어디인가?",
+      "answer": "경로 표현이다. Cypher는 상한을 쓸 수 있고, SPARQL은 표준에 상한 표기가 없고, SQL은 재귀 CTE 스무 줄이 된다."
+    },
+    {
+      "id": "2a33ee83-901a-4040-a8e2-0b050da5079a",
+      "question": "GQL이 2024년에 국제 표준이 된 것의 실제 효과는 무엇인가?",
+      "answer": "표준 전용 문법은 아직 엔진들이 받지 않는다. 효과는 \"지금 코드가 바뀐다\"가 아니라 \"방향이 정해진다\"다."
+    },
+    {
+      "id": "21c429b3-2993-4878-8320-5bf78fba4f03",
+      "question": "SQL/PGQ의 가치와 한계는 각각 무엇인가?",
+      "answer": "데이터를 옮기지 않고 그래프 시각만 얹는 것이 가치이고, 구현이 아직 덜 퍼졌으며 조인 폭발은 그대로 남는 것이 한계다."
+    },
+    {
+      "id": "03ba49d4-b36c-4180-a7af-14d576ce4a0a",
+      "question": "질의 언어 이식을 대비하는 네 가지 방법은 무엇인가?",
+      "answer": "질의문을 한곳에 모으고, `ORDER BY`를 강제하고, 엔진 고유 함수를 격리하고, 각 질의가 답하는 질문을 주석으로 남긴다."
+    },
+    {
+      "id": "b0c85ff8-4469-4aa5-9c82-84d024d63ad4",
+      "question": "11장의 절 구성은 어떻게 되어 있는가?",
+      "answer": "11.1 그림, 문장, 걸음, 11.2 경로 표현에서 갈린다, 11.3 2024년에 표준이 됐다. 그런데, 11.4 테이블은 그대로 두고 그래프로 보기."
+    },
+    {
+      "id": "2d9ef62a-0435-449d-a575-2efc61e90d06",
+      "question": "11장 키워드 표에서 [표준]으로 분류된 항목은 무엇인가?",
+      "answer": "GQL(ISO/IEC 39075:2024), SQL/PGQ(ISO/IEC 9075-16:2023), SPARQL 1.1 질의, SPARQL 속성 경로다."
+    },
+    {
+      "id": "0db24a9f-822a-49d5-8ca2-7c63293eb95e",
+      "question": "Gremlin의 1차 출처는 무엇인가?",
+      "answer": "Apache TinkerPop 레퍼런스 문서다. [사실상 표준]으로 분류된다."
+    },
+    {
+      "id": "94d25bd5-d8b6-4a6d-8df4-d3ee24652615",
+      "question": "`ex3_gql_dialects.py`가 일부러 실패하는 질의를 포함하는 이유는 무엇인가?",
+      "answer": "실패 자체가 예제의 결과이기 때문이다. \"표준이 있어도 방언이 남는다\"를 말이 아니라 실행 결과로 확인한다."
+    },
+    {
+      "id": "1b731eae-095a-4ca3-8121-2b896153a553",
+      "question": "세 언어의 문법 모양을 한 줄로 대비하면 어떻게 되는가?",
+      "answer": "Cypher는 `(c)-[:Signed]->(n)` 그림, SPARQL은 `?c ex:signed ?n .` 문장, Gremlin은 `.out('signed')` 걸음이다."
+    },
+    {
+      "id": "3dc1e6d9-265a-431d-9196-b33ff930dcae",
+      "question": "`gremlin_style()` 함수는 무엇을 흉내 내는가?",
+      "answer": "Gremlin의 순회 사고를 파이썬으로 구현한 것이다. `.hasLabel('Company').out('terminated')` 같은 단계별 이동을 for 루프로 표현한다."
+    },
+    {
+      "id": "6c1e6e9f-183f-4c11-b0ea-4b36e1fdb52f",
+      "question": "`ex2_path_queries.py`가 비교하는 두 질의는 무엇인가?",
+      "answer": "'직접 자회사만'(1홉)과 '1~3단계 아래 전부'(가변 길이)다. 후자에서 표기 차이가 드러난다."
+    },
+    {
+      "id": "83a2964e-670e-4d94-840f-8bb1cb4017e0",
+      "question": "Cypher와 SPARQL의 가변 길이 경로 표기는 어떻게 다른가?",
+      "answer": "Cypher는 `-[:ParentOf*1..3]->`로 상한을 반드시 쓸 수 있고, SPARQL은 `ex:parentOf+`로 한 번 이상만 표현할 수 있어 상한 표기가 없다."
+    },
+    {
+      "id": "2c818c8d-4ddc-4619-9afd-2eb4c3027335",
+      "question": "SPARQL에서 홉 상한을 걸어야 할 때 쓸 수 있는 대안은 무엇인가?",
+      "answer": "질의 타임아웃, 결과 개수 제한, 아니면 깊이를 명시적으로 펼쳐 쓰는 방법이다."
+    },
+    {
+      "id": "2222798d-637b-4aa2-b3cb-0ed49b1a4148",
+      "question": "`ex3_gql_dialects.py`에서 GQL 표준 전용으로 시험하는 절은 무엇인가?",
+      "answer": "LET 절, NEXT 절, FILTER 절이다. Kuzu 0.11.3에서는 받지 않는다."
+    },
+    {
+      "id": "2842bf52-5e85-4f8a-832c-e61baa6120bc",
+      "question": "Cypher 방언으로 분류된 문법은 무엇인가?",
+      "answer": "가변 길이 경로 `-[:Knows*1..2]->`와 WITH 절이다. GQL 표준에는 없지만 Cypher 계열 엔진이 지원한다."
+    }
+  ]
+}

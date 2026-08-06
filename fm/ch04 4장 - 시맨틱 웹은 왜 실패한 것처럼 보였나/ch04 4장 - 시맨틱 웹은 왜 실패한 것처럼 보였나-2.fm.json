@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "8fafb82d-781b-4f7e-977a-68a4ef3c3181",
+      "question": "SPARQL에서 `ex:parentOf+`의 `+`는 무슨 뜻인가?",
+      "answer": "그 술어를 한 번 이상 따라가라는 뜻이다. 이 한 글자가 3장에서 본 재귀 CTE 20줄을 대신한다."
+    },
+    {
+      "id": "81debe04-560d-4ae2-8d34-9e9a519fe8ef",
+      "question": "`Q_SUBSIDIARY`와 `Q_PATH`의 결과 차이는 무엇을 보여 주는가?",
+      "answer": "전자는 명시적으로 적힌 모회사 관계만, 후자는 경로 질의로 이행 관계까지 찾는다. 이 차이가 예제 2의 요점이다."
+    },
+    {
+      "id": "c82a108a-047c-4816-b89a-5cd07b7e530e",
+      "question": "SPARQL 질의에서 `?c a ex:Company`의 `a`는 무엇의 약자인가?",
+      "answer": "`rdf:type`의 약칭이다. Turtle과 SPARQL에서 \"~의 타입이다\"를 뜻한다."
+    },
+    {
+      "id": "a24d8e10-8d83-4d3d-8a57-fa8e65bdb50d",
+      "question": "닫힌 세계 가정과 열린 세계 가정의 차이는 무엇인가?",
+      "answer": "닫힌 세계(관계형 DB)는 적혀 있지 않으면 거짓으로 보고, 열린 세계(RDF/OWL)는 적혀 있지 않으면 모른다고 본다."
+    },
+    {
+      "id": "9d65c2d2-d54e-40ce-a6b5-1bac80724ed5",
+      "question": "`ex3_open_world.py`에서 다올물산 줄이 문제가 되는 이유는 무엇인가?",
+      "answer": "SQL은 담당자가 '없음'으로 판단해 알림 대상에 걸지만, OWL 추론기는 '모름'이라 판단해 아무도 걸지 않는다. 같은 배치가 정반대로 동작한다."
+    },
+    {
+      "id": "70665844-fe88-4a2b-86ef-881ec19b3ccb",
+      "question": "저자가 OWL 추론기가 고장 났다고 3주간 오해한 원인은 무엇인가?",
+      "answer": "열린 세계 가정 때문에 '없다'는 결론이 나오지 않은 것을, 추론기 결함으로 착각했다. 고장이 아니라 설계였다."
+    },
+    {
+      "id": "b2eafbb6-03bf-4901-b162-7525b4f881b8",
+      "question": "열린 세계에서 '담당자가 없다'를 명시적으로 말하려면 어떻게 적어야 하는가?",
+      "answer": "`owl:complementOf`와 `owl:Restriction`, `owl:onProperty`, `owl:someValuesFrom`을 조합해야 한다. 읽기 어렵다는 점이 OWL이 외면당한 이유 중 하나다."
+    },
+    {
+      "id": "4c8a00d9-5e95-4b57-a06c-06bab4c7ac22",
+      "question": "열린 세계 문제의 실무 해법은 무엇인가?",
+      "answer": "검증을 SHACL로 하는 것이다. SHACL은 닫힌 세계로 보며 13장에서 자세히 다룬다."
+    },
+    {
+      "id": "a7e99ec2-edaa-42ea-a200-c67b6b8d835a",
+      "question": "시맨틱 웹이 실제로 이긴 자리는 어디인가?",
+      "answer": "웹페이지 안의 구조화 데이터, 즉 schema.org와 JSON-LD다. 검색 결과에 별점과 가격을 띄우려는 욕구가 태깅을 전 세계에 퍼뜨렸다."
+    },
+    {
+      "id": "fdf67466-ba9b-436b-8c9a-c0366e64ae18",
+      "question": "4장이 말하는 표준 확산의 원리는 무엇인가?",
+      "answer": "표준을 퍼뜨리는 것은 명분이 아니라 이득이다. \"모두가 뜻을 합의하자\"는 실패했지만 \"별점이 뜨면 클릭률이 오른다\"는 성공했다."
+    },
+    {
+      "id": "fca0c101-7438-44bc-bb01-8df9e63905ed",
+      "question": "`extract_jsonld()`는 HTML에서 무엇을 어떻게 뽑아내는가?",
+      "answer": "정규식으로 `<script type=\"application/ld+json\">` 블록을 모두 찾아 각각을 `json.loads()`로 파싱한다. `re.S | re.I` 플래그로 여러 줄과 대소문자를 허용한다."
+    },
+    {
+      "id": "27370d8c-3df0-466f-8e1c-7915d6ca4fd0",
+      "question": "`to_triples()`는 JSON-LD의 중첩 객체를 어떻게 처리하는가?",
+      "answer": "중첩된 dict마다 `_:b1`, `_:b2` 같은 빈 노드(blank node) 식별자를 만들어 부모와 잇고, 그 아래를 재귀적으로 펼친다."
+    },
+    {
+      "id": "4b751d64-56d1-4c78-a4f4-635c63827cbf",
+      "question": "`to_triples()`에서 `@type`과 `@context`는 어떻게 취급되는가?",
+      "answer": "`@context`는 건너뛰고, `@type`은 술어 `a`(rdf:type)를 가진 트리플로 변환한다."
+    },
+    {
+      "id": "a8b15a0c-59b8-4b50-b0c6-32e77a8d6639",
+      "question": "`node_name()` 함수는 주어 이름을 어떤 우선순위로 정하는가?",
+      "answer": "`url`이 있으면 그것을, 없으면 `name`을, 둘 다 없으면 `_:root`를 쓴다. IRI가 있으면 IRI를 주어로 쓰는 것이 원칙이다."
+    },
+    {
+      "id": "6729c1fb-c346-4231-90e3-ad9722978841",
+      "question": "예제 4의 HTML에 담긴 JSON-LD는 어떤 정보를 나타내는가?",
+      "answer": "`@type: Organization`인 가온테크로, 직원(Person 김하늘, 부장)과 aggregateRating(평점 4.3, 리뷰 27건)을 중첩 객체로 갖는다."
+    },
+    {
+      "id": "3a21a5e7-00dd-46f5-8348-fa4c4daf4261",
+      "question": "\"문법이 Turtle이든 JSON-LD든 상관없다\"는 말의 의미는 무엇인가?",
+      "answer": "RDF는 세 칸짜리 트리플이라는 자료 모델이고, Turtle과 JSON-LD는 그것을 적는 서로 다른 표기법일 뿐이라는 뜻이다."
+    },
+    {
+      "id": "7f5dcbcb-2a18-40c9-9fac-0863394c81a1",
+      "question": "4장 다음 장(5장)에서는 어떤 정반대 진영을 다루는가?",
+      "answer": "뜻을 미리 정의하지 않고 일단 노드에 아무 속성이나 붙이는 쪽, 즉 속성 그래프 진영이다. 그쪽이 실무에서 먼저 이겼다."
+    },
+    {
+      "id": "34ed4c99-d60c-4961-97f8-d5db6540c562",
+      "question": "4장 도입부의 \"온톨로지를 6개월 만들었는데 아무도 안 썼습니다\"는 무엇의 축소판인가?",
+      "answer": "시맨틱 웹이 20년 동안 겪은 일의 축소판이다. 합의 비용을 먼저 치르고 이득은 나중에 오는 구조의 실패를 요약한다."
+    }
+  ]
+}
