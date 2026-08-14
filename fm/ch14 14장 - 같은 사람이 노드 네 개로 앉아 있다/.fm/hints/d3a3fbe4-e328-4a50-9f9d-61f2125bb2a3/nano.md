@@ -1,0 +1,11 @@
+Create a clean flat-design educational infographic, 16:9 landscape, titled "Two Thresholds, Three Zones" with a smaller Korean subtitle "임계 두 개, 구간 세 개".
+
+Layout: two panels side by side, left panel about 45% width, right panel about 55% width, separated by a thin vertical divider. Eye flow moves left to right.
+
+LEFT PANEL, labeled "One Threshold" at top: a single tall vertical bar (a score axis from 0.0 at bottom to 1.0 at top) with one horizontal red cut line across the middle labeled "single cut". Two overlapping bell-shaped distribution curves lie sideways over the bar: a green curve labeled "SAME pairs" centered high, a gray curve labeled "DIFF pairs" centered low, with their overlapping region shaded in hatched orange and labeled "overlap zone". Two small red warning callouts point at the overlap: "false merges" and "missed matches". Add a small red X icon at the bottom of the panel.
+
+RIGHT PANEL, labeled "Two Thresholds" at top: the same tall vertical score axis from 0.0 to 1.0, now divided into three stacked colored bands by two horizontal dashed lines. Top band (green, from 0.85 to 1.0) labeled "AUTO MERGE / 자동 병합" with a small gear icon. Middle band (amber, from 0.55 to 0.85) labeled "HUMAN REVIEW / 사람 검토" with a small person icon. Bottom band (light gray, from 0.0 to 0.55) labeled "DROP / 무시" with a small trash icon. Label the two dashed lines on the axis as "HIGH = 0.85" and "LOW = 0.55". From the amber middle band, draw two curved arrows: one arrow going up into the green band labeled "same", one arrow going down into the gray band labeled "different". Place two small example chips beside the middle band: a chip reading "r04  0.643" and a chip reading "r06-r07  0.550". Add a small green check icon at the bottom of the panel.
+
+BOTTOM STRIP spanning full width, on a soft tinted background: a single centered takeaway line in bold, "Automation sorts the unsure, not everything", with a short Korean line beneath it, "애매한 것을 골라내는 일".
+
+Style: clean flat vector infographic, generous white space, light neutral background, restrained palette of green, amber, gray with red only for the warning accents, thin geometric line icons, crisp modern sans-serif typography, high legibility, no photorealism, no 3D, no drop shadows. All labels short and rendered exactly as specified. Aspect ratio 16:9.

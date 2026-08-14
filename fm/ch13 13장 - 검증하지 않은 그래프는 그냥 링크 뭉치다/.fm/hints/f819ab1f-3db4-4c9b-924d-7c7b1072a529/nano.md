@@ -1,0 +1,13 @@
+Create a clean flat educational infographic, 16:9 landscape, titled "OWL Reasoner vs SHACL Validator" at the top center in bold sans-serif.
+
+Layout: one shared input strip across the top, then a vertical split into two large mirrored panels (left and right), then one full-width verdict bar at the bottom. Visual flow reads top to bottom, with the split emphasized by a dashed vertical divider line down the middle.
+
+TOP INPUT STRIP (full width, light gray rounded box), label on the left: "Same rule 같은 규칙". Show a small rule chip in monospace style: "Company must have 1 manager". To the right, two small node icons side by side: a filled blue circle labeled "Gaon" with a solid arrow to a small person icon labeled "Kim", and a hollow gray circle labeled "Naru" with a dashed arrow going to a question mark box labeled "missing". Two thin arrows drop from this strip down into the left and right panels.
+
+LEFT PANEL (blue tint background), header badge: "OWL Reasoner 추론기". Subtitle line under it: "Open World Assumption". Center visual: the "Naru" hollow circle with a dashed arrow pointing to a newly appearing ghost node drawn as a dashed-outline circle with a sparkle, labeled "inferred blank node". Below that a small triple counter widget showing "triples 4 -> 21" with an upward green arrow. Three short bullet labels stacked at the bottom of the panel, each with a small icon: "Adds new triples", "No error raised", "Assumes it exists".
+
+RIGHT PANEL (amber tint background), header badge: "SHACL Validator 검증기". Subtitle line under it: "Closed World Check". Center visual: the "Naru" hollow circle with a red X marker on its empty property slot, and an arrow pointing right into a report card document icon. The report card shows three short monospace rows: "conforms: false", "focus: Naru", "msg: no manager". Three short bullet labels stacked at the bottom of the panel, each with a small icon: "Adds no triples", "Writes violation", "Reports focus node".
+
+BOTTOM VERDICT BAR (full width, dark background, white text), split into two halves separated by a thin vertical rule. Left half text: "Missing = maybe true". Right half text: "Missing = violation". Centered beneath the bar, a single highlighted caution line in red-orange with a small warning triangle icon: "Wrong tool = 3 weeks lost".
+
+Style: clean flat design, educational infographic, generous white space, thin 2px outlines, rounded corners, muted blue and amber palette with one red accent, no gradients, no photorealism, no drop shadows. Sans-serif labels, all text short and crisp, high legibility. Korean terms appear only where specified alongside the English.
