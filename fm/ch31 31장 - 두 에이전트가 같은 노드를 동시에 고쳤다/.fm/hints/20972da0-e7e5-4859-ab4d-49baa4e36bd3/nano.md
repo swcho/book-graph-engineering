@@ -1,0 +1,15 @@
+A clean flat-design educational infographic, 16:9 landscape, titled "Where Do You Put the Version? (버전을 어디에 둘 것인가)" in bold dark navy at the top, with a small subtitle underneath reading "Conflict granularity in graphs".
+
+Layout: three vertical comparison columns of equal width filling the middle of the canvas, read left to right, each column a rounded white card with a colored header bar and a thin drop shadow on a soft light-gray background. Below the three columns, one full-width horizontal summary strip.
+
+COLUMN 1 — header bar in muted red, header label "NODE VERSION (노드 버전)". Inside the card, a small graph diagram: one large blue circle node labeled "이서연" with a version badge "v7" attached, and two arrows leaving it to two smaller gray circles labeled "결제팀" and "마포". The two arrows are tinted different colors (teal and orange) and tagged "Agent A" and "Agent B". A red X collision burst sits on the shared v7 badge where both arrows originate. Caption block under the diagram: bold red text "FALSE CONFLICT (가짜 충돌)" and three short bullet lines: "Granularity too coarse", "Unrelated edits blocked", "Retries explode".
+
+COLUMN 2 — header bar in muted amber, header label "EDGE VERSION (엣지 버전)". Inside the card, a graph diagram: two blue circles on the left labeled "이서연" and "김도현", each with its own arrow labeled "이끔" pointing right into a single gray circle labeled "결제팀". Each arrow carries its own small version badge "v1". Both arrows are drawn with a green check mark meaning both passed. Beside the target node a warning triangle with the text "2 leaders!". Caption block: bold amber text "MISSED SINGLE-VALUE (단일 값 누락)" and three short bullet lines: "Granularity too fine", "Constraint spans edges", "Fails silently, no error".
+
+COLUMN 3 — header bar in muted green, header label "LOGICAL UNIT (논리 단위)". Inside the card, the same two-leader diagram but with a dashed green rounded rectangle drawn around the shared relationship, labeled "(결제팀 + 이끔)" with one version badge "v3" on the dashed box itself. One arrow gets a green check, the other a red stop icon, showing the conflict is now caught. Caption block: bold green text "SUBJECT + RELATION TYPE" and three short bullet lines: "Meaning, not storage", "Single-valued: one unit", "Multi-valued: per edge".
+
+Add a small scorecard row of three pill badges pinned at the bottom of each column, reading "3 / 6", "3 / 6", and "5 / 6" respectively, with the third pill highlighted.
+
+BOTTOM STRIP — a horizontal band in pale green with a left-to-right arrow flow of four small rounded boxes: "Read (no lock)" → "Call model (no lock)" → "Idempotency check" → "Version compare + write". A short bold line to the right of the flow reads "Idempotency check first → 6 / 6". A tiny footnote under the strip: "Conflict = 0 rows updated, not an error".
+
+Style: clean flat vector infographic, generous white space, thin 2px outlines, rounded corners, limited palette of navy, teal, muted red, amber, and green on off-white, simple sans-serif typography, no photorealism, no gradients, no clutter. All labels short and legible. Aspect ratio 16:9.

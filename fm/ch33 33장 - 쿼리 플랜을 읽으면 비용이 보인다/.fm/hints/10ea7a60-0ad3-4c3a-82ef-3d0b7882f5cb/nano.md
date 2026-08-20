@@ -1,0 +1,13 @@
+A clean flat-design educational infographic, 16:9 landscape, titled at the top in bold large text: "Reading a Query Plan: 3 Checks" with a smaller Korean subtitle underneath: "쿼리 플랜에서 볼 것 세 가지".
+
+Layout: one horizontal row of three equal-width numbered panels below the title, connected left to right by thin gray arrows to suggest a checking order. Each panel is a rounded white card with a colored header bar and a large numeral badge (1, 2, 3) in the top-left corner. A single full-width summary strip runs across the very bottom.
+
+PANEL 1 — red/coral header bar. Header label: "CROSS_PRODUCT?" with small Korean text "곱집합이 있나". Visual: two separate small clusters of dots on the left (one cluster of 4 blue person icons labeled "8,000 Person", one cluster of 2 green square icons labeled "80 Team") joined by a large red multiplication sign "×" into a dense red grid of many tiny squares labeled "640,000 pairs". A red warning triangle sits beside the grid. Bottom caption of the panel: "Grows by multiplication".
+
+PANEL 2 — amber/orange header bar. Header label: "What does SCAN read?" with small Korean text "SCAN이 무엇을 훑나". Visual: side-by-side comparison inside the panel. Left half shows a tall stack of many gray rows with a magnifying glass sweeping all of them, labeled "Full scan" and marked with a red X. Right half shows the same stack mostly faded out with one single highlighted green row and an arrow pointing straight to it, labeled "Index seek" and marked with a green check. Bottom caption: "Start point only, then follow edges".
+
+PANEL 3 — blue header bar. Header label: "FILTER before or after?" with small Korean text "FILTER가 앞인가 뒤인가". Visual: two small vertical operator pipelines side by side. Left pipeline, green check: a box "FILTER" on top of a box "SCAN" with a downward funnel narrowing before reading, labeled "Filter first, read less". Right pipeline, red X: a box "SCAN" on top of a box "FILTER", showing many rows entering and a pile of discarded gray rows falling out into a trash icon, labeled "Read all, throw away". Bottom caption: "Order decides the cost".
+
+BOTTOM STRIP — dark navy background, white text, centered, in two short lines: "Plans change as data grows" and Korean "데이터가 자라면 플랜도 다시 본다".
+
+Style: clean flat design, educational infographic, muted pastel palette (coral red, amber, blue, green accents) on a light gray background, thin consistent line weights, generous white space, rounded corners, simple geometric icons with no gradients or drop shadows. All labels short, sans-serif, high contrast and clearly legible. No photorealism, no clutter, no extra paragraphs of text.

@@ -1,0 +1,13 @@
+A clean flat-design educational infographic, 16:9 landscape, titled at the top center in bold: "Where to Put the Approval Gate" with a smaller Korean subtitle underneath: "승인 문턱은 취향이 아니라 용량으로".
+
+Layout: three vertical panels of equal width side by side, read left to right, separated by thin light gray dividers. A horizontal arrow strip runs along the very bottom spanning all three panels.
+
+LEFT PANEL — red/coral tinted background. Header label: "ALL HUMAN (전부 사람)". Below it a vertical bar chart showing review workload overflowing a dashed horizontal "CAPACITY" line, the bar drawn 3x taller than the line and colored deep red, with the bar top spilling past the panel edge. Big red number label on the bar: "375%". Beneath, three small stacked icons in a downward chain with tiny arrows: an inbox icon labeled "Backlog piles up", a tired person icon labeled "Rubber-stamping", a skull-or-zero icon labeled "Effect = 0". Bottom caption of panel in red bold: "Burn people, gain nothing".
+
+CENTER PANEL — green tinted background, drawn slightly larger and elevated with a soft shadow to mark it as the answer. Header label: "THRESHOLD POLICY (문턱 정책)". Below it the same bar chart style, but the green bar sits comfortably BELOW the dashed "CAPACITY" line, filling only a bit more than half of it, with a hatched empty area above labeled "30% headroom". Big green number label on the bar: "57%". A small tag under the chart reads "Gate at 100,000 KRW". Beneath, a simple funnel diagram: many small coins entering the top, a gate splitting them into a small stream labeled "183 reviewed" going to a person icon and a large stream labeled "auto-approved" going to a checkmark. Bottom caption in green bold: "Lowest gate under 70% capacity".
+
+RIGHT PANEL — amber/orange tinted background. Header label: "ALL AUTO (전부 자동)". Below it the same chart frame but with an EMPTY bar at zero and the dashed "CAPACITY" line fully unused, labeled "0%". Beneath, an open gate icon with a wide stream of coins flowing straight through unblocked toward a warning triangle, labeled "Risk fully exposed" and a bold amber money figure "2,955,745 KRW / day". Bottom caption in amber bold: "Cheap for humans, costly in risk".
+
+BOTTOM ARROW STRIP — a long horizontal gradient bar from red on the left to amber on the right, with a curved dashed arrow looping from the LEFT panel's bottom all the way to the RIGHT panel's bottom, labeled in dark gray italic: "Overload collapses into ALL AUTO — plus the payroll".
+
+Style: clean flat vector, educational infographic, muted pastel fills with strong accent strokes, generous white space, rounded corners, sans-serif typography, no photorealism, no 3D, no clutter. All labels short. Aspect ratio 16:9.

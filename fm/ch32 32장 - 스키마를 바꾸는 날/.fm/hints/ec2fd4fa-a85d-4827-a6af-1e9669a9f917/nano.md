@@ -1,0 +1,13 @@
+Create a clean, flat-design educational infographic, 16:9 landscape aspect ratio, titled at the top center: "Migration Gates in CI = State Machine".
+
+Overall layout: two large vertical panels side by side, separated by a bold vertical divider line. The eye flows left to right: left panel shows the failure mode, right panel shows the fix. A single full-width summary bar sits across the very bottom.
+
+LEFT PANEL — header label "Document-Based Plan" (small Korean subtitle underneath: 문서 기반 계획). Background tinted a muted warm gray. Draw six rounded rectangle step nodes stacked vertically, connected by plain thin arrows with NO gates between them. Node labels top to bottom: "Expand", "Dual-Write", "Backfill", "Dual-Read", "Cutover", "Contract". Beside the arrows, draw a small human figure icon with a speech bubble containing the text: "Looks fine, probably" (small Korean line beneath: 대충 된 것 같은데). Add one warning triangle icon near the bottom node with the short label "3 mismatches ignored". The overall feel: nothing stops the flow, arrows pass straight through.
+
+RIGHT PANEL — header label "CI Gate State Machine" (small Korean subtitle underneath: CI 관문 상태 기계). Background tinted a cool light blue. Draw the same six rounded rectangle state nodes stacked vertically, but between every pair of adjacent nodes place a distinct horizontal gate bar with a padlock icon centered on it. Node labels top to bottom: "Expand", "Dual-Write", "Backfill", "Dual-Read", "Cutover", "Contract". Gate condition labels beside each padlock, in this order from top: "New schema exists", "Dual-write 100%", "Backfill complete", "Mismatches = 0", "Rollback possible", "Quiet > longest cycle".
+
+In the right panel, render the first three gates as OPEN padlocks colored green with small check marks, and the fourth gate (below "Dual-Read") as a CLOSED, locked padlock colored red, drawn larger than the others, with a bold red "BLOCKED" tag and a short caption "pipeline fails, exit 1". The two nodes below the locked gate ("Cutover", "Contract") are drawn faded and grayed out to show they are unreachable.
+
+BOTTOM SUMMARY BAR — full width, dark background with light text, three short items separated by thin vertical rules: "Explicit transition conditions", "Reproducible verdicts", "Rollback point named". At the far right of this bar, a short bold takeaway: "State machines ignore human optimism."
+
+Style: clean flat design, educational infographic, generous white space, thin consistent line weights, rounded corners, limited palette of muted blue-gray, green for pass, red for blocked, and one dark neutral for text. Sans-serif typography, all labels short and highly legible, no photographic textures, no 3D effects, no drop shadows.
